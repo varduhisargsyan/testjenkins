@@ -1,0 +1,135 @@
+[
+  //LEFT MENU etc/designs/gotomarket/images/flags
+  {
+    "key": "ar",
+    "url": "https://ar.worldline.com",
+    "iconPath": "/etc/designs/gotomarket/images/flags/ar.png"
+  },
+  {
+    "key": "ap",
+    "url": "https://ap.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/ap.png"
+  },
+  {
+    "key": "at",
+    "url": "https://at.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/at.png"
+  },
+  {
+    "key": "be",
+    "url": "https://be.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/be.png"
+  },
+  {
+    "key": "cn",
+    "url": "https://cn.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/cn.png"
+  },
+  {
+    "key": "cl",
+    "url": "https://cl.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/cl.png"
+  },
+  {
+    "key": "cz",
+    "url": "https://sk.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/cz.png"
+  },
+  {
+    "key": "ee",
+    "url": "https://worldline.com/en/home/solutions/financial-services-equensworldline/worldline-baltics.html",
+    "iconPath": "/etc/designs/gotomarket/images/flags/ee.png"
+  },
+  {
+    "key": "fi",
+    "url": "https://equensworldline.com",
+    "iconPath": "/etc/designs/gotomarket/images/flags/fi.png"
+  },
+  {
+    "key": "fr",
+    "url": "https://fr.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/fr.png"
+  },
+  {
+    "key": "de",
+    "url": "https://de.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/de.png"
+  },
+  {
+    "key": "hk",
+    "url": "https://ap.worldline.com",
+    "iconPath": "/etc/designs/gotomarket/images/flags/hk.png"
+  },
+  {
+    "key": "in",
+    "url": "https://in.worldline.com",
+    "iconPath": "/etc/designs/gotomarket/images/flags/in.png"
+  },
+  {
+    "key": "id",
+    "url": "https://ap.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/id.png"
+  },
+  {
+    "key": "it",
+    "url": "https://equensworldline.com",
+    "iconPath": "/etc/designs/gotomarket/images/flags/it.png"
+  },
+  {
+    "key": "lv",
+    "url": "https://worldline.com/en/home/solutions/financial-services-equensworldline/worldline-baltics.html",
+    "iconPath": "/etc/designs/gotomarket/images/flags/lv.png"
+  },
+  {
+    "key": "lt",
+    "url": "https://worldline.com/en/home/solutions/financial-services-equensworldline/worldline-baltics.html",
+    "iconPath": "/etc/designs/gotomarket/images/flags/lt.png"
+  },
+  // RIGTH MENU etc/designs/gotomarket/images/flags
+  {
+    "key": "lu",
+    "url": "https://lu.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/lu.png"
+  },
+  {
+    "key": "my",
+    "url": "https://ap.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/my.png"
+  },
+  {
+    "key": "nl",
+    "url": "https://nl.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/nl.png"
+  },
+  {
+    "key": "pl",
+    "url": "https://worldline.com",
+    "iconPath": "/etc/designs/gotomarket/images/flags/pl.png"
+  },
+  {
+    "key": "sk",
+    "url": "https://sk.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/sk.png"
+  },
+  {
+    "key": "sg",
+    "url": "https://ap.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/sg.png"
+  },
+  {
+    "key": "es",
+    "url": "https://es.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/es.png"
+  },
+  {
+    "key": "tw",
+    "url": "https://ap.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/tw.png"
+  },
+  {
+    "key": "uk",
+    "url": "https://uk.worldline.com/",
+    "iconPath": "/etc/designs/gotomarket/images/flags/uk.png"
+  }
+
+]

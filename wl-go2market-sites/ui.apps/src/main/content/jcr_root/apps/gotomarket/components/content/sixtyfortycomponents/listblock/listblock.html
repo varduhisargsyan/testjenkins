@@ -1,0 +1,16 @@
+<sly>
+    <h3 data-sly-test = "${properties.title}" class="block--featured--title">${properties.title @ context='html'}
+        <br class="hide_on_phone"> in every part of the
+        world
+    </h3>
+    <h3 data-sly-test = "${!properties.title}" class="block--featured--title">Mobile payments solution
+        <br class="hide_on_phone"> in every part of the
+        world
+    </h3>
+    <p>${properties.text ? properties.text : 'Lorem ipsum dolor sit amet, consectetur adipi ing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua. ut enim ad minim veniam.' @ context='html'}</p>
+    <strong>${properties.subtitle ? properties.subtitle : 'Our services for mobile payments' @ context='html'}</strong>
+    <div>
+        <sly data-sly-resource="${'component' @ resourceType='gotomarket/components/parsys'}"></sly>
+    </div>
+
+</sly>

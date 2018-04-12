@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-10-02T15:34:23.979+02:00"
+        cq:lastModifiedBy="fr20437"
+        cq:lastReplicated="{Date}2017-10-30T17:58:25.845+01:00"
+        cq:lastReplicatedBy="a631192"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/redirect"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="prod"
+        jcr:uuid="ea8bdb87-e44e-4ae2-bebd-243e017bf2d8"
+        sling:resourceType="gotomarket/components/structure/pages/redirect"
+        hideInNav="false"
+        isExternalAccessUrl="false"
+        isExternalPrivacyUrl="false"
+        isExternalRssUrl="false"
+        isExternalStatement1stUrl="false"
+        isExternalStatement2ndUrl="false"
+        isExternalTermsUrl="false"
+        isLang="false"
+        redirectTarget="https://prod.worldline.com/content/worldline/en/home/about-us"
+        showbrand="false">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+    </jcr:content>
+</jcr:root>

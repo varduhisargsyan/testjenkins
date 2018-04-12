@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-10-09T14:58:36.954+02:00"
+        cq:lastModifiedBy="a598986"
+        cq:lastReplicated="{Date}2017-10-30T17:57:32.158+01:00"
+        cq:lastReplicatedBy="a631192"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[blog:iot,blog:innovation,blog:digital-transformation]"
+        cq:template="/apps/gotomarket/templates/blogarticle"
+        jcr:description="As in many industries, the manufacturing industry faces new stakes due to the rise of digital. In this context, Worldline guides manufacturers on various levels through this digital transformation. In this interview, Ingrid Winter discusses these stakes and Worldline’s implication in this industry through concrete customers’ cases."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-09-08T11:22:43.039+02:00"
+        jcr:lastModifiedBy="a101309"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Worldline at the very heart of the manufacturing industry’s digital transformation"
+        jcr:uuid="6e7ca17b-38dd-4948-a1bb-6c7e482539bd"
+        sling:resourceType="gotomarket/components/structure/pages/blogarticle"
+        authorImage="/content/dam/worldline/images/blog/author/Photo Ingrid-80.png"
+        authorName="Ingrid Winter"
+        authorText="Market Head for the industrial and retail markets"
+        categories="[category:solutions,category:business-insights]"
+        categories_x0040_TypeHint="String[]"
+        creationDate="{Date}2016-09-15T10:00:00.000+02:00"
+        hideInNav="false"
+        imagePath="/content/dam/worldline/images/blog/header/banner-factory-01.png"
+        isExternalContactUsUrl="false"
+        isExternalJoinUsUrl="false"
+        isStickyContactHidden="false"
+        noExtentionContactUs="false"
+        noExtentionJoinUs="false"
+        showbrand="false"
+        showinfostrip="false"
+        title="Worldline at the very heart of the manufacturing industry’s digital transformation ">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+        <headlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headlibs"/>
+        <header
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/header">
+            <leftnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/leftnavigation"
+                iconClass="iconClass2"/>
+            <rightnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/rightnavigation"
+                iconClass="iconClass2">
+                <countrylistdropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/countrylistdropdown"/>
+                <languagedropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/languagedropdown"/>
+            </rightnavigation>
+            <mainnav
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/mainnav"/>
+            <infostrip
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/infostrip"/>
+            <breadcrumbblog
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/breadcrumbblog"/>
+        </header>
+        <headerblog
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headerblog"/>
+        <singleauthor
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/singleauthor"/>
+        <prshare
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/prshare"/>
+        <stayintouch
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/stayintouch"/>
+        <footer
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footer">
+            <sitemap
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/sitemap"/>
+            <followus
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/followus"/>
+            <newsletterform
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/newsletterform"/>
+        </footer>
+        <footlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footlibs"/>
+        <copyright
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/copyright"/>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/parsys">
+            <richtext
+                jcr:created="{Date}2017-09-08T11:23:22.591+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-08T11:26:03.938+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>&lt;img src=&quot;/content/dam/worldline/images/blog/graphics/indus-coldroite-ENv2.png&quot; class=&quot;img-right&quot;>&lt;/p>&#xa;&lt;p>&lt;i>Ingrid Winter joined us in 2004 after working for companies such as PWC, Schlumberger and Atos.&lt;/i>&lt;/p>&#xa;&lt;h2>What challenges is the manufacturing industry facing today?&lt;/h2>&#xa;&lt;p>These challenges target mainly the search for better operational and economic performance in order to gain in competitiveness, in business processes’ simplification and in the insurance of operations’ traceability, while expanding their business model, from product or machine manufacturing to a model based on providing a highly customized bundle of products and services. But we should distinguish between different manufacturing sectors, as each has its own challenges. B2B machine manufacturers aim to be more reactive in terms of after-sales service by connecting each machine in order to know its status, to detect breakdowns remotely and early on by specialists located at the headquarters. The goal is to reduce the machines’ downtime and repair costs, and even to prevent breakdowns thanks to predictive maintenance. For the first time, a company providing B2B2C products can be directly connected to the end customer and can retrieve operational product data and its usage by consumers in order to better meet their expectations and build their loyalty over the long term.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_1671211083
+                jcr:created="{Date}2017-09-08T11:26:11.640+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-08T11:51:37.043+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>&lt;img src=&quot;/content/dam/worldline/images/blog/graphics/cover-connectedliving-en.png&quot; class=&quot;img-right&quot;>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h2>In this context, how does Worldline support manufacturers?&lt;/h2>&#xa;&lt;p>We support them on different levels. First, by providing them with a solution dedicated to connected objects’ management covering all technical layers, from objects’ connectivity, application layers, such as a complex business rules engine, vertical services catalogs, to specific developments for each client. This solution connects these objects to their manufacturers on one hand and to their end customers on the other hand, and even to larger partners’ ecosystems. We thus provide an “application enabler gateway”, which is both scalable and upgradeable, and offers an optimized time-to-market and seamless customer support in all phases, namely the implementation and operation in the Cloud.&lt;/p>&#xa;&lt;p>We also bring to the table our expertise in Big Data, by capturing the data generated by the different connected objects through our platform and other data sources. Our data specialist team then draws their first conclusions by bringing statistical, mathematical and IT knowledge to the table and by refining their findings in cooperation with the customers’ business experts. Our philosophy is to deliver “data analytics as a service” and not to sell an IT-tool. Our specialists thus accompany our customers in exploring this new area by co-constructing solid, meaningful concepts.&lt;/p>&#xa;&lt;p>On top of this, we also provide a multi-device and omnichannel expertise so that our clients can continuously communicate with their customers across multiple channels in a simplified and interactive way. And it comes with suite of applications for the digitization of business and technical processes, which are still handled today through paperwork, including digital signatures and archiving of probative documents.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_949658354
+                jcr:created="{Date}2017-09-08T11:27:26.881+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-08T11:53:31.969+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>&lt;img src=&quot;/content/dam/worldline/images/blog/graphics/cover-connectedliving-en.png&quot; class=&quot;img-right&quot;>&lt;/p>&#xa;&lt;h2>Can you tell us about some concrete customer cases?&lt;/h2>&#xa;&lt;p>As of today, we manage approximately 1.5 Million connected objects from projects with major international industrial accounts for whom we implemented a wide range of use cases. We first entered the IoT space through the pure connectivity layer (“M2M”) with the initial version of ERDF’s connected electrical meter called Linky. We oversee hundreds of thousands of industrial machines in regards to remote maintenance for the entire Siemens Group. Still in B2B, we developed for Michelin Solutions a real-time optimized trailer management solution that enables location tracking and sends alerts on tire pressure, potential overloading and delays, among others.&lt;/p>&#xa;&lt;p>In the B2B2C space, we have created an onboard system for Renault, called R-Link, which opens the car to the internet and proposes embedded online services. This includes, for example, an app store in which drivers can download and pay for apps preselected by Renault. Since our specialty lies in providing customized end-to-end services, we also manage the contractual relationship with telecom operators. We also implemented a platform to control various household appliances at a distance via smartphone for B/S/H/ (Bosch's and Siemens' appliances brand).&lt;/p>&#xa;&lt;p>Some companies follow a well-plotted strategy to launch major projects while others prefer to go through an iterative and incremental approach. They derive key learnings from users’ feedback through PoCs* and enhance the relevance of the solution by making improvements in a series of beta versions. When it comes to PoCs, we worked, for example, on a connected blinds project with Somfy, which lowers and raises blinds automatically based on external lighting, captured by an intelligent robot.&lt;br>&#xa;&lt;br>&#xa;&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_1654235492
+                jcr:created="{Date}2017-09-08T11:54:35.949+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-08T12:00:38.324+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>&lt;img src=&quot;/content/dam/worldline/images/blog/graphics/factory.png&quot; class=&quot;img-right&quot;>&lt;/p>&#xa;&lt;h2>In your opinion, what challenges will manufacturers have to face in the future?&lt;/h2>&#xa;&lt;p>In this ultra-connected world, deeper connectivity of already existing applications within an industrial enterprise and with the external world, be it suppliers, regulators, customers (“extended enterprise”) is the game changer.&lt;/p>&#xa;&lt;p>This digital transformation is a real opportunity but also comes with a learning curve, as we have already mentioned before. Connecting a product is not an end in itself; an underlying business strategy is needed and will serve as a guideline. This may, in some cases, lead to a change of business model in which Manufacturers no longer sell the object itself but its usage rights. Ultimately, it is the data that will revolutionize the industry as it provides key information to companies which will allow them to make their services more efficient and to better understand each individual client.&lt;/p>&#xa;&lt;p>Some industries will see a drastic change in their business model in the coming years. I am thinking of insurers, in particular, with the growing popularity of connected cars and autonomous vehicles. New services, such as Pay How You Drive, Pay As You Drive and Ecodriving, to name a few, will enable insurers to offer new insurance packages adapted to the modern car usages, which blend incentives towards responsible driving and increased reactivity in case of accidents. Worldline is particularly invested in this domain and we are working on new innovative offers with some of our clients, which should come out in the coming months.&lt;br>&#xa;&lt;br>&#xa;&amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_125917330
+                jcr:created="{Date}2017-09-08T11:55:52.187+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-08T11:56:52.863+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;h2>Thank you for your time today, Ingrid. I will leave you with one final question: if you could invent a new innovative solution to help with one of your daily tasks, in your professional and/or private life, what would it be and why?&lt;/h2>&#xa;&lt;p>Better planning of public road and sidewalk works by local authorities. It often happens that as soon as a company went to change the water pipes, a few months later another starts new work on cables in the same location. A solution that will allow municipalities to better communicate with all stakeholders to pool the work will be good to save taxpayer money&lt;/p>&#xa;&lt;h2>Discover our range of WL Connected Living solutions.&lt;/h2>&#xa;"
+                textIsRich="true"/>
+            <richtext_1876688236
+                jcr:created="{Date}2017-09-08T12:00:57.910+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-08T12:02:37.690+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;h2>Discover our range of WL Connected Living solutions.&lt;/h2>&#xa;&lt;p>Video &amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </content>
+    </jcr:content>
+</jcr:root>

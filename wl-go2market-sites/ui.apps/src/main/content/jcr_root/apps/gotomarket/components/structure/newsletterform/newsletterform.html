@@ -1,0 +1,9 @@
+<div class="grid-col-4" data-sly-use.model="com.worldline.core.models.FooterModel">
+    <span class="footer--title">${model.nlTitle ? model.nlTitle : 'Newsletter'}</span>
+    <p>${model.nlText ? model.nlText : 'Subscribe to receive the latest information'} </p>
+    <form id="form-newsletter" class="form--newsletter-subscribe">
+        <div class="input--field">
+            <a class="button form--newsletter-button" target="${model.isExternal ? '_blank' : '_self'}" href="${model.nlButtonUrl}">${model.nlButton ? model.nlButton : 'Submit'} </a>
+        </div>
+    </form>
+</div>

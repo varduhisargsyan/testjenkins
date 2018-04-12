@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Articlebrief Properties"
+          sling:resourceType="cq/gui/components/authoring/dialog"
+>
+    <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/container">
+                <layout
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/layouts/tabs"
+                        type="nav"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <datacontent
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Content"
+                            sling:resourceType="granite/ui/components/foundation/section">
+                        <layout
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                                margin="{Boolean}false"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <imagePath
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                                    fieldLabel="Image"
+                                                    rootPath="/content/dam"
+                                                    name="./imagePath"/>
+                                            <title
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                    fieldLabel="Title"
+                                                    name="./title"/>
+                                            <is_title_hidden
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                                    name="./isTitleHidden"
+                                                    uncheckedValue="false"
+                                                    text="Is Title Hidden"
+                                                    value="true"/>
+                                            <date
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                    fieldLabel="Date"
+                                                    name="./date"/>
+                                            <is_date_hidden
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                                    name="./isDateHidden"
+                                                    uncheckedValue="false"
+                                                    text="Is Date Hidden"
+                                                    value="true"/>
+                                            <subtitle
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                    fieldLabel="Subtitle"
+                                                    name="./subtitle"/>
+                                            <is_subtitle_hidden
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                                    name="./isSubtitleHidden"
+                                                    uncheckedValue="false"
+                                                    text="Is Subtitle Hidden"
+                                                    value="true"/>
+                                            <text
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/textarea"
+                                                    fieldLabel="Text"
+                                                    name="./text"/>
+                                            <linkText
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                    fieldLabel="Link text"
+                                                    name="./linkText"/>
+                                            <url
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                                    fieldLabel="Link Url"
+                                                    rootPath="/content"
+                                                    name="./url"/>
+                                            <is_link_hidden
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                                    name="./isLinkHidden"
+                                                    uncheckedValue="false"
+                                                    text="Is Link Hidden"
+                                                    value="true"/>
+                                            <is_external_url
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                                    name="./isExternalUrl"
+                                                    uncheckedValue="false"
+                                                    text="Is External"
+                                                    value="true"/>
+                                            <noExtention
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                                    name="./noExtention"
+                                                    uncheckedValue="false"
+                                                    text="No Extention"
+                                                    value="true"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </column>
+                        </items>
+                    </datacontent>
+                    <size
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Design"
+                            sling:resourceType="granite/ui/components/foundation/section">
+                        <layout
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                                margin="{Boolean}false"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+
+
+                                            <alignment
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/select"
+                                                    fieldLabel="Alignment"
+                                                    emptyOption="{Boolean}true"
+                                                    name="./alignment">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <option1 jcr:primaryType="nt:unstructured"  value="h" text="Horizontal"/>
+                                                    <option2 jcr:primaryType="nt:unstructured"  value="v" text="Vertical"/>
+                                                </items>
+                                            </alignment>
+                                        </items>
+                                    </column>
+                                </items>
+                            </column>
+                        </items>
+                    </size>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
+
+

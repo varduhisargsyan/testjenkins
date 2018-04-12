@@ -1,0 +1,37 @@
+<sly data-sly-use.model="com.worldline.core.models.GoogleDataModel">
+    ${model.bodyTags ? model.bodyTags : '' @ context='unsafe'}
+</sly>
+<header class="header">
+    <div class="wrapper">
+        <div class="header--pre cf">
+            <ul class="header--pre-institutional">
+                <sly data-sly-resource="${'leftnavigation'}">
+                </sly>
+            </ul>
+            <ul class="header--pre-external">
+                <sly data-sly-resource="${'rightnavigation'}">
+                </sly>
+            </ul>
+        </div>
+        <div class="header--main cf">
+            <div class="header--main-logo" data-sly-use.model="com.worldline.core.models.LogoModel">
+                <a href="${model.link}.html"><img
+                        src="/content/dam/gotomarket/logo/logo-${model.brand ? model.brand : 'worldline'}.png"
+                        alt="${model.brand ? model.brand : 'logo'}"></a>
+            </div>
+            <nav class="header--main-nav" data-sly-resource="mainnav"></nav>
+
+            <div class="header--main-search" data-sly-use.searchModel="com.worldline.core.models.SearchGlobalModel">
+                <form id="form--global-search" action="${searchModel.resultPagePath}.html">
+                    <input class="global-search--field" type="text" placeholder="Search" name="q"/>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <sly data-sly-test="${currentPage.properties.showinfostrip}" data-sly-resource="${'infostrip'}"></sly>
+        <sly data-sly-test="${currentPage.properties.sling:resourceType == 'gotomarket/components/structure/pages/blogarticle'}"
+             data-sly-resource="breadcrumbblog"></sly>
+        <sly data-sly-test="${currentPage.properties.sling:resourceType != 'gotomarket/components/structure/pages/blogarticle'}"
+             data-sly-resource="breadcrumb"></sly>
+    </div>
+</header>

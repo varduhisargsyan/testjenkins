@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-11-23T14:35:36.531+01:00"
+        cq:lastModifiedBy="reference-adjustment-service"
+        cq:lastReplicated="{Date}2017-11-23T14:35:37.557+01:00"
+        cq:lastReplicatedBy="fr20437"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/solutions"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Regulated information"
+        jcr:uuid="e44577b2-f721-49aa-a7e6-9771b1faa67f"
+        sling:resourceType="gotomarket/components/structure/pages/solutions">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+        <headlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headlibs"/>
+        <header
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/header">
+            <leftnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/leftnavigation"
+                iconClass="iconClass2"/>
+            <rightnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/rightnavigation"
+                iconClass="iconClass2">
+                <countrylistdropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/countrylistdropdown"/>
+                <languagedropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/languagedropdown"/>
+            </rightnavigation>
+            <mainnav
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/mainnav"/>
+            <infostrip
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/infostrip"/>
+            <breadcrumb
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/breadcrumb"/>
+        </header>
+        <headersingle
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headersingle"/>
+        <subnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/subnav"/>
+        <stayintouch
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/stayintouch"/>
+        <contactus
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/contactus"/>
+        <footer
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footer">
+            <sitemap
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/sitemap"/>
+            <followus
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/followus"/>
+            <newsletterform
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/newsletterform"/>
+        </footer>
+        <footlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footlibs"/>
+        <copyright
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/copyright"/>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/parsys">
+            <grid
+                jcr:created="{Date}2017-09-14T16:20:37.970+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-14T16:20:37.970+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid">
+                <column1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <richtext
+                        jcr:created="{Date}2017-09-14T16:21:01.388+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-14T16:22:03.754+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/richtext"
+                        text="&lt;h2>&lt;span class=&quot;section--title left&quot;>Auditors fees&lt;/span>&lt;/h2>&#xa;"
+                        textIsRich="true"/>
+                </column1>
+            </grid>
+            <grid_324985973
+                jcr:created="{Date}2017-09-14T16:24:02.757+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-14T16:24:29.377+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid"
+                list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                <column1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <multisectoritem
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-14T16:40:01.229+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="Auditors fees"
+                        url="https://labrador.cld.bz/Worldline-Registration-Document-2016/214"/>
+                </column1>
+            </grid_324985973>
+            <grid_603697231
+                jcr:created="{Date}2017-09-14T16:41:04.886+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-14T16:41:04.886+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid">
+                <column1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <richtext
+                        jcr:created="{Date}2017-09-14T16:41:15.730+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-14T16:42:03.530+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/richtext"
+                        text="&lt;h2>&lt;span class=&quot;section--title left&quot;>Internal control and corporate governance report&lt;/span>&lt;/h2>&#xa;"
+                        textIsRich="true"/>
+                </column1>
+            </grid_603697231>
+            <grid_1466634381
+                jcr:created="{Date}2017-09-14T16:42:12.834+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-14T16:42:31.957+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid"
+                list="\{&quot;columnSize&quot;:&quot;grid-col-4&quot;}">
+                <column1 jcr:primaryType="nt:unstructured">
+                    <multisectoritem_copy
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-14T16:43:34.672+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="Internal control and corporate governance report"
+                        url="https://labrador.cld.bz/Worldline-Registration-Document-2016/264"/>
+                </column1>
+            </grid_1466634381>
+            <grid_1295031677
+                jcr:created="{Date}2017-09-18T15:20:17.188+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-18T15:20:17.188+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid">
+                <column1 jcr:primaryType="nt:unstructured">
+                    <richtext_copy
+                        jcr:created="{Date}2017-09-14T16:41:15.730+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-18T15:20:43.653+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/richtext"
+                        text="&lt;h2>&lt;span class=&quot;section--title left&quot;>Financial statements and&amp;nbsp;Half-yearly financial reports&lt;/span>&lt;/h2>&#xa;"
+                        textIsRich="true"/>
+                </column1>
+            </grid_1295031677>
+            <grid_1328140879
+                jcr:created="{Date}2017-09-18T15:20:55.956+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-18T15:21:16.103+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid"
+                list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                <column1 jcr:primaryType="nt:unstructured">
+                    <multisectoritem_copy
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-11-14T17:02:23.286+01:00"
+                        jcr:lastModifiedBy="a101309"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        noExtention="true"
+                        title="2016 Consolidated financial statements"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/financial-statements/worldline-consolidated-financial-statements-2016.pdf"/>
+                    <multisectoritem_copy_933817139
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-11-14T17:03:52.311+01:00"
+                        jcr:lastModifiedBy="a101309"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        noExtention="true"
+                        title="2015 half year financial report"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/financial-statements/worldline-2015-half-year-financial-report.pdf"/>
+                </column1>
+                <column2 jcr:primaryType="nt:unstructured">
+                    <multisectoritem_copy
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-11-14T17:02:53.192+01:00"
+                        jcr:lastModifiedBy="a101309"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        noExtention="true"
+                        title="2016 half-year financial report (Including the 2016 half year financial statements)"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/financial-statements/worldline-2016-half-year-financial-report.pdf"/>
+                    <multisectoritem_copy_1029452816
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-11-14T17:03:58.472+01:00"
+                        jcr:lastModifiedBy="a101309"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        noExtention="true"
+                        title="First half of 2014 Financial Report"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/financial-statements/worldline-h1-2014-financial-report.pdf"/>
+                </column2>
+                <column3 jcr:primaryType="nt:unstructured">
+                    <multisectoritem_copy
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-11-14T17:03:37.714+01:00"
+                        jcr:lastModifiedBy="a101309"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        noExtention="true"
+                        title="2015 Consolidated financial statements"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/financial-statements/worldline-201512-consolidated-financial-statements.pdf"/>
+                </column3>
+            </grid_1328140879>
+            <grid_1257373930
+                jcr:created="{Date}2017-09-19T10:25:13.598+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-19T10:25:13.598+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid">
+                <column1 jcr:primaryType="nt:unstructured">
+                    <richtext_copy_copy
+                        jcr:created="{Date}2017-09-14T16:41:15.730+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T10:25:38.809+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/richtext"
+                        text="&lt;h2>&lt;span class=&quot;section--title left&quot;>Registration documents (including the annual financial report)&lt;/span>&lt;/h2>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </column1>
+            </grid_1257373930>
+            <grid_1526923463
+                jcr:created="{Date}2017-09-19T10:26:32.527+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-19T10:26:55.220+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid"
+                list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                <column1 jcr:primaryType="nt:unstructured">
+                    <multisectoritem_copy
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-11-14T17:05:04.419+01:00"
+                        jcr:lastModifiedBy="a101309"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        noExtention="true"
+                        title="2017 - Update of the 2016 Registration Document Including the 2017 Half-year financial report"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/registration-documents/worldline-sa-update-of-2016-registration-document--incl-hy-2017-financial-report.pdf"/>
+                    <multisectoritem_copy_758748924
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-11-14T17:05:17.937+01:00"
+                        jcr:lastModifiedBy="a101309"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        noExtention="true"
+                        title="2015 Registration Document"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/registration-documents/201512-worldline-registration-document.pdf"/>
+                    <multisectoritem_copy_472344692
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-11-14T17:05:25.095+01:00"
+                        jcr:lastModifiedBy="a101309"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        noExtention="true"
+                        title="2014 Update of the IPO Registration Document"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/registration-documents/worldline-update-of-registration-document.pdf"/>
+                </column1>
+                <column2 jcr:primaryType="nt:unstructured">
+                    <multisectoritem_copy
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-11-14T17:05:31.742+01:00"
+                        jcr:lastModifiedBy="a101309"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        noExtention="true"
+                        title="2016 Registration Document"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/registration-documents/worldline-registration-document-2016-publication.pdf"/>
+                    <multisectoritem_copy_1778427045
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-11-14T17:05:43.460+01:00"
+                        jcr:lastModifiedBy="a101309"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        noExtention="true"
+                        title="2015 Update of the 2014 Registration document (including the 2015 half-year report)"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/registration-documents/worldline-201506-update-of-the-2014-registration-document.pdf"/>
+                    <multisectoritem_copy_1161343453
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-11-14T17:05:50.958+01:00"
+                        jcr:lastModifiedBy="a101309"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        noExtention="true"
+                        title="2014 IPO Registration Document"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/registration-documents/Worldline-Registration-document_EN.pdf"/>
+                </column2>
+                <column3 jcr:primaryType="nt:unstructured">
+                    <multisectoritem_copy
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-11-14T17:06:06.545+01:00"
+                        jcr:lastModifiedBy="a101309"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        noExtention="true"
+                        title="2016 Update of the 2015 Registration Document (including the 2016 Half-year financial report)  "
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/registration-documents/worldline-201606-update-of-2015-registration-document.pdf"/>
+                    <multisectoritem_copy_1792138185
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-11-14T17:06:13.827+01:00"
+                        jcr:lastModifiedBy="a101309"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        noExtention="true"
+                        title="2014 Registration Document"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/registration-documents/worldline-registration-document-2014.pdf"/>
+                </column3>
+            </grid_1526923463>
+            <sectionoffwhite
+                jcr:created="{Date}2017-09-19T10:44:01.640+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-19T10:44:01.640+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/sectionoffwhite">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-09-19T10:44:38.681+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T10:44:38.681+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <overview
+                                jcr:created="{Date}2017-09-22T15:13:09.694+02:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-09-22T15:17:17.043+02:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/overview"
+                                itemsPerPage="15"
+                                startPaths="/content/worldline/en/press-releases-investors"
+                                title="News releases"/>
+                        </column1>
+                    </grid>
+                    <grid_696157348
+                        jcr:created="{Date}2017-09-19T10:45:16.089+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T10:45:48.444+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]"/>
+                </items>
+            </sectionoffwhite>
+            <grid_771383167
+                jcr:created="{Date}2017-09-19T10:44:13.730+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-19T10:44:13.730+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid">
+                <column1 jcr:primaryType="nt:unstructured">
+                    <richtext_copy_copy_c
+                        jcr:created="{Date}2017-09-14T16:41:15.730+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T10:52:14.842+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/richtext"
+                        text="&lt;h2>&lt;span class=&quot;section--title left&quot;>Total number of voting rights and shares&lt;/span>&lt;/h2>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </column1>
+            </grid_771383167>
+            <grid_1499102009
+                jcr:created="{Date}2017-09-19T10:52:24.202+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-19T10:52:38.588+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid"
+                list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                <column1 jcr:primaryType="nt:unstructured">
+                    <multisectoritem_copy
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:29:23.937+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="June 30, 2017"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-june-2017.pdf"/>
+                    <multisectoritem_copy_861379279
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:38:41.571+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="March 31, 2017"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/Worldline-voting-march2017.pdf"/>
+                    <multisectoritem_copy_753502169
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:50:22.377+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="November 30, 2016"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-november-2016.pdf"/>
+                    <multisectoritem_copy_699551533
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:52:22.247+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="August 31, 2016"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-august-2016.pdf"/>
+                    <multisectoritem_copy_2074025307
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:54:02.821+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="May 31, 2016"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-may-2016.pdf"/>
+                    <multisectoritem_copy_1231457231
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:58:34.788+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="February 29, 2016"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-february-2016.pdf"/>
+                    <multisectoritem_copy_1798740026
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T13:18:18.299+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="December 31, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-december-2015.pdf"/>
+                    <multisectoritem_copy_856331193
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T13:20:37.135+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="September 30, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-septembre-2015.pdf"/>
+                    <multisectoritem_copy_752955242
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T13:20:37.135+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="September 30, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-septembre-2015.pdf"/>
+                    <multisectoritem_copy_180602917
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T13:24:54.530+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="June 30, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-juin-2015.pdf"/>
+                    <multisectoritem_copy_1687000891
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T13:20:37.135+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="September 30, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-septembre-2015.pdf"/>
+                    <multisectoritem_copy_1621648108
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:22:20.100+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="March 31, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-mars-2015.pdf"/>
+                    <multisectoritem_copy_1404880076
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:27:32.280+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="December 31, 2014"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-decembre-2014.pdf"/>
+                    <multisectoritem_copy_1112506381
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:28:58.712+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="September 30, 2014"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-septembre-2014.pdf"/>
+                    <multisectoritem_copy_1078670545
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:32:06.090+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="June 30, 2014"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-juin-2014.pdf"/>
+                </column1>
+                <column2 jcr:primaryType="nt:unstructured">
+                    <multisectoritem_copy
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:30:14.545+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="May 31, 2017"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-may-2017.pdf"/>
+                    <multisectoritem_copy_100683390
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:41:04.246+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="February 28, 2017"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-february-2017.pdf"/>
+                    <multisectoritem_copy_1125341695
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:50:59.190+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="October 31, 2016"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-october-2016.pdf"/>
+                    <multisectoritem_copy_1535425614
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:52:52.017+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="July 31, 2016"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-july-2016.pdf"/>
+                    <multisectoritem_copy_229091259
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:57:06.903+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="April 30, 2016"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-april-2016.pdf"/>
+                    <multisectoritem_copy_1257457886
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:59:34.321+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="January 31, 2016"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-january-2016.pdf"/>
+                    <multisectoritem_copy_518214599
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T13:18:51.068+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="November 30, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-november-2015.pdf"/>
+                    <multisectoritem_copy_1001458685
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T13:23:13.677+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="August 31, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-aout-2015.pdf"/>
+                    <multisectoritem_copy_85357670
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T13:20:37.135+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="September 30, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-septembre-2015.pdf"/>
+                    <multisectoritem_copy_1076473897
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:20:01.301+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="May 31, 2015"/>
+                    <multisectoritem_copy_458889856
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T13:20:37.135+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="September 30, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-septembre-2015.pdf"/>
+                    <multisectoritem_copy_1712314923
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:22:50.135+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="February 28, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-fevrier-2015.pdf"/>
+                    <multisectoritem_copy_447607645
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:27:56.876+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="November 30, 2014"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-novembre-2014.pdf"/>
+                    <multisectoritem_copy_1331849221
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:30:59.243+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="August 31, 2014"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-aout-2014.pdf"/>
+                </column2>
+                <column3 jcr:primaryType="nt:unstructured">
+                    <multisectoritem_copy
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:37:38.653+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="April 30, 2017"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-april-2017.pdf"/>
+                    <multisectoritem_copy_347240738
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:48:57.788+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="December 31, 2016"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-december-2016.pdf"/>
+                    <multisectoritem_copy_1626645890
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:51:42.856+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="September 30, 2016"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-september-2016.pdf"/>
+                    <multisectoritem_copy_576526089
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:53:13.539+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="June 30, 2016"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-june-2016.pdf"/>
+                    <multisectoritem_copy_1625177327
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T11:57:31.413+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="March 31, 2016"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-march-2016.pdf"/>
+                    <multisectoritem_copy_1728982688
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T12:05:08.871+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="January 31, 2016"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-january-2016.pdf"/>
+                    <multisectoritem_copy_487902994
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T13:19:20.677+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="October 31, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-voting-rights-and-share-capital-october-2015.pdf"/>
+                    <multisectoritem_copy_1618712060
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T13:23:50.781+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="July 31, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-juillet-2015.pdf"/>
+                    <multisectoritem_copy_789758719
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T13:20:37.135+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="September 30, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-septembre-2015.pdf"/>
+                    <multisectoritem_copy_1360970800
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:21:13.925+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="April 30, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-avril-2015.pdf"/>
+                    <multisectoritem_copy_1925584495
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T13:20:37.135+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="September 30, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-septembre-2015.pdf"/>
+                    <multisectoritem_copy_1079119997
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:23:13.913+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="January 31, 2015"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-janvier-2015.pdf"/>
+                    <multisectoritem_copy_405082823
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:28:24.443+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="October 31, 2014"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-octobre-2014.pdf"/>
+                    <multisectoritem_copy_1976372650
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:31:23.040+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="July 30, 2014"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/voting-rights-and-shares/worldline-declaration-ddv-juillet-2014.pdf"/>
+                </column3>
+            </grid_1499102009>
+            <sectionoffwhite_1047268566
+                jcr:created="{Date}2017-09-19T14:33:50.342+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-19T14:33:50.342+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/sectionoffwhite">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-09-19T14:35:27.858+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:35:27.858+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid">
+                        <column1 jcr:primaryType="nt:unstructured">
+                            <richtext_copy_copy_c
+                                jcr:created="{Date}2017-09-14T16:41:15.730+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-09-19T14:35:56.573+02:00"
+                                jcr:lastModifiedBy="a646217"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/richtext"
+                                text="&lt;h2>&lt;span class=&quot;section--title left&quot;>Half-year report on liquidity contract&lt;/span>&lt;/h2>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                                textIsRich="true"/>
+                        </column1>
+                    </grid>
+                    <grid_1672010426
+                        jcr:created="{Date}2017-09-19T14:36:03.706+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:36:17.904+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                        <column1 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-09-19T14:47:09.967+02:00"
+                                jcr:lastModifiedBy="a646217"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="Bilingual Version (French/English)"
+                                imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                                isExternalURL="true"
+                                title="June 30, 2016"
+                                url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/half-year-report/worldline-half-year-report-on-the-liquidity-contract-june-30-2016.pdf"/>
+                            <multisectoritem_copy_1410128743
+                                jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-09-19T14:50:05.160+02:00"
+                                jcr:lastModifiedBy="a646217"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="Bilingual Version (French/English)"
+                                imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                                isExternalURL="true"
+                                title="January 6, 2015"
+                                url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/half-year-report/worldline-pr-liquidity-contract-report-h2-2014-en.pdf"/>
+                        </column1>
+                        <column2 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-09-19T14:48:45.289+02:00"
+                                jcr:lastModifiedBy="a646217"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="Bilingual Version (French/English)"
+                                imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                                isExternalURL="true"
+                                title="December 31, 2015"
+                                url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/half-year-report/worldline-half-year-report-on-the-liquidity-contract-december-2015.pdf"/>
+                        </column2>
+                        <column3 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-09-19T14:49:28.215+02:00"
+                                jcr:lastModifiedBy="a646217"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="Bilingual Version (French/English)"
+                                imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                                isExternalURL="true"
+                                title="June 30, 2015"
+                                url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/half-year-report/worldline-half-year-report-on-the-liquidity-contract-june-2015.pdf"/>
+                        </column3>
+                    </grid_1672010426>
+                </items>
+            </sectionoffwhite_1047268566>
+            <grid_572999079
+                jcr:created="{Date}2017-09-19T14:53:06.367+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-19T14:53:06.367+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid">
+                <column1 jcr:primaryType="nt:unstructured">
+                    <richtext_copy_copy_c
+                        jcr:created="{Date}2017-09-14T16:41:15.730+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T14:53:31.517+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/richtext"
+                        text="&lt;h2>&lt;span class=&quot;section--title left&quot;>Description of liquidity contract&lt;/span>&lt;/h2>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </column1>
+            </grid_572999079>
+            <grid_285232965
+                jcr:created="{Date}2017-09-19T14:53:53.794+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-19T14:54:07.795+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid"
+                list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                <column1 jcr:primaryType="nt:unstructured">
+                    <multisectoritem_copy
+                        jcr:created="{Date}2017-09-14T16:25:21.180+02:00"
+                        jcr:createdBy="a646217"
+                        jcr:lastModified="{Date}2017-09-19T15:15:58.763+02:00"
+                        jcr:lastModifiedBy="a646217"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/multisectoritem"
+                        description="Bilingual Version (French/English)"
+                        imagePath="/content/dam/worldline/images/investors/picto-investors.png"
+                        isExternalURL="true"
+                        title="July 6, 2017"
+                        url="/content/dam/worldline/documents/investors/documents/amf-regulated-information/description-liquidity-contract/worldline-amendement-6-july-2017.pdf"/>
+                </column1>
+            </grid_285232965>
+        </content>
+    </jcr:content>
+</jcr:root>

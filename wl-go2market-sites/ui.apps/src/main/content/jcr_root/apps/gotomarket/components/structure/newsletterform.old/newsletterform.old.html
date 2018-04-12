@@ -1,0 +1,12 @@
+<div class="grid-col-4" data-sly-use.model="com.worldline.core.models.FooterModel">
+    <span class="footer--title">${model.nlTitle ? model.nlTitle : 'Newsletter'}</span>
+    <p>${model.nlText ? model.nlText : 'Subscribe to receive the latest information'} </p>
+    <form id="form-newsletter" class="form--newsletter-subscribe">
+        <div class="input--field">
+            <input type="email" id="newsletter-email" class="form--newsletter-input" name="newsletter-email"
+                   placeholder="${model.nlEmailInputPlaceholder ? model.nlEmailInputPlaceholder : 'Email Address'}">
+            <input type="hidden" id="resourcePath" value="${currentPage.getPath}"/>
+            <button class="form--newsletter-button" type="submit">${model.nlButton ? model.nlButton : 'Submit'}</button>
+        </div>
+    </form>
+</div>

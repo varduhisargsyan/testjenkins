@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-29T16:06:39.420+01:00"
+        cq:lastModifiedBy="a631192"
+        cq:lastReplicated="{Date}2017-11-29T16:13:49.116+01:00"
+        cq:lastReplicatedBy="a631192"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/redirect"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-11-29T08:36:22.241+01:00"
+        jcr:lastModifiedBy="fr20437"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        jcr:uuid="b6b10c2d-40cf-4069-8ace-dc6319b7becb"
+        sling:resourceType="gotomarket/components/structure/pages/redirect"
+        countryList="true"
+        creationDate="{Date}2017-11-04T14:34:00.000+02:00"
+        errorPages="/content/worldline-fairs/en/errorpages"
+        googleAnalytics="&lt;!-- Google Tag Manager -->&#xd;&#xa;&lt;script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':&#xd;&#xa;new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],&#xd;&#xa;j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=&#xd;&#xa;'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);&#xd;&#xa;})(window,document,'script','dataLayer','GTM-W45S3H5');&lt;/script>&#xd;&#xa;&lt;!-- End Google Tag Manager -->"
+        hideInNav="false"
+        isExternalAccessUrl="false"
+        isExternalMoreInformationUrl="false"
+        isExternalPrivacyUrl="false"
+        isExternalRssUrl="false"
+        isExternalStatement1stUrl="false"
+        isExternalStatement2ndUrl="false"
+        isExternalTermsUrl="false"
+        isLang="false"
+        noExtentionMoreInformation="false"
+        showbrand="false"
+        tmBody="&lt;!-- Google Tag Manager (noscript) -->&#xd;&#xa;&lt;noscript>&lt;iframe src=&quot;https://www.googletagmanager.com/ns.html?id=GTM-W45S3H5&quot;&#xd;&#xa;height=&quot;0&quot; width=&quot;0&quot; style=&quot;display:none;visibility:hidden&quot;>&lt;/iframe>&lt;/noscript>&#xd;&#xa;&lt;!-- End Google Tag Manager (noscript) -->">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+    </jcr:content>
+    <home/>
+    <errorpages/>
+</jcr:root>

@@ -1,0 +1,28 @@
+<aside class="cta--stay-in-touch" style="background:url('${model.imagePath ? model.imagePath : '/etc/designs/gotomarket/images/bg-cta-stay-in-touch.jpg' @ context='styleString'}');"
+       data-sly-use.model="com.worldline.core.models.StayinTouchModel">
+    <h2 class="cta--title">${model.title ? model.title : 'Let\'s stay in touch'}</h2>
+    <ul class="cta--links">
+        <li class="contact-us">
+            <a class="button alt" data-sly-test="${model.noExtentionContactUs}" href="${model.contactUsUrl}"
+               target="${model.isExternalUrlContactUs ? '_blank' : ''}">
+                ${model.contactUs ? model.contactUs : 'Contact us'} </a>
+            <a class="button alt" data-sly-test="${!model.noExtentionContactUs}" href="${model.contactUsUrl}.html"
+               target="${model.isExternalUrlContactUs ? '_blank' : ''}">
+                ${model.contactUs ? model.contactUs : 'Contact us'} </a>
+        <li class="join-us">
+            <a class="button alt" data-sly-test="${model.noExtentionJoinUs}" href="${model.joinUsUrl}"
+               target="${model.isExternalUrlJoinUs ? '_blank' : ''}">
+                ${model.joinUs ? model.joinUs : 'Join us'} </a>
+            <a class="button alt" data-sly-test="${!model.noExtentionJoinUs}" href="${model.joinUsUrl}.html"
+               target="${model.isExternalUrlJoinUs ? '_blank' : ''}">
+                ${model.joinUs ? model.joinUs : 'Join us'} </a>
+        <li class="list-break"></li>
+        <sly data-sly-list.models="${model.socials}">
+            <li>
+                <a class="button alt social" href="${models.url}">
+                    <i class="som ${models.iconClass}" aria-hidden="true"></i>
+                </a>
+            </li>
+        </sly>
+    </ul>
+</aside>

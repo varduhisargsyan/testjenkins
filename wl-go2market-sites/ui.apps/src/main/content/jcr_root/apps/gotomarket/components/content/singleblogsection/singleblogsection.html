@@ -1,0 +1,25 @@
+<sly>
+    <div class="grid-row">
+        <div class="grid-col-5 grid-offset-1">
+            <h2 class="section--title">${properties.title ? properties.title : 'In the blog'}</h2>
+            <article class="blog--featured-post"
+                     data-parent-section-style="background-image: url('${properties.imagePath ? properties.imagePath : '/etc/designs/gotomarket/images/bg-blog-featured.jpg' @ context='styleString'}');">
+                <span class="blog--featured-date">11 jan. 2017</span>
+                <h3 class="blog--featured-title">Can blockchain streamline
+                    corporate bond’s complex workflows ?</h3>
+                <ul class="blog--featured-tags">
+                    <li class="blog--featured-tag">#blockchain</li>
+                    <li class="blog--featured-tag">#finance</li>
+                </ul>
+                <p class="blog--featured-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip commodo </p>
+                <div class="blog--featured-author">
+                    <img class="blog--featured-author-thumb" src="/etc/designs/gotomarket/images/michelle.jpg" alt="">
+                    <span class="blog--featured-author-name">Michelle Dejonville</span>
+                </div>
+                <a class="blog--featured-link" href="#">Read more</a>
+            </article>
+        </div>
+    </div>
+</sly>

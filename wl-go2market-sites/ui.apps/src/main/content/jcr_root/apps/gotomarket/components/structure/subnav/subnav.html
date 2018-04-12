@@ -1,0 +1,11 @@
+<div class="page--jumplinks offwhite" data-sly-use.model="com.worldline.core.models.SubNavigationModel">
+    <span class="jumplinks--title">${model.jumplinksTitle ? model.jumplinksTitle : 'Accès aux rubriques'}</span>
+    <ul data-sly-test="${model.pages && !model.isInternalMenuHidden}" data-sly-list="${model.pages}">
+        <li class="active"  data-sly-test="${itemList.first}"><a href="${item.path}.html">${item.title}</a></li>
+        <li  class="active" data-sly-test="${!itemList.first && currentPage.path == item.path}">   <a href="${item.path}.html">${item.title}</a></li>
+        <li data-sly-test="${!itemList.first && currentPage.path != item.path}">   <a href="${item.path}.html">${item.title}</a></li>
+
+    </ul>
+
+
+</div>

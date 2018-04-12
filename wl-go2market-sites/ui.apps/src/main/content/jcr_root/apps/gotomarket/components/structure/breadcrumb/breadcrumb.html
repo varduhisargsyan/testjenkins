@@ -1,0 +1,12 @@
+<div class="block--seo" data-sly-use.breadcrumb="com.worldline.core.models.BreadcrumbModel">
+    <sly data-sly-test="${!breadcrumb.homePage}" data-sly-list.element="${breadcrumb.subPages}">
+        <span data-sly-test="${!elementList.last}">
+            <a href="${element.path}.html">${element.title || element.navigationTitle || element.name}</a> /
+        </span>
+        <h1 class="block--seo-title"
+            data-sly-test="${elementList.last}">${pageProperties.sling:alias ? pageProperties.sling:alias : element.title}</h1>
+    </sly>
+    <sly data-sly-test="${breadcrumb.homePage}">
+        <h1 class="block--seo-title">${pageProperties.sling:alias ? pageProperties.sling:alias : currentPage.title}</h1>
+    </sly>
+</div>

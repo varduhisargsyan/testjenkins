@@ -1,0 +1,13 @@
+<footer class="footer--main"  data-sly-use.model="com.worldline.core.models.FooterModel">
+    <div class="grid-row">
+        <div class="grid-col-2">
+            <img src="/content/dam/gotomarket/logo/logo-${model.brand ? model.brand : 'worldline'}-footer.png" alt="${model.brand ? model.brand : 'logo'}"/>
+        </div>
+        <sly data-sly-resource="sitemap" data-sly-unwrap></sly>
+        <sly  data-sly-test="${model.followus}" data-sly-resource="followus" data-sly-unwrap/>
+        <sly  data-sly-test="${model.newsletter}" data-sly-resource="newsletterform" data-sly-unwrap/>
+        <a class="back-to-top" href="#" rel="nofollow">Back to Top</a>
+    </div>
+</footer>
+
+

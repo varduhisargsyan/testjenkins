@@ -1,0 +1,10 @@
+<sly data-sly-use.model="com.worldline.core.models.HeaderSingleModel" data-sly-unwrap>
+    <header class="single--header"
+            style="background-image:url('${pageProperties.imagePath  @ context='styleString'}');">
+        <div class="grid-row">
+            <div class="grid-col-8 grid-offset-2">
+                <h1 class="single--title" style="color: ${model.colorTitle @context = 'styleString'}"><pre>${model.title @ context='html'}</pre></h1>
+            </div>
+        </div>
+    </header>
+</sly>

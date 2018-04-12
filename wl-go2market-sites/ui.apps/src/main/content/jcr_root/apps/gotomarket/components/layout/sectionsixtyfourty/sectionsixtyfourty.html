@@ -1,0 +1,13 @@
+<sly data-sly-use.model="com.worldline.core.models.FortySixtySectionModel">
+    <div class="grid-row">
+        <div class="grid-col-12" data-sly-list="${model.sections}">
+            <div data-sly-test="${item!='section--title'}" class="${item}">
+                <sly data-sly-resource="${ 'column{0}' @ format=itemList.count,  resourceType='gotomarket/components/parsys'}"/>
+            </div>
+            <div data-sly-test="${item=='section--title'}" class="nosection">
+                <sly data-sly-resource="${ 'column{0}' @ format=itemList.count,  resourceType='gotomarket/components/parsys'}"/>
+            </div>
+
+        </div>
+    </div>
+</sly>

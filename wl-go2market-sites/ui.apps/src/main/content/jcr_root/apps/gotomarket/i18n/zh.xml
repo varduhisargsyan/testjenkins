@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:language="zh"
+          jcr:mixinTypes="[mix:language]"
+          jcr:primaryType="nt:folder">
+    <!-- China-->
+    <cldd_global
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="cldd_global"
+            sling:message="全球"/>
+    <ar
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="ar"
+            sling:message="阿根廷"/>
+    <ap
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="ap"
+            sling:message="亚太地区"/>
+    <at
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="at"
+            sling:message="澳大利亚"/>
+    <cl
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="cl"
+            sling:message="智利"/>
+    <be
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="be"
+            sling:message="比利时"/>
+    <cn
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="cn"
+            sling:message="中国"/>
+    <fr
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="fr"
+            sling:message="法国"/>
+    <de
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="de"
+            sling:message="德国"/>
+    <hk
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="hk"
+            sling:message="香港"/>
+    <in
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="in"
+            sling:message="印度"/>
+    <id
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="id"
+            sling:message="印尼"/>
+    <lu
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="lu"
+            sling:message="卢森堡"/>
+    <my
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="my"
+            sling:message="马来西亚"/>
+    <nl
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="nl"
+            sling:message="荷兰"/>
+    <sg
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="sg"
+            sling:message="新加坡"/>
+    <sk
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="sk"
+            sling:message="斯洛伐克"/>
+    <es
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="es"
+            sling:message="西班牙"/>
+    <tw
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="tw"
+            sling:message="台湾"/>
+    <uk
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="uk"
+            sling:message="英国"/>
+    <copyright
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="copyright"
+            sling:message="2017 保留一切权利"/>
+    <privacy
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="privacy"
+            sling:message="保密"/>
+    <terms
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="terms"
+            sling:message="使用条款"/>
+    <rss
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="rss"
+            sling:message="RSS"/>
+    <accessibility
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="accessibility"
+            sling:message="可访问性"/>
+    <nl_country_select
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="nl_country_select"
+            sling:message="选择国家"/>
+    <sitemap
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="sitemap"
+            sling:message="网站地图"/>
+    <readmore
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="readmore"
+            sling:message="阅读更多"/>
+</jcr:root>

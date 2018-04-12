@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<sly data-sly-use.model="com.worldline.core.models.GoogleDataModel">
+    ${model.codeAnalytics ? model.codeAnalytics : '' @ context='unsafe'}
+</sly>
+<head>
+    <sly data-sly-resource="head" data-sly-unwrap/>
+    <sly data-sly-resource="headlibs" data-sly-unwrap/>
+</head>
+<body>
+<sly data-sly-resource="header" data-sly-unwrap/>
+<sly data-sly-include="partials/main.html" data-sly-unwrap/>
+<sly data-sly-resource="stayintouch"/>
+<sly data-sly-resource="contactus" data-sly-unwrap/>
+<sly data-sly-resource="footer"/>
+<div data-sly-resource="copyright" data-sly-unwrap/>
+<div class="cookie-policy accepted" data-sly-use.cookiesModel="com.worldline.core.models.AcceptCookiesModel">
+    <div class="grid-row row-cookie-policy">
+        <div class="grid-col-9 cookie-policy__disclaimer">
+            <p>${cookiesModel.cookiePolicy ? cookiesModel.cookiePolicy : 'Our website uses cookies. By continuing to surf this website, you consent that we will continue using cookies to measure and understand how our web pages are viewed and to improve the way our website works. If you do not agree, you can decide to disable cookies in your web browser as explained in our Privacy Policy'}</p>
+        </div>
+        <div class="grid-col-3 cookie-policy__link">
+            <a class="button cookie-policy__accept">
+                ${cookiesModel.acceptCookies ? cookiesModel.acceptCookies : 'Accept cookies'}
+            </a>
+            <a class="button cookie-policy__informations" data-sly-test="${cookiesModel.noExtentionMoreInformation}"
+               href="${cookiesModel.moreInformationUrl}" target="${cookiesModel.isExternalMoreInformationUrl ? '_blank' : ''}">
+                ${cookiesModel.moreInformation ? cookiesModel.moreInformation : 'More informations'}
+            </a>
+            <a class="button cookie-policy__informations" data-sly-test="${!cookiesModel.noExtentionMoreInformation}"
+               href="${cookiesModel.moreInformationUrl}.html" target="${cookiesModel.isExternalMoreInformationUrl ? '_blank' : ''}">
+                ${cookiesModel.moreInformation ? cookiesModel.moreInformation : 'More informations'}
+            </a>
+        </div>
+    </div>
+</div>
+<sly data-sly-resource="footlibs" data-sly-unwrap/>
+</body>
+</html>

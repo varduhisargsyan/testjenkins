@@ -1,0 +1,29 @@
+<sly data-sly-use.model="com.worldline.core.models.ArticleBriefModel">
+    <div class="articles--slider-container">
+        <div class="articles--slider-wrapper">
+            <sly data-sly-list="${model.articleBriefItems}">
+                <div class="articles--slider-slide">
+                    <div class="block--article h">
+                        <div data-sly-test="${item.imagePath}" class="block--article-thumb">
+                            <img class="block--article-img"
+                                 src="${item.imagePath}"
+                                 alt="articleImage">
+                        </div>
+                        <div class="block--article-content" data-parent-section-class="offwhite">
+                            <span class="block--article-category">${model.category ? model.category : 'Inovation' }</span>
+                            <span class="block--article-date">${item.date ? item.date : '12 jan. 2017'}</span>
+                            <h3 class="block--article-title">${item.title ? item.title : 'Consectetur adipisicing elit'}</h3>
+                            <p class="block--article-excerpt">${item.text ? item.text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi'}</p>
+                            <a class="block--article-link"
+                               href="${item.link ? item.link : '#'}.html">${item.linkText ? item.linkText : 'Read more'}</a>
+                        </div>
+                    </div>
+                </div>
+            </sly>
+        </div>
+    </div>
+    <div class="articles--slider-pagination">
+        <button class="slider-pagination-bullet active"></button>
+        <button class="slider-pagination-bullet"></button>
+    </div>
+</sly>

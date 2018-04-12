@@ -1,0 +1,13 @@
+<div class="grid-col-2" data-sly-use.model="com.worldline.core.models.FooterModel">
+    <span class="footer--title">${model.fuTitle ? model.fuTitle : 'Follow us'}</span>
+    <p>${model.fuText ? model.fuText : 'Keep up to date with the latest business'}</p>
+    <ul class="footer--networks-list">
+        <sly data-sly-list="${model.socials}">
+            <li class="footer--network-link ${item.iconClass}" >
+                <a href="${item.url}"></a>
+            </li>
+
+        </sly>
+    </ul>
+</div>
+

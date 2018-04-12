@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-29T16:04:42.726+01:00"
+        cq:lastModifiedBy="a631192"
+        cq:lastReplicated="{Date}2017-11-29T16:14:39.552+01:00"
+        cq:lastReplicatedBy="a631192"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/redirect"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-11-29T11:08:00.546+01:00"
+        jcr:lastModifiedBy="fr20437"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        jcr:uuid="f436dcbc-e0c0-41fd-9ae7-5083ed80b19b"
+        sling:resourceType="gotomarket/components/structure/pages/redirect"
+        accessibility="Accessibility"
+        accessibilityUrl="/content/worldline/en/accessibility.html"
+        accessToken="403727654-tUKRFEDVITgKc5QaWI4wwB6J9XItEiVThajAJJf6"
+        accessTokenSecret="yr0MhNmIxZXYZlmQ53PfTTkUilXA3r02y7mnYuwHh8P6E"
+        brand="worldline"
+        consumerKey="9LDrdEqb8xqMld7VftiVi4eDv"
+        consumerSecret="v4gHgBwefRtHVZPxJ2Q2rnl8KcIJHhB9ZvplxMcAOw8cNuPnGz"
+        countryList="true"
+        creationDate="{Date}2017-10-06T13:14:00.000+03:00"
+        errorPages="/content/worldline/en/errorpages"
+        googleAnalytics="&lt;!-- Global site tag (gtag.js) - Google Analytics -->&#xd;&#xa;&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=UA-6775504-1&quot;>&lt;/script>&#xd;&#xa;&lt;script>&#xd;&#xa;  window.dataLayer = window.dataLayer || [];&#xd;&#xa;  function gtag(){dataLayer.push(arguments);}&#xd;&#xa;  gtag('js', new Date());&#xd;&#xa;&#xd;&#xa;  gtag('config', 'UA-6775504-1');&#xd;&#xa;&lt;/script>&#xd;&#xa;"
+        hideInNav="false"
+        isExternalAccessUrl="false"
+        isExternalMoreInformationUrl="false"
+        isExternalPrivacyUrl="false"
+        isExternalRssUrl="false"
+        isExternalStatement1stUrl="false"
+        isExternalStatement2ndUrl="false"
+        isExternalTermsUrl="false"
+        isLang="false"
+        jumplinksTitle="Menu"
+        moreInformationUrl="/content/worldline/en/privacy"
+        nlButton="SUBSCRIBE"
+        nlButtonUrl="mailto:infowl@worldline.com"
+        noExtentionMoreInformation="false"
+        privacy="Privacy"
+        privacyUrl="/content/worldline/en/privacy.html"
+        recipients="varduhis@energizeglobal.com"
+        showbrand="true"
+        showinfostrip="false"
+        terms="Terms of use"
+        termsUrl="/content/worldline/en/termsofuse.html">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+    </jcr:content>
+    <search/>
+    <home/>
+    <accessibility/>
+    <termsofuse/>
+    <privacy/>
+    <press-releases-general/>
+    <press-releases-investors/>
+    <errorpages/>
+    <test-home/>
+</jcr:root>

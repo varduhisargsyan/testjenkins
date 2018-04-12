@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-28T11:53:19.932+01:00"
+        cq:lastModifiedBy="a480019"
+        cq:lastReplicated="{Date}2017-11-28T11:53:28.461+01:00"
+        cq:lastReplicatedBy="a480019"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/redirect"
+        jcr:description="Article PDF English | Published in book 'Digital Payments' | Michael Salmony"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-11-28T11:53:19.925+01:00"
+        jcr:lastModifiedBy="a480019"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="The Future Use of Instant Payments – are we investing billions just to do mobile P2P?"
+        jcr:uuid="e228f90e-23ce-4838-a665-d96491ced703"
+        sling:resourceType="gotomarket/components/structure/pages/redirect"
+        countryList="true"
+        creationDate="{Date}2017-01-02T14:41:00.000+01:00"
+        hideInNav="false"
+        isExternalAccessUrl="false"
+        isExternalMoreInformationUrl="false"
+        isExternalPrivacyUrl="false"
+        isExternalRssUrl="false"
+        isExternalStatement1stUrl="false"
+        isExternalStatement2ndUrl="false"
+        isExternalTermsUrl="false"
+        isLang="false"
+        noExtentionMoreInformation="false"
+        redirectTarget="/content/dam/equensworldline/documents/publications/Use-of-Instant-Payments-Salmony-JPSS.pdf"
+        showbrand="false">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+    </jcr:content>
+</jcr:root>

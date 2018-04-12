@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'WLSoM';
+  src:  url('../fonts/WLSoM.eot?176ncx');
+  src:  url('../fonts/WLSoM.eot?176ncx#iefix') format('embedded-opentype'),
+    url('../fonts/WLSoM.ttf?176ncx') format('truetype'),
+    url('../fonts/WLSoM.woff?176ncx') format('woff'),
+    url('../fonts/WLSoM.svg?176ncx#WLSoM') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i.som, .icomoon-liga {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'WLSoM' !important;
+  font: normal normal normal 14px/1 WLSoM;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.youtube-play:before {
+  content: "\e900"
+}
+.youtube-play-grey:before {
+  content: "\e909";
+}
+.blog-grey:before {
+  content: "\e901";
+}
+.blog:before {
+  content: "\e902";
+}
+.facebook:before {
+  content: "\e903";
+}
+.facebook-grey:before {
+  content: "\e904";
+
+}
+.linkedin:before {
+  content: "\e905";
+}
+.linkedin-grey:before {
+  content: "\e906";
+}
+.twitter:before {
+  content: "\e907";
+
+}
+.twitter-grey:before {
+  content: "\e908";
+}

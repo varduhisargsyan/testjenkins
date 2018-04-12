@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-28T15:56:57.567+01:00"
+        cq:lastModifiedBy="a631192"
+        cq:lastReplicated="{Date}2017-11-28T16:03:49.140+01:00"
+        cq:lastReplicatedBy="a631192"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/redirect"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-11-22T17:18:45.109+01:00"
+        jcr:lastModifiedBy="fr20437"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="sibos-2017"
+        jcr:uuid="1eebfcc8-f680-4352-9a14-c3e9f64e8631"
+        sling:resourceType="gotomarket/components/structure/pages/redirect"
+        countryList="true"
+        creationDate="{Date}2017-11-04T14:14:00.000+04:00"
+        errorPages="/content/worldline-fairs/sibos-2017/errorpages"
+        hideInNav="false"
+        isExternalAccessUrl="false"
+        isExternalMoreInformationUrl="false"
+        isExternalPrivacyUrl="false"
+        isExternalRssUrl="false"
+        isExternalStatement1stUrl="false"
+        isExternalStatement2ndUrl="false"
+        isExternalTermsUrl="false"
+        isLang="false"
+        noExtentionMoreInformation="false"
+        showbrand="false">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+    </jcr:content>
+    <home/>
+    <errorpages/>
+</jcr:root>

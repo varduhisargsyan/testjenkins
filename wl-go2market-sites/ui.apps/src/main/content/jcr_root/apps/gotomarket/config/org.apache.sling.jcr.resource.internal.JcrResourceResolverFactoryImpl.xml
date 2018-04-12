@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="sling:OsgiConfig"
+          resource.resolver.searchpath="[/apps,/libs]"
+          resource.resolver.manglenamespaces="{Boolean}true"
+          resource.resolver.allowDirect="{Boolean}true"
+          resource.resolver.required.providers="[JCR]"
+          resource.resolver.virtual="[/:/]"
+          resource.resolver.mapping="[/-/,
+          /content/worldline/en/</en/,
+          /content/equensworldline/en/</en/,
+          /content/worldline-fairs/en/</en/,
+          /content/worldline-fairs/mwc-2018/</mwc-2018/,
+          /content/worldline-fairs/sibos-2017/</sibos-2017/,
+          /content/worldline-fairs/evex-2017/</evex-2017/,
+          /content/worldline-fairs/nrf-2018/</nrf-2018/,
+          /content/worldline-fairs/psd2-advisor/</psd2-advisor/,
+          /content/xengo-be/en/</en/,
+          /content/worldline-epayment-de/de/</de/,
+          ]"
+          resource.resolver.map.location="/etc/map"
+          resource.resolver.default.vanity.redirect.status="302"/>

@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-29T18:36:28.258+01:00"
+        cq:lastModifiedBy="fr20437"
+        cq:lastReplicated="{Date}2017-11-29T18:36:49.327+01:00"
+        cq:lastReplicatedBy="fr20437"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/solutions"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-11-29T18:36:28.250+01:00"
+        jcr:lastModifiedBy="fr20437"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Publications"
+        jcr:uuid="c779a355-2be6-4ff7-856f-1f89c2ae0e19"
+        sling:resourceType="gotomarket/components/structure/pages/solutions"
+        creationDate="{Date}2017-11-03T13:06:00.000+01:00"
+        hideInNav="false"
+        imagePath="/content/dam/worldline/images/header/publications.jpg"
+        isExternalContactUsUrl="false"
+        isExternalJoinUsUrl="false"
+        isStickyContactHidden="false"
+        noExtentionContactUs="false"
+        noExtentionJoinUs="false"
+        showbrand="false"
+        showinfostrip="false"
+        title="Publications">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+        <headlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headlibs"/>
+        <header
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/header">
+            <leftnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/leftnavigation"
+                iconClass="iconClass2"/>
+            <rightnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/rightnavigation"
+                iconClass="iconClass2">
+                <countrylistdropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/countrylistdropdown"/>
+                <languagedropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/languagedropdown"/>
+            </rightnavigation>
+            <mainnav
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/mainnav"/>
+            <infostrip
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/infostrip"/>
+            <breadcrumb
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/breadcrumb"/>
+        </header>
+        <headersingle
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headersingle"/>
+        <subnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/subnav"/>
+        <stayintouch
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/stayintouch"/>
+        <contactus
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/contactus"/>
+        <footer
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footer">
+            <sitemap
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/sitemap"/>
+            <followus
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/followus"/>
+            <newsletterform
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/newsletterform"/>
+        </footer>
+        <footlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footlibs"/>
+        <copyright
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/copyright"/>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/parsys">
+            <sectionoffwhite
+                jcr:created="{Date}2017-09-14T11:09:53.172+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-14T11:09:53.172+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/sectionoffwhite">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-11-22T12:01:00.621+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T12:01:00.621+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <titleh2
+                                jcr:created="{Date}2017-11-22T12:01:36.755+01:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-22T12:01:46.074+01:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/titleH2"
+                                showDots="false"
+                                title="Reports"
+                                titleAlignment="left"/>
+                        </column1>
+                    </grid>
+                    <reference
+                        jcr:created="{Date}2017-11-22T11:32:58.076+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T11:54:59.175+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/reference"
+                        path="/content/worldline/en/home/investors/jcr:content/content/sectionoffwhite/items"/>
+                </items>
+            </sectionoffwhite>
+            <section_881506672
+                jcr:created="{Date}2017-11-22T11:31:13.598+01:00"
+                jcr:createdBy="fr20437"
+                jcr:lastModified="{Date}2017-11-22T11:31:13.598+01:00"
+                jcr:lastModifiedBy="fr20437"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/section">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-11-22T12:07:14.617+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T12:07:14.617+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <titleh2
+                                jcr:created="{Date}2017-11-22T14:12:26.046+01:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-22T14:12:36.656+01:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/titleH2"
+                                showDots="false"
+                                title="Brochures"
+                                titleAlignment="left"/>
+                        </column1>
+                    </grid>
+                    <grid_1837545021
+                        jcr:created="{Date}2017-11-22T14:11:59.102+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T14:11:59.102+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <multisectoritem
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:53:57.747+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(April 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Access Control Server"
+                                url="/content/dam/worldline/documents/publications/brochures/access-control-server-en.pdf"/>
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:53:37.317+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(March 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Customer Information Systems"
+                                url="/content/dam/worldline/documents/publications/brochures/wl-customer-information-system-en.pdf"/>
+                            <multisectoritem_copy_1302651777
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:54:32.217+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Contact"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-contact-en.pdf"/>
+                            <multisectoritem_copy_1740375625
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:55:03.114+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(July 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Digitization solutions"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-digitization-en.pdf"/>
+                            <multisectoritem_copy_1320692639
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:55:27.359+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(January 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Fraud Risk Management"
+                                url="/content/dam/worldline/documents/publications/brochures/wl-frm-en.pdf"/>
+                            <multisectoritem_copy_1402346109
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:55:35.446+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(May 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL ID Center - Technical factsheet"
+                                url="/content/dam/worldline/documents/publications/brochures/worldline-id-center-data-sheet-en.pdf"/>
+                            <multisectoritem_copy_34969064
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:56:13.489+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(July 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Tap2Use"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-wl-tap2use-en.pdf"/>
+                            <multisectoritem_copy_1378968997
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:56:22.348+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(October 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Trusted Authentication"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-trusted-authentication-en.pdf"/>
+                            <multisectoritem_copy_1682268360
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:56:44.901+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(May 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Pay Fraud and Dispute Back-Office"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-fraud-case-n-dispute-management-en.pdf"/>
+                            <multisectoritem_copy_1087315182
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:56:38.928+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(April 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Pay Prepaid Card Management"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-ppcm-2p-en.pdf"/>
+                        </column1>
+                        <column2 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:00:36.581+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Acquiring Processing Services"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-acquiring-en.pdf"/>
+                            <multisectoritem_copy_198247497
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:00:26.076+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Card Issuing Processing"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-issuing-en.pdf"/>
+                            <multisectoritem_copy_1030343190
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:00:18.609+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(July 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Connected Living Solutions"
+                                url="/content/dam/worldline/documents/publications/brochures/connected-living-en.pdf"/>
+                            <multisectoritem_copy_1997116767
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:00:10.846+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(March 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Digital contract"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-digital-contract-en.pdf"/>
+                            <multisectoritem_copy_814742151
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:00:02.387+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(June 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Dynamic Currency Conversion at ATM"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-dcc-en.pdf"/>
+                            <multisectoritem_copy_675608714
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:59:54.321+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(January 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="e-education"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-sqool-en.pdf"/>
+                            <multisectoritem_copy_124200587
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:59:33.775+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(June 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Fraud Risk Management for e-merchants"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-fraud-risk-mgt-emerchants-en.pdf"/>
+                            <multisectoritem_copy_2063241912
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:59:16.600+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(July 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="ID Center - Patient Identification"
+                                url="/content/dam/worldline/documents/publications/brochures/worldline-id-center-patient-identification-en.pdf"/>
+                            <multisectoritem_copy_61585310
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:58:57.524+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(January 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Mobile NFC Payments (HCE)"
+                                url="/content/dam/worldline/documents/publications/brochures/wl-mobile-nfc-payment-en.pdf"/>
+                            <multisectoritem_copy_1515457557
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:58:30.653+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Sips, Cross-channel payment solution"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-sips-en.pdf"/>
+                            <multisectoritem_copy_71844296
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:58:19.195+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Trading System"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-tradingsystem-en.pdf"/>
+                            <multisectoritem_copy_1955950094
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T10:57:03.550+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(December 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Pay solutions"
+                                url="/content/dam/worldline/documents/publications/brochures/wl-pay-solutions-en.pdf"/>
+                        </column2>
+                        <column3 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:02:24.567+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(June 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="ATM Management"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-atm-en.pdf"/>
+                            <multisectoritem_copy_534836380
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:02:32.211+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(July, 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Cash Club"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-cashclub-en.pdf"/>
+                            <multisectoritem_copy_1599674435
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:02:38.941+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Connected Vehicles"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-connected-vehicles-en.pdf"/>
+                            <multisectoritem_copy_1239570342
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:02:45.844+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(July 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Digital Preservation"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-digital-preservation-en.pdf"/>
+                            <multisectoritem_copy_1245042057
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:02:53.773+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(Avril 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL e-acquiring for PSPs"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-eAcquiring-PSP-en.pdf"/>
+                            <multisectoritem_copy_244762976
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:03:01.211+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(March 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="e-invoicing"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-einvoicing-en.pdf"/>
+                            <multisectoritem_copy_1766824233
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-28T17:18:20.201+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(November 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Financial Information"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-financialinformation-en.pdf"/>
+                            <multisectoritem_copy_1206773433
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:03:23.556+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(May 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL ID Center Solutions"
+                                url="/content/dam/worldline/documents/publications/brochures/worldline-offer-id-center-solutions-en.pdf"/>
+                            <multisectoritem_copy_153993702
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:03:41.031+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Omnicommerce solutions"
+                                url="/content/dam/worldline/documents/publications/brochures/omnicommerce-en.pdf"/>
+                            <multisectoritem_copy_1413154931
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:03:59.216+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="SAM Server"
+                                url="/content/dam/worldline/documents/publications/brochures/brochure-sam-server-en.pdf"/>
+                            <multisectoritem_copy_1375024264
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:04:06.402+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(February 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Smart Ticketing"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-wl-smart-ticketing-en.pdf"/>
+                            <multisectoritem_copy_314128654
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:04:14.551+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Transport Solutions"
+                                url="/content/dam/worldline/documents/publications/brochures/worldline-transport-solutions-en.pdf"/>
+                            <multisectoritem_copy_953474916
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:04:21.672+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(January 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Wallet"
+                                url="/content/dam/worldline/documents/publications/brochures/wl-wallet-en.pdf"/>
+                            <multisectoritem_copy_2129313212
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:04:29.469+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(March 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Pay Online Watcher"
+                                url="/content/dam/worldline/documents/publications/brochures/onlinewatcher-en.pdf"/>
+                            <multisectoritem_copy_1663328781
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:04:36.979+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(November 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-brochures.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Payment Terminals"
+                                url="/content/dam/worldline/documents/publications/brochures/offre-terminals-generic-en.pdf"/>
+                        </column3>
+                    </grid_1837545021>
+                </items>
+            </section_881506672>
+            <sectionoffwhite_2067530932
+                jcr:created="{Date}2017-11-22T16:02:47.927+01:00"
+                jcr:createdBy="fr20437"
+                jcr:lastModified="{Date}2017-11-22T16:02:47.927+01:00"
+                jcr:lastModifiedBy="fr20437"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/sectionoffwhite">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid_1802026999
+                        jcr:created="{Date}2017-11-22T16:13:18.511+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T16:13:18.511+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <titleh2
+                                jcr:created="{Date}2017-11-22T16:13:45.855+01:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-22T16:14:37.046+01:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/titleH2"
+                                showDots="false"
+                                title="Factsheets"
+                                titleAlignment="left"/>
+                        </column1>
+                    </grid_1802026999>
+                    <grid
+                        jcr:created="{Date}2017-11-22T16:13:03.758+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T16:13:03.758+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                        <column1 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:06:56.388+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(October 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-factsheets.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Payment Terminals - Unattended Terminals"
+                                url="/content/dam/worldline/documents/publications/factsheets/offre-terminals-unattended-en.pdf"/>
+                            <multisectoritem_copy_271816642
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:07:19.702+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(April 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-factsheets.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Payment Terminals - YOXIMO"
+                                url="/content/dam/worldline/documents/publications/factsheets/yoximo-en.pdf"/>
+                            <multisectoritem_copy_1970157128
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:07:41.174+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(May 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-factsheets.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Payment Terminals - XENTEO"
+                                url="/content/dam/worldline/documents/publications/factsheets/xenteo-en.pdf"/>
+                            <multisectoritem_copy_1845084339
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:08:08.745+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(December 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-factsheets.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Payment Terminals - XENTURION"
+                                url="/content/dam/worldline/documents/publications/factsheets/offre-xenturion-en.pdf"/>
+                        </column1>
+                        <column2 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy_122774541
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:07:04.387+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(April 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-factsheets.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Payment Terminals - YOMANI"
+                                url="/content/dam/worldline/documents/publications/factsheets/yomani-en.pdf"/>
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:07:26.298+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(October 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-factsheets.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Payment Terminals - VALINA"
+                                url="/content/dam/worldline/documents/publications/factsheets/valina-en.pdf"/>
+                            <multisectoritem_copy_1028085105
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:07:48.573+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(May 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-factsheets.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Payment Terminals - XENOA"
+                                url="/content/dam/worldline/documents/publications/factsheets/xenoa-en.pdf"/>
+                            <multisectoritem_copy_112245953
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:08:17.516+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(October 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-factsheets.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Software development Generic Framework "
+                                url="/content/dam/worldline/documents/publications/factsheets/sdf-en.pdf"/>
+                        </column2>
+                        <column3 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:07:11.966+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(April 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-factsheets.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Payment Terminals - YOMOVA"
+                                url="/content/dam/worldline/documents/publications/factsheets/yomova-en.pdf"/>
+                            <multisectoritem_copy_1515755215
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:07:33.606+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(October 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-factsheets.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Payment Terminals - YONEO"
+                                url="/content/dam/worldline/documents/publications/factsheets/yoneo-en.pdf"/>
+                            <multisectoritem_copy_831376787
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:07:58.769+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(November 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-factsheets.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="WL Payment Terminals - ADYTON"
+                                url="/content/dam/worldline/documents/publications/factsheets/offre-adyton-en.pdf"/>
+                        </column3>
+                    </grid>
+                </items>
+            </sectionoffwhite_2067530932>
+            <section
+                jcr:created="{Date}2017-09-11T17:49:21.687+02:00"
+                jcr:createdBy="fr20437"
+                jcr:lastModified="{Date}2017-09-11T17:49:21.687+02:00"
+                jcr:lastModifiedBy="fr20437"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/section">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <sectionoffwhite jcr:primaryType="nt:unstructured">
+                        <items jcr:primaryType="nt:unstructured">
+                            <grid jcr:primaryType="nt:unstructured">
+                                <column1 jcr:primaryType="nt:unstructured">
+                                    <richtext
+                                        jcr:lastModified="{Date}2017-11-22T12:07:25.301+01:00"
+                                        jcr:lastModifiedBy="fr20437"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="gotomarket/components/content/richtext"/>
+                                </column1>
+                            </grid>
+                        </items>
+                    </sectionoffwhite>
+                    <grid
+                        jcr:created="{Date}2017-11-22T16:16:16.262+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T16:16:16.262+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <titleh2
+                                jcr:created="{Date}2017-11-22T16:17:05.384+01:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-22T16:17:27.735+01:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/titleH2"
+                                showDots="false"
+                                title="Case studies"
+                                titleAlignment="left"/>
+                        </column1>
+                    </grid>
+                    <grid_1666482817
+                        jcr:created="{Date}2017-11-22T16:16:43.830+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T16:16:43.830+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                        <column1 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:09:55.889+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(July, 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-casestudy.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Customer Case - McDonald’s France"
+                                url="/content/dam/worldline/documents/publications/casestudy/customer-case-mcdo-en.pdf"/>
+                            <multisectoritem_copy_175353803
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:10:37.355+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(October 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-casestudy.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="ID Center - Styrian Regional"
+                                url="/content/dam/worldline/documents/publications/casestudy/case_study_styrianregional_en.pdf"/>
+                        </column1>
+                        <column2 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:10:05.532+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-casestudy.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="m-Parking"
+                                url="/content/dam/worldline/documents/publications/casestudy/brochure_m_parking_en.pdf"/>
+                            <multisectoritem_copy_108520334
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:10:29.788+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(July, 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-casestudy.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="ID Center Biometric Ticket Validation"
+                                url="/content/dam/worldline/documents/publications/casestudy/brochure_id_center_biometric_ticket_validation_en.pdf"/>
+                        </column2>
+                        <column3 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:10:14.258+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(October 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-casestudy.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="ID Center - Barmherzige Brüder"
+                                url="/content/dam/worldline/documents/publications/casestudy/case_study_barmherzbrueder_en.pdf"/>
+                            <multisectoritem_copy_652732266
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:10:21.390+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-casestudy.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="ID Center - Centre Hospitalier du Nord"
+                                url="/content/dam/worldline/documents/publications/casestudy/case_study_centrehospitaldunord_en.pdf"/>
+                        </column3>
+                    </grid_1666482817>
+                </items>
+            </section>
+            <sectionoffwhite_1055362493
+                jcr:created="{Date}2017-11-22T16:31:29.732+01:00"
+                jcr:createdBy="fr20437"
+                jcr:lastModified="{Date}2017-11-22T16:31:29.732+01:00"
+                jcr:lastModifiedBy="fr20437"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/sectionoffwhite">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-11-22T16:33:10.819+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T16:33:10.819+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <titleh2
+                                jcr:created="{Date}2017-11-22T16:34:08.843+01:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-22T16:35:01.401+01:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/titleH2"
+                                showDots="false"
+                                title="Expertise"
+                                titleAlignment="left"/>
+                        </column1>
+                    </grid>
+                    <grid_173715161
+                        jcr:created="{Date}2017-11-22T16:33:55.681+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T16:33:55.681+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:10:47.962+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(May 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-expertise.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Banks’ key topics"
+                                url="/content/dam/worldline/documents/publications/expertise/banks-leaflet-en.pdf"/>
+                            <multisectoritem_copy_351676459
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:10:56.814+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-expertise.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Digital Banking"
+                                url="/content/dam/worldline/documents/publications/expertise/offre-digitalbanking-en.pdf"/>
+                            <multisectoritem_copy_1149018916
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:11:04.323+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(June 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-expertise.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="PSD2, the driver of your business opportunities"
+                                url="/content/dam/worldline/documents/publications/expertise/psd2-en.pdf"/>
+                        </column1>
+                        <column2 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:11:27.004+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(April 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-expertise.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Connected Services Expertise"
+                                url="/content/dam/worldline/documents/publications/expertise/expertise-connected-services-en.pdf"/>
+                            <multisectoritem_copy_61692651
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:11:18.587+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(June 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-expertise.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Making Instant Payments a reality"
+                                url="/content/dam/worldline/documents/publications/expertise/instantpayments_brochure-en.pdf"/>
+                            <multisectoritem_copy_208411593
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:11:11.448+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(March 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-expertise.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Sport Expertise"
+                                url="/content/dam/worldline/documents/publications/expertise/banks-leaflet-en.pdf"/>
+                        </column2>
+                        <column3 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:11:35.322+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-expertise.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Connected Store"
+                                url="/content/dam/worldline/documents/publications/expertise/connected-store-en.pdf"/>
+                            <multisectoritem_copy_514431480
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:11:42.907+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(June 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-expertise.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="NFC Transport"
+                                url="/content/dam/worldline/documents/publications/expertise/expertise-nfc-transport-en.pdf"/>
+                        </column3>
+                    </grid_173715161>
+                </items>
+            </sectionoffwhite_1055362493>
+            <section_909271233
+                jcr:created="{Date}2017-09-11T17:55:52.430+02:00"
+                jcr:createdBy="fr20437"
+                jcr:lastModified="{Date}2017-09-11T17:55:52.430+02:00"
+                jcr:lastModifiedBy="fr20437"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/section">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-11-22T16:37:08.683+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T16:37:08.683+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <titleh2
+                                jcr:created="{Date}2017-11-22T16:40:53.461+01:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-22T17:42:47.853+01:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/titleH2"
+                                showDots="false"
+                                title="Position papers"
+                                titleAlignment="left"/>
+                        </column1>
+                    </grid>
+                    <grid_84414540
+                        jcr:created="{Date}2017-11-22T16:40:40.493+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T16:40:40.493+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                        <column1 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:12:33.444+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(June 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-positionpaper.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Acquirers leverage new EU MIF regulations"
+                                url="/content/dam/worldline/documents/publications/positionpapers/positionpaper-acquiring-en.pdf"/>
+                            <multisectoritem_copy_61453571
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:12:39.494+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(April 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-positionpaper.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Fraud risk management for issuers and acquirers"
+                                url="/content/dam/worldline/documents/publications/positionpapers/positionpaper-fraud-en.pdf"/>
+                            <multisectoritem_copy_1370220124
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:12:46.687+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(December 2013)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-positionpaper.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="SEPA"
+                                url="/content/dam/worldline/documents/publications/positionpapers/positionpaper-sepa-en.pdf"/>
+                        </column1>
+                        <column2 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:12:54.417+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(December 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-positionpaper.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Authentication"
+                                url="/content/dam/worldline/documents/publications/positionpapers/position-paper-authentication-en.pdf"/>
+                            <multisectoritem_copy_1261650751
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:13:04.281+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(December 2013)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-positionpaper.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Issuers leverage EC's regulation"
+                                url="/content/dam/worldline/documents/publications/positionpapers/positionpaper-issuing-en.pdf"/>
+                            <multisectoritem_copy_1738814991
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:13:11.582+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(April 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-positionpaper.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Top ten success factors for implementing  a Wallet solution"
+                                url="/content/dam/worldline/documents/publications/positionpapers/position-paper-wallet-en.pdf"/>
+                        </column2>
+                        <column3 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:13:22.666+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(April 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-positionpaper.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Digitization"
+                                url="/content/dam/worldline/documents/publications/positionpapers/positionpaper-digitization-en.pdf"/>
+                            <multisectoritem_copy_581535083
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:13:30.059+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(April 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-positionpaper.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Protection of privacy in card-linked offers"
+                                url="/content/dam/worldline/documents/publications/positionpapers/position-paper-data-en.pdf"/>
+                            <multisectoritem_copy_1917990243
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:13:39.027+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(March 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-positionpaper.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Track and Trace system"
+                                url="/content/dam/worldline/documents/publications/positionpapers/position-paper-track-n-trace-en.pdf"/>
+                        </column3>
+                    </grid_84414540>
+                </items>
+            </section_909271233>
+            <sectionoffwhite_269806676
+                jcr:created="{Date}2017-11-22T16:41:11.545+01:00"
+                jcr:createdBy="fr20437"
+                jcr:lastModified="{Date}2017-11-22T16:41:11.545+01:00"
+                jcr:lastModifiedBy="fr20437"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/sectionoffwhite">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-11-22T16:41:20.389+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T16:41:20.389+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <titleh2
+                                jcr:created="{Date}2017-11-22T17:44:59.057+01:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-22T17:45:45.885+01:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/titleH2"
+                                showDots="false"
+                                title="White papers"
+                                titleAlignment="left"/>
+                        </column1>
+                    </grid>
+                    <grid_876834606
+                        jcr:created="{Date}2017-11-22T17:44:43.206+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T17:44:43.206+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:14:14.588+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(November 2015)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-whitepaper.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Acquirers secure your business against merchant fraud"
+                                url="/content/dam/worldline/documents/publications/whitepapers/white-paper-acquiring-en.pdf"/>
+                        </column1>
+                    </grid_876834606>
+                </items>
+            </sectionoffwhite_269806676>
+            <section_1917971893
+                jcr:created="{Date}2017-11-22T17:46:53.715+01:00"
+                jcr:createdBy="fr20437"
+                jcr:lastModified="{Date}2017-11-22T17:46:53.715+01:00"
+                jcr:lastModifiedBy="fr20437"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/section">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-11-22T17:47:03.784+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T17:47:03.784+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <titleh2
+                                jcr:created="{Date}2017-11-22T17:48:39.455+01:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-22T18:10:27.669+01:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/titleH2"
+                                showDots="false"
+                                title="Briefing"
+                                titleAlignment="left"/>
+                        </column1>
+                    </grid>
+                    <grid_336665443
+                        jcr:created="{Date}2017-11-22T17:48:25.276+01:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-22T17:48:25.276+01:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                        <column1 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:14:48.520+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(April 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-briefing.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="EMV 3-D Secure 2.0"
+                                url="/content/dam/worldline/documents/publications/briefing/briefing-3dsecure-en.pdf"/>
+                            <multisectoritem_copy_1749012655
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:14:58.968+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(November 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-briefing.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Payment Services Directive 2 - impacts on merchants"
+                                url="/content/dam/worldline/documents/publications/briefing/expert-itw-briefing-psd2-en.pdf"/>
+                            <multisectoritem_copy_964579725
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:15:08.250+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(July 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-briefing.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Blockchain - POS Terminal Hotlists"
+                                url="/content/dam/worldline/documents/publications/briefing/expert-view-poc-blockchain-en.pdf"/>
+                        </column1>
+                        <column2 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:15:18.526+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(January 2017)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-briefing.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Expert view Security for your mobile apps"
+                                url="/content/dam/worldline/documents/publications/briefing/expert-view-mobile-intrusion-en.pdf"/>
+                            <multisectoritem_copy_1571075768
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:16:01.165+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(November 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-briefing.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Blockchain - Smart Corporate Bonds"
+                                url="/content/dam/worldline/documents/publications/briefing/expert-itw-blockchain-corp-bonds-en.pdf"/>
+                            <multisectoritem_copy_390554243
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:16:57.360+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(May 2014)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-briefing.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="e-SEPA"
+                                url="/content/dam/worldline/documents/publications/briefing/publi-esepa-2p-en.pdf"/>
+                        </column2>
+                        <column3 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:19:22.306+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(January 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-briefing.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="EBA Guidelines"
+                                url="/content/dam/worldline/documents/publications/briefing/publi-eba-en.pdf"/>
+                            <multisectoritem_copy_945557242
+                                jcr:created="{Date}2017-09-15T11:12:10.160+02:00"
+                                jcr:createdBy="a646217"
+                                jcr:lastModified="{Date}2017-11-21T11:23:19.822+01:00"
+                                jcr:lastModifiedBy="a101309"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="(September 2016)"
+                                imagePath="/content/dam/worldline/images/brochures/picto-briefing.png"
+                                isExternalURL="true"
+                                noExtention="true"
+                                title="Blockchain - Car Maintenance Book"
+                                url="/content/dam/worldline/documents/publications/briefing/expert-itw-car-maintenance-en.pdf"/>
+                        </column3>
+                    </grid_336665443>
+                </items>
+            </section_1917971893>
+        </content>
+    </jcr:content>
+</jcr:root>

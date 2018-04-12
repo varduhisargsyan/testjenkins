@@ -1,0 +1,7 @@
+<sly>
+    <sly data-sly-use.content="${'com.worldline.core.models.PlaceholderModel' @ text = properties.text}"></sly>
+    <div data-sly-test="${content.toString == text}">${content @ context='text'}</div>
+</sly>
+
+
+

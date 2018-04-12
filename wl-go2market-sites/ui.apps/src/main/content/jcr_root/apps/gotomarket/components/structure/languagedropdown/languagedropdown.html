@@ -1,0 +1,8 @@
+<sly data-sly-use.model="com.worldline.core.models.LanguageDDModel" >
+    <li data-sly-test="${model.langList && model.langList.size > 1}" class="lang-selector parentmenu">
+        <a  href="#">EN </a>
+        <ul class="submenu lang-selector--list" data-sly-list="${model.langList}">
+            <li><a href="${item.path}.html">${item.name}</a></li>
+        </ul>
+    </li>
+</sly>

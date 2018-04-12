@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:language="sk"
+          jcr:mixinTypes="[mix:language]"
+          jcr:primaryType="nt:folder">
+    <!-- Slovakia -->
+    <cldd_global
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="cldd_global"
+            sling:message="GLOBAL"/>
+    <ar
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="ar"
+            sling:message="ARGENTÍNA"/>
+    <ap
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="ap"
+            sling:message="ÁZIA A TICHOMORIE"/>
+    <at
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="at"
+            sling:message="RAKÚSKO"/>
+    <cl
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="cl"
+            sling:message="ČILE"/>
+    <be
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="be"
+            sling:message="BELGICKO"/>
+    <cn
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="cn"
+            sling:message="ČÍNA"/>
+    <fr
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="fr"
+            sling:message="FRANCÚZSKO"/>
+    <de
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="de"
+            sling:message="NEMECKO"/>
+    <hk
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="hk"
+            sling:message="HONG KONG"/>
+    <in
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="in"
+            sling:message="INDIA"/>
+    <id
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="id"
+            sling:message="INDONÉZIA"/>
+    <lu
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="lu"
+            sling:message="LUXEMBURSKO"/>
+    <my
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="my"
+            sling:message="MALAJZIA"/>
+    <nl
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="nl"
+            sling:message="HOLANDSKO"/>
+    <sg
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="sg"
+            sling:message="SINGAPUR"/>
+    <sk
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="sk"
+            sling:message="SLOVENSKO"/>
+    <es
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="es"
+            sling:message="ŠPANIELSKO"/>
+    <tw
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="tw"
+            sling:message="TAIWAN"/>
+    <uk
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="uk"
+            sling:message="UK"/>
+    <copyright
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="copyright"
+            sling:message="2017 všetky práva vyhradené"/>
+    <privacy
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="privacy"
+            sling:message="Súkromie"/>
+    <terms
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="terms"
+            sling:message="Podmienky používania"/>
+    <rss
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="rss"
+            sling:message="RSS"/>
+    <accessibility
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="accessibility"
+            sling:message="Prístupnosť"/>
+    <nl_country_select
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="nl_country_select"
+            sling:message="Zvoľte krajinu"/>
+    <sitemap
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="sitemap"
+            sling:message="Mapa stránok"/>
+    <readmore
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="readmore"
+            sling:message="Čítaj viac"/>
+</jcr:root>

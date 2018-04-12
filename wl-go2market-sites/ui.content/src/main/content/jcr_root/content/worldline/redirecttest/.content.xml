@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-10-20T12:25:42.759+02:00"
+        cq:lastModifiedBy="a631192"
+        cq:lastReplicated="{Date}2017-10-30T17:58:26.216+01:00"
+        cq:lastReplicatedBy="a631192"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/redirect"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-10-20T12:25:42.756+02:00"
+        jcr:lastModifiedBy="a631192"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="redirectTest"
+        jcr:uuid="85f7838d-3176-49ac-9e2f-7b6917e60e4b"
+        sling:resourceType="gotomarket/components/structure/pages/redirect"
+        creationDate="{Date}2017-10-06T14:18:00.000+03:00"
+        hideInNav="false"
+        isExternalAccessUrl="false"
+        isExternalMoreInformationUrl="false"
+        isExternalPrivacyUrl="false"
+        isExternalRssUrl="false"
+        isExternalStatement1stUrl="false"
+        isExternalStatement2ndUrl="false"
+        isExternalTermsUrl="false"
+        isLang="false"
+        noExtentionMoreInformation="false"
+        redirectTarget="http://prod.worldline.com/content/worldline/en/home/solutions"
+        showbrand="false">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+    </jcr:content>
+</jcr:root>

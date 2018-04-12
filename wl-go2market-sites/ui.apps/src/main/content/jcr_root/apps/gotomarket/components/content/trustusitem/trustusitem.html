@@ -1,0 +1,18 @@
+<sly>
+    <div class="block--2cols-thumb">
+        <img src="${properties.imagePath ? properties.imagePath : '/content/dam/gotomarket/uploads/img-sample-2blocks.png'}"
+             alt="">
+    </div>
+    <div class="block--2cols-content">
+        <h3 class="block--2cols-title">
+            <a data-sly-test="${properties.url && properties.noExtention}" href="${properties.url}"
+               target="${properties.isExternalURL ? '_blank' : ''}"> ${properties.title ? properties.title : 'Title'}
+            </a>
+            <a data-sly-test="${properties.url && !properties.noExtention}" href="${properties.url}.html"
+               target="${properties.isExternalURL ? '_blank' : ''}"> ${properties.title ? properties.title : 'Title'}
+            </a>
+            <h3 data-sly-test="${!properties.url && properties.title}">${properties.title}</h3>
+        </h3>
+        <pre>${properties.description ? properties.description : 'Description Lorem ipsum dolor sit amet' @ context='html'}</pre>
+    </div>
+</sly>

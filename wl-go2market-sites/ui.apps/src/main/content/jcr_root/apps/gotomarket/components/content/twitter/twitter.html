@@ -1,0 +1,8 @@
+<sly>
+    <div class="block--quote-content" style="height: 340px;"
+         data-sly-use.model="com.worldline.core.models.TwitterModel">
+        <span class="block--quote-source twitter">Twitter</span>
+        <span class="block--quote-date">${model.lastTwitt.date}</span>
+        <p class="block--quote-text">${model.lastTwitt.text @ context='html'}</p>
+    </div>
+</sly>

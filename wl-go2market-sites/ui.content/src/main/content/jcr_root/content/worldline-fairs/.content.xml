@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-28T15:56:00.672+01:00"
+        cq:lastModifiedBy="a631192"
+        cq:lastReplicated="{Date}2017-11-29T08:36:37.159+01:00"
+        cq:lastReplicatedBy="fr20437"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/redirect"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="fairs.worldline.com"
+        jcr:uuid="808ef348-9a41-4299-85cd-3714f0b80a4c"
+        sling:resourceType="gotomarket/components/structure/pages/redirect"
+        countryList="true"
+        errorPages="/content/worldline-fairs/en/errorpages"
+        hideInNav="false"
+        isExternalAccessUrl="false"
+        isExternalMoreInformationUrl="false"
+        isExternalPrivacyUrl="false"
+        isExternalRssUrl="false"
+        isExternalStatement1stUrl="false"
+        isExternalStatement2ndUrl="false"
+        isExternalTermsUrl="false"
+        isLang="false"
+        noExtentionMoreInformation="false"
+        redirectTarget="/content/worldline-fairs/en"
+        showbrand="false">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+    </jcr:content>
+    <en/>
+    <psd2-advisor/>
+    <sibos-2017/>
+    <evex-2017/>
+</jcr:root>

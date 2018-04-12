@@ -1,0 +1,11 @@
+<sly>
+    <h3 class="block--featured--title">${properties.title ? properties.title : 'Faster payement for retail banks'}</h3>
+    <p>${properties.text ? properties.text : 'Lorem ipsum dolor sit amet, consectetur adipi ing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo'}
+        consequat. Duis aute irure dolor in reprehenderit in voluptate vel esse.</p>
+    <a class="block--article-link" data-sly-test="${properties.noExtention}" href="${properties.url}"
+       target="${properties.isExternalUrl ? '_blank' : ''}">
+        ${properties.linktext ? properties.linktext : 'Read more'}</a>
+    <a class="block--article-link" data-sly-test="${!properties.noExtention}" href="${properties.url}.html"
+       target="${properties.isExternalUrl ? '_blank' : ''}">
+        ${properties.linktext ? properties.linktext : 'Read more'}</a>
+</sly>

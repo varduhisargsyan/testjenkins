@@ -1,0 +1,20 @@
+<sly>
+    <div class="grid-row">
+        <div class="grid-col-12 grid-offset-0">
+            <div class="single--author-meta">
+                <div class="single--author cf">
+                    <div class="single--author-thumb">
+                        <img src="${pageProperties.authorImage ? pageProperties.authorImage : '/content/dam/gotomarket/uploads/avatar-global-director.jpg'}" alt="">
+                    </div>
+                    <p class="single--author-name">${pageProperties.authorName ? pageProperties.authorName : 'Peter Goettler'}</p>
+                    <p class="single--author-function">${pageProperties.authorText ? pageProperties.authorText : 'Global Director'}</p>
+
+                    <sly data-sly-test="${pageProperties.publicationDate}">
+                        <sly data-sly-use.date="${'com.worldline.core.models.util.DateFormatter' @ date = pageProperties.publicationDate, format='dd MMM. yyyy'}"></sly>
+                        <span class="single--post-date">${date.value}</span>
+                    </sly>
+                </div>
+            </div>
+        </div>
+    </div>
+</sly>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-29T16:14:53.962+01:00"
+        cq:lastModifiedBy="a598986"
+        cq:lastReplicated="{Date}2017-11-29T16:16:44.704+01:00"
+        cq:lastReplicatedBy="a598986"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[blog:digital-transformation,blog:iot,blog:innovation]"
+        cq:template="/apps/gotomarket/templates/blogarticle"
+        jcr:description="The Internet of Things (IoT) is ever present in our daily lives and its reach does not stop there. Indeed, IoT will probably play a key role in the industrial sector. We sat down with Robin Just, the Deputy Director of our Global Business Division Connected Living &amp; Mobility, to discuss the role of IoT in industrial remote maintenance and our solution, WL Industrial IoT."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-11-29T16:14:53.952+01:00"
+        jcr:lastModifiedBy="a598986"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Cost savings and efficiency for remote maintenance with Industrial IoT"
+        jcr:uuid="2feda370-cb2c-4374-95e8-925ef6732f44"
+        sling:resourceType="gotomarket/components/structure/pages/blogarticle"
+        authorImage="/content/dam/worldline/images/blog/author/Robin Just-80.png"
+        authorName="Robin Just"
+        authorText="Deputy Director of Global Business Division Connected Living &amp; Mobility"
+        categories="[category:business-insights]"
+        categories_x0040_TypeHint="String[]"
+        color="#ffffff"
+        creationDate="{Date}2016-12-13T12:39:00.000+01:00"
+        hideInNav="false"
+        imagePath="/content/dam/worldline/images/header/utilities-sector.jpg"
+        isExternalContactUsUrl="false"
+        isExternalJoinUsUrl="false"
+        isStickyContactHidden="false"
+        noExtentionContactUs="false"
+        noExtentionJoinUs="false"
+        showbrand="false"
+        showinfostrip="false"
+        title="Cost savings and efficiency for remote maintenance with Industrial IoT ">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+        <headlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headlibs"/>
+        <header
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/header">
+            <leftnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/leftnavigation"
+                iconClass="iconClass2"/>
+            <rightnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/rightnavigation"
+                iconClass="iconClass2">
+                <countrylistdropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/countrylistdropdown"/>
+                <languagedropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/languagedropdown"/>
+            </rightnavigation>
+            <mainnav
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/mainnav"/>
+            <infostrip
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/infostrip"/>
+            <breadcrumbblog
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/breadcrumbblog"/>
+        </header>
+        <headerblog
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headerblog"/>
+        <singleauthor
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/singleauthor"/>
+        <prshare
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/prshare"/>
+        <stayintouch
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/stayintouch"/>
+        <footer
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footer">
+            <sitemap
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/sitemap"/>
+            <followus
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/followus"/>
+            <newsletterform
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/newsletterform"/>
+        </footer>
+        <footlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footlibs"/>
+        <copyright
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/copyright"/>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/parsys">
+            <richtext_2024746447
+                jcr:created="{Date}2017-09-06T17:03:51.990+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-06T17:33:35.879+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;h2>In the near future, IoT will probably play a key role in the industrial sector. Can you explain what Industrial IoT is and how it differs from consumer-facing IoT?&lt;/h2>&#xa;&lt;p>The difference between Industrial IoT and consumer-facing IoT can be illustrated by looking at the following key facts:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>&lt;span class=&quot;styled&quot;>Technological lifecycle: For example, consumers change smartphones every three years on average. With each change, new embedded technologies become available. After three or four generations, compatibility issues may arise making some applications obsolete. When it comes to Industrial IoT, machines tend to operate for decades and they must be supported during their lifecycle. Furthermore, consumers are used to getting weekly updates on their devices and that is not feasible with industrial devices due to the fact that solutions’ updates often have to go through an approval process to be released.&lt;/span>&lt;/li>&#xa;&lt;li>&lt;span class=&quot;styled&quot;>Different security requirements: In consumer-facing IoT, insuring privacy of personal data is the main topic. In Industrial IoT, security is even more important. Industrial IoT solutions connect to production sites, power plants, operating rooms in hospitals, trains, to name a few. Because of these sensitive connections, there are numerous national and international statutory regulation demands that have to be fulfilled. Some of them have specifically been created to cope with remote service and Industrial IoT.&lt;/span>&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true"/>
+            <richtext_1338320075
+                jcr:created="{Date}2017-09-06T17:33:48.593+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-06T17:34:43.802+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;h2>Can you explain the role of IoT in industrial remote maintenance?&lt;/h2>&#xa;&lt;p>Competition in the manufacturing industry is getting harder, especially with competitors from South East Asia. Quality is similar; the main difference lies in pricing, with machines from South East Asian manufacturers running much cheaper. In order to compete and to differentiate themselves, European manufacturers are looking to improve their after-sales services and to develop additional services that they can offer to their customers. Remote maintenance, also known as remote service, is one of the solutions offered in the scope of Industrial IoT. This type of solution collects data from the machines and uploads it to backend systems such as ERP, CRM or data analytics, which can, in return, send new instructions to these machines. Additionally, service technicians can connect to machines from anywhere in the world.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_1579074511
+                jcr:created="{Date}2017-09-06T17:34:53.583+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-06T17:37:35.590+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;h2>Worldline developed a solution called WL Industrial IoT, can you tell us more about this solution?&lt;/h2>&#xa;&lt;p>Our Industrial IoT solution is based on the joint CCP (Core Communication Platform) innovation project undertaken with our strategic partner Siemens. This is, in my opinion, an absolutely unique project. Joe Kaeser, Siemens’ CEO, said “this partnership forms one of the largest strategic relationships ever between a global engineering company and a global IT provider”. This partnership ensures that our solutions fulfill the needs of the industry. Furthermore, we cover not only the needs of the industry but also those of the mobility, energy and healthcare sectors, thanks to the wide spectrum of Siemens’ activities. It is important to note that this is not our first foray in this type of solution as we had previously developed, maintained and still operates a solution called cRSP (common Remote Service Platform) for Siemens who has been providing remote services globally since the beginning of this millennium.&lt;/p>&#xa;&lt;p>The WL Industrial IoT solution is of course available to all manufacturers wanting to connect their machines throughout the world.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_682973283
+                jcr:created="{Date}2017-09-06T17:47:05.518+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-06T17:50:52.016+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;h2>What are the advantages of this solution?&lt;/h2>&#xa;&lt;p>The main advantage of our solution lies in the architecture that we have chosen. It makes it possible to connect to a wide range of different devices and is highly scalable.&lt;/p>&#xa;&lt;p>This architecture answers market requirements with a clear functional modular approach based on a single connectivity layer. Additionally, this solution uses two dedicated channels, one for connections and the other for messages. Both channels use the same connectivity layer enabling devices using these two different channels to easily communicate with each other.&lt;/p>&#xa;&lt;p>Another major advantage comes from the fact that our solution is available on the Cloud, whether it is through the Atos Group's worldwide Data Hosting Centers or public Cloud infrastructures. We offer a progressive business model based on the number of connected machines, similar to the Pay-As-You-Go model, enabling us to better adapt to our clients' own business model.&lt;/p>&#xa;&lt;p>An additional advantage comes from the fact that we did not build this solution using a proprietary protocol and that we support numerous existing protocols. This way our customers do not have to fear a lock-in. Furthermore we provide transparent proxy applications which enable our customers to use specific applications and protocols that they already have.&lt;/p>&#xa;&lt;p>&lt;span class=&quot;styled&quot;>Other advantages of deploying our solution are:&lt;/span>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>&lt;span class=&quot;styled&quot;>A higher availability of assets and devices thanks to shorter repair times;&lt;/span>&lt;/li>&#xa;&lt;li>&lt;span class=&quot;styled&quot;>Optimized error pre-qualifications which allow for higher first-visit fix rates;&lt;/span>&lt;/li>&#xa;&lt;li>&lt;span class=&quot;styled&quot;>New services based on condition and usage data from customers’ assets;&lt;/span>&lt;/li>&#xa;&lt;li>&lt;span class=&quot;styled&quot;>A reduction of field service costs due to fewer on-site visits;&lt;/span>&lt;/li>&#xa;&lt;li>&lt;span class=&quot;styled&quot;>An efficient resources and spare parts planning with up-to-date condition data from customers’ assets.&lt;br>&#xa; &lt;/span>&lt;br>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true"/>
+            <richtext_283226791
+                jcr:created="{Date}2017-09-06T17:51:06.705+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-06T17:51:41.123+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;h2>In your opinion, how could this kind of solution evolve in the coming years?&lt;/h2>&#xa;&lt;p>This type of solution has a lot of potential. Today, a large number of machines within a company are exchanging data and controlling each other. But there is an increasing need for machines, belonging to different companies and that are connected to different networks with specific security policies, to exchange data. In an increasingly diverse and interconnected world, this will become a necessity. Additionally, security requirements and regulations become progressively more and more important while simultaneously becoming more complex. With our solution, our customers are well prepared for this challenge since they benefit from our security and data privacy expertise coming from our payments activities, an expertise that we carry over to all the domains we work in.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_363563515
+                jcr:created="{Date}2017-09-06T17:51:55.978+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-06T17:52:36.923+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;h2>Thank you for your time today, Robin. I will leave you with one final question: in your opinion, what will be the invention/innovation that will change our world in a century?&lt;/h2>&#xa;&lt;p>I find that battery technology has, by far, not evolved like other technologies and I am convinced that there still is a huge potential. For this reason, I believe that, within a century, new energy storing technologies will be invented that will change our world tremendously.&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </content>
+    </jcr:content>
+</jcr:root>

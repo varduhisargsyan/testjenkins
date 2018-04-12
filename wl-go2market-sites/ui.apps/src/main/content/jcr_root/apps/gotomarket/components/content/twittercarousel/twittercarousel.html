@@ -1,0 +1,29 @@
+<sly data-sly-use.model="com.worldline.core.models.TwitterModel">
+    <sly data-sly-resource="${ 'title' @ resourceType='gotomarket/components/parsys'}"/>
+    <div class="grid-row row-equalizer">
+        <div class="articles-row--slider-container">
+            <div class="articles-row--slider-wrapper">
+                <sly data-sly-list.twitts="${model.lastTwitts}">
+                    <div class="articles-row--slider-slide">
+                        <sly data-sly-list="${twitts}">
+                            <div class="grid-col-4">
+                                <div class="block--quote">
+                                    <div class="block--quote-content">
+                                        <span class="block--quote-source twitter">Twitter</span>
+                                        <span class="block--quote-date">${item.date}</span>
+                                        <p class="block--quote-text">${item.text @ context='html'}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </sly>
+                    </div>
+                </sly>
+            </div>
+        </div>
+        <div class="articles-row--slider-nav">
+            <button class="slider-nav previous">Previous</button>
+            <button class="slider-nav next">Next</button>
+        </div>
+
+    </div>
+</sly>

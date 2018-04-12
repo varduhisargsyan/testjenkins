@@ -1,0 +1,47 @@
+<ul class="header--main-menu" data-sly-use.mainnav="com.worldline.core.models.MainNavigationModel">
+    <sly data-sly-list.homeChildren="${mainnav.levelThree}">
+        <li class="megamenu alt">
+            <a href="${homeChildren.path}.html">${homeChildren.title}</a>
+            <span class="submenu">
+                    <div class="grid-row">
+                        <sly data-sly-list.child="${homeChildren.children}">
+                            <ul class="${child.children.size > mainnav.subNavigationItemsSize ? 'grid-col-6' : 'grid-col-3'}">
+                                <li>
+                                    <a href="${child.path}.html">
+                                        <span class="submenu--title merchant-services">
+                                            <span class="submenu--title-icon">
+                                                <img src="/content/dam/gotomarket/mainnavigation/${child.name}.svg"
+                                                     alt="">
+                                            </span>
+                                            <span class="submenu--title-label">${child.title}</span>
+                                        </span>
+                                    </a>
+                                    <div class="submenu--block">
+                                        <ul class="submenu--block-col"
+                                            data-sly-test="${child.children.size <= mainnav.subNavigationItemsSize}"
+                                            data-sly-list.sub="${child.children}">
+                                            <li><a href="${sub.path}.html">${sub.title}</a></li>
+                                        </ul>
+                                        <sly data-sly-test="${child.children.size > mainnav.subNavigationItemsSize}">
+                                            <ul class="submenu--block-col" data-sly-list.sub="${child.children}">
+                                                <sly data-sly-test="${subList.index < mainnav.subNavigationItemsSize}">
+                                                    <li><a href="${sub.path}.html">${sub.title}</a></li>
+                                                </sly>
+                                            </ul>
+                                            <sly data-sly-test="${child.children.size >= mainnav.subNavigationItemsSize}">
+                                                <ul class="submenu--block-col" data-sly-list.sub="${child.children}">
+                                                    <sly data-sly-test="${subList.index >= mainnav.subNavigationItemsSize}">
+                                                        <li><a href="${sub.path}.html">${sub.title}</a></li>
+                                                    </sly>
+                                                </ul>
+                                            </sly>
+                                        </sly>
+                                    </div>
+                                </li>
+                             </ul>
+                        </sly>
+                    </div>
+                </span>
+        </li>
+    </sly>
+</ul>

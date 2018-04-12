@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-29T16:05:13.182+01:00"
+        cq:lastModifiedBy="a631192"
+        cq:lastReplicated="{Date}2017-11-29T16:07:04.126+01:00"
+        cq:lastReplicatedBy="a631192"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/redirect"
+        jcr:description="equensWorldline is the pan-European leader in payments and transactional services. Your trusted partner for seamless, secure and efficient payment solutions"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-11-29T09:25:45.121+01:00"
+        jcr:lastModifiedBy="fr20437"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        jcr:uuid="c69e6523-2d8a-4f79-a4a5-2a42344396ab"
+        sling:resourceType="gotomarket/components/structure/pages/redirect"
+        accessibility="Imprint"
+        accessibilityUrl="/content/equensworldline/en/home/imprint.html"
+        accessToken="179639843-5K0PzdRrmjKGCLauv05kiijUlaqKtuFPOPAmACve"
+        accessTokenSecret="EtFAWIB0ewkZeBcnRuTCZZOEMiazZEg866ekmSQhfdtQf"
+        brand="equensWorldline"
+        browserTabTitle="homepage | equensWorldline"
+        consumerKey="WDQAze9XAi4nbKyxhi7kaOzgo"
+        consumerSecret="akt4JLKqMUSZHCRvqtYJXPkrR6S55tDRI0JOvIKJrRl3aompSF"
+        countryList="false"
+        creationDate="{Date}2017-10-04T17:56:00.000+03:00"
+        errorPages="/content/equensworldline/en/errorpages"
+        hideInNav="false"
+        isExternalAccessUrl="false"
+        isExternalMoreInformationUrl="false"
+        isExternalPrivacyUrl="false"
+        isExternalRssUrl="false"
+        isExternalStatement1stUrl="false"
+        isExternalStatement2ndUrl="false"
+        isExternalTermsUrl="false"
+        isLang="false"
+        jumplinksTitle="Menu"
+        nlEmailInputPlaceholder="Fill in your mail address"
+        noExtentionMoreInformation="false"
+        privacy="Disclaimer"
+        privacyUrl="/content/equensworldline/en/home/disclaimer.html"
+        showbrand="false"
+        terms="Data Protection"
+        termsUrl="/content/equensworldline/en/home/data-protection.html"
+        tmBody="&lt;!-- Google Tag Manager -->&#xd;&#xa;&lt;script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':&#xd;&#xa;new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],&#xd;&#xa;j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=&#xd;&#xa;'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);&#xd;&#xa;})(window,document,'script','dataLayer','GTM-W45S3H5');&lt;/script>&#xd;&#xa;&lt;!-- End Google Tag Manager -->"
+        tmHead="&lt;!-- Google Tag Manager (noscript) -->&#xd;&#xa;&lt;noscript>&lt;iframe src=&quot;https://www.googletagmanager.com/ns.html?id=GTM-W45S3H5&quot;&#xd;&#xa;height=&quot;0&quot; width=&quot;0&quot; style=&quot;display:none;visibility:hidden&quot;>&lt;/iframe>&lt;/noscript>&#xd;&#xa;&lt;!-- End Google Tag Manager (noscript) -->">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+    </jcr:content>
+    <home/>
+    <search/>
+    <errorpages/>
+</jcr:root>

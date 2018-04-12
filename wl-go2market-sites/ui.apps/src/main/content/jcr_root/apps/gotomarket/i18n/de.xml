@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:language="de"
+          jcr:mixinTypes="[mix:language]"
+          jcr:primaryType="nt:folder">
+    <!-- Germany-->
+    <cldd_global
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="cldd_global"
+            sling:message="GLOBAL"/>
+    <ar
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="ar"
+            sling:message="ARGENTINIEN"/>
+    <ap
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="ap"
+            sling:message="ASIEN-PAZIFIK"/>
+    <at
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="at"
+            sling:message="ÖSTERREICH"/>
+    <be
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="be"
+            sling:message="BELGIEN"/>
+    <cl
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="cl"
+            sling:message="CHILE"/>
+    <cn
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="cn"
+            sling:message="CHINA"/>
+    <fr
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="fr"
+            sling:message="FRANKREICH"/>
+    <hk
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="hk"
+            sling:message="HONGKONG"/>
+    <de
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="de"
+            sling:message="DEUTSCHLAND"/>
+    <in
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="in"
+            sling:message="INDIEN"/>
+    <id
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="id"
+            sling:message="INDONESIEN"/>
+    <lu
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="lu"
+            sling:message="LUXEMBURG"/>
+    <my
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="my"
+            sling:message="MALAYSIA"/>
+    <nl
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="nl"
+            sling:message="NIEDERLANDE"/>
+    <sk
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="sk"
+            sling:message="SLOWAKEI"/>
+    <sg
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="sg"
+            sling:message="SINGAPUR"/>
+    <es
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="es"
+            sling:message="SPANIEN"/>
+    <tw
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="tw"
+            sling:message="Taiwan"/>
+    <uk
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="uk"
+            sling:message="GROßBRITANNIEN"/>
+    <copyright
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="copyright"
+            sling:message="2017 Alle Rechte vorbehalten"/>
+    <privacy
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="privacy"
+            sling:message="Datenschutz"/>
+    <terms
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="terms"
+            sling:message="Nutzungsbedingungen"/>
+    <rss
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="rss"
+            sling:message="RSS"/>
+    <accessibility
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="accessibility"
+            sling:message="Barrierefreiheit"/>
+    <nl_country_select
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="nl_country_select"
+            sling:message="Land auswählen"/>
+    <sitemap
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="sitemap"
+            sling:message="Sitemap"/>
+    <readmore
+            jcr:primaryType="nt:folder" jcr:mixinTypes="sling:Message"
+            sling:key="readmore"
+            sling:message="Weiterlesen"/>
+    </jcr:root>

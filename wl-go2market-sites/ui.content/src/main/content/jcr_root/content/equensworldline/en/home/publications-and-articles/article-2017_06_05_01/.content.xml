@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-28T11:57:26.141+01:00"
+        cq:lastModifiedBy="a480019"
+        cq:lastReplicated="{Date}2017-11-28T12:05:55.613+01:00"
+        cq:lastReplicatedBy="a480019"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/redirect"
+        jcr:description="Article PDF English | PCM | Interview Mark Munne"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-11-28T11:57:26.135+01:00"
+        jcr:lastModifiedBy="a480019"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Three advantages of instant payments for banks and why they should modernise as soon as possible"
+        jcr:uuid="8a7bea99-9c02-4c96-a7f2-be8fa376cc2a"
+        sling:resourceType="gotomarket/components/structure/pages/redirect"
+        countryList="true"
+        creationDate="{Date}2017-06-05T14:41:00.000+02:00"
+        hideInNav="false"
+        isExternalAccessUrl="false"
+        isExternalMoreInformationUrl="false"
+        isExternalPrivacyUrl="false"
+        isExternalRssUrl="false"
+        isExternalStatement1stUrl="false"
+        isExternalStatement2ndUrl="false"
+        isExternalTermsUrl="false"
+        isLang="false"
+        noExtentionMoreInformation="false"
+        redirectTarget="/content/dam/equensworldline/documents/publications/ew-pub-PCM-instant-payments-mark-munne-ENG-201706.pdf"
+        showbrand="false">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+    </jcr:content>
+</jcr:root>

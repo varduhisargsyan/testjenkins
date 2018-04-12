@@ -1,0 +1,19 @@
+<sly data-sly-use.model="com.worldline.core.models.TrustUsModel">
+    <div class="clients--slider-container">
+        <div class="clients--slider-wrapper">
+            <sly data-sly-list.trusts="${model.trust}">
+                <div class="clients--slider-slide" data-sly-test="${model.trustUsItems}">
+                    <sly data-sly-list="${trusts}">
+                        <div class="clients--logo">
+                            <a href="${item.url ? item.url : '#'}.html">
+                                <img src="${item.imagePath ? item.imagePath : '/content/dam/gotomarket/uploads/submenu-icon.png'}" alt="Trust us">
+                            </a>
+                        </div>
+                    </sly>
+                </div>
+            </sly>
+        </div>
+        <div class="clients--slider-pagination "></div>
+    </div>
+</sly>
+

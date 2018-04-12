@@ -1,0 +1,4 @@
+<label>${properties.text ? properties.text : 'dropdown label'}</label>
+<select data-sly-list="${properties.options  ? properties.options : 'items'}">
+    <option value="${item}">${item}</option>
+</select>

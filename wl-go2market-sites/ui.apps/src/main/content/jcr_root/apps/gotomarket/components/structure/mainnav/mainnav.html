@@ -1,0 +1,80 @@
+<a class="icon--menu" href="#"></a>
+<ul class="header--main-menu" data-sly-use.mainnav="com.worldline.core.models.MainNavigationModel">
+    <sly data-sly-test="${mainnav.getLangPagesThree}" data-sly-list.homeChildren="${mainnav.getLangPagesThree}">
+        <li data-sly-test="${homeChildren.children.size > 0}" class="megamenu alt">
+            <a href="${homeChildren.path}.html">${homeChildren.title}</a>
+            <span class="submenu">
+                    <div class="grid-row">
+                        <sly data-sly-list.child="${homeChildren.children}">
+                            <ul class="${child.children.size > mainnav.subNavigationItemsSize ? 'grid-col-6' : 'grid-col-3'}">
+                              <li data-sly-test="${child.children.size == 0}" class="simple">
+                                <a href="${child.path}.html">
+                                    <span class="submenu--title--simple merchant-services">
+                                            <span class="submenu--title-icon">
+                                                <img src="${child.pageIcon}" alt="">
+                                            </span>
+                                            <span class="submenu--title-label">${child.title}</span>
+                                        </span>
+                                    </a>
+                              </li>
+                                <li data-sly-test="${child.children.size > 0}">
+                                    <a href="${child.path}.html">
+                                        <span class="submenu--title merchant-services">
+                                            <span class="submenu--title-icon">
+                                                <img src="${child.pageIcon}" alt="">
+                                            </span>
+                                            <span class="submenu--title-label">${child.title}</span>
+                                        </span>
+                                    </a>
+                                    <div class="submenu--block">
+                                        <ul data-sly-test="${child.children.size <= mainnav.subNavigationItemsSize}"
+                                            data-sly-list.sub="${child.children}">
+                                            <li><a href="${sub.path}.html">${sub.title}</a></li>
+                                        </ul>
+                                        <sly data-sly-test="${child.children.size > mainnav.subNavigationItemsSize}">
+                                            <ul class="submenu--block-col" data-sly-list.sub="${child.children}">
+                                                <sly data-sly-test="${subList.index < mainnav.subNavigationItemsSize}">
+                                                    <li><a href="${sub.path}.html">${sub.title}</a></li>
+                                                </sly>
+                                            </ul>
+                                            <sly data-sly-test="${child.children.size >= mainnav.subNavigationItemsSize}">
+                                                <ul class="submenu--block-col" data-sly-list.sub="${child.children}">
+                                                    <sly data-sly-test="${subList.index >= mainnav.subNavigationItemsSize}">
+                                                        <li><a href="${sub.path}.html">${sub.title}</a></li>
+                                                    </sly>
+                                                </ul>
+                                            </sly>
+                                        </sly>
+                                    </div>
+                                </li>
+                             </ul>
+                        </sly>
+                    </div>
+                </span>
+        </li>
+        <li data-sly-test="${homeChildren.children.size == 0}">
+
+            <a href="${homeChildren.path}.html">${homeChildren.title}</a>
+        </li>
+    </sly>
+    <li class="mobile-additional-nav">
+        <div class="mobile-additional-nav-wrapper">
+            <ul class="header--pre-institutional" data-sly-use.model="com.worldline.core.models.TopNavigationModel"
+                data-sly-list="${model.pages}">
+                <li>
+                    <a href="${item.path}.html">
+                        <span class="${item.pageIcon}"> </span>
+                        ${item.title}
+                    </a>
+                </li>
+            </ul>
+            <ul class="submenu lang-selector--list"
+                data-sly-use.model="com.worldline.core.models.LanguageDDModel"
+                data-sly-list="${model.langList}">
+                <li data-sly-test="${model.langList && model.langList.size > 1}" class="active">
+                    <a href="${item.path}.html">${item.name}</a>
+                </li>
+            </ul>
+        </div>
+    </li>
+</ul>

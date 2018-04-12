@@ -1,0 +1,14 @@
+<sly data-sly-use.model="com.worldline.core.models.HeaderSingleModel" data-sly-unwrap>
+<header class="page--header" style="background-image:url('${model.headerImage  @ context='styleString'}');">
+    <div class="grid-row">
+        <div class="grid-col-8 grid-offset-1">
+            <span class="page--title">
+                <strong><pre>${model.title @ context='html'}</pre></strong>
+                <pre>${model.subtitle @ context='html'}</pre>
+            </span>
+            <pre class="page--intro">${model.description @ context='html'}</pre>
+        </div>
+    </div>
+    <span class="decoration--next-section offwhite"></span>
+</header>
+</sly>

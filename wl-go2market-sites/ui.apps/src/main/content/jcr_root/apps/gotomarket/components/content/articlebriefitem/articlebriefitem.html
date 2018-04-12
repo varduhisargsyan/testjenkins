@@ -1,0 +1,16 @@
+<sly >
+    <div data-sly-test="${properties.imagePath}" class="block--article-thumb" data-parent-class=" ${properties.alignment ? properties.alignment : 'h'}">
+        <img class="block--article-img"
+             src="${properties.imagePath ? properties.imagePath : '/etc/designs/gotomarket/images/article-featured-02.jpg'}" alt="">
+    </div>
+    <div class="block--article-content" data-parent-section-class="offwhite">
+        <span data-sly-test="${!properties.isTitleHidden}" class="block--article-category">${properties.title ? properties.title : 'Innovation'}</span>
+        <span data-sly-test="${!properties.isDateHidden}" class="block--article-date">${properties.date ? properties.date : '12 jan. 2017'}</span>
+        <h3 data-sly-test="${!properties.isSubtitleHidden}" class="block--article-title">${properties.subtitle ? properties.subtitle : 'Consectetur adipisicing elit'}</h3>
+        <pre class="block--article-excerpt">${properties.text ? properties.text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi' @ context='html'}</pre>
+        <a class="block--article-link" data-sly-test="${properties.noExtention && !properties.isLinkHidden}" href="${properties.url}"
+           target="${properties.isExternalUrl ? '_blank' : ''}">${properties.linkText ? properties.linkText : 'Read more'}</a>
+        <a class="block--article-link" data-sly-test="${!properties.noExtention && !properties.isLinkHidden}" href="${properties.url}.html"
+           target="${properties.isExternalUrl ? '_blank' : ''}">${properties.linkText ? properties.linkText : 'Read more'}</a>
+    </div>
+</sly>

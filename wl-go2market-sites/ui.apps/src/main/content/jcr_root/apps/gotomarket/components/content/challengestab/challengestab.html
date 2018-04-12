@@ -1,0 +1,18 @@
+<sly data-sly-use.challenges="com.worldline.core.models.ChallengesTabModel">
+    <div class="tabs" data-sly-test="${challenges.tabData}" data-sly-list="${challenges.tabData}">
+        <div class="tabs--cell" data-tab="content-${itemList.index}">
+            <span class="tabs--cell-icon">
+
+                <img src="${item.imagePath ? item.imagePath : '/content/dam/wordline/uploads/img-sample-2blocks.svg'}">
+            </span>
+                <pre class = "tabs--link">${item.title @ context='html'}</pre>
+            <span class="tabs--expand"></span>
+        </div>
+    </div>
+    <div class="tabs--content-wrapper" data-sly-test="${challenges.tabData}" data-sly-list="${challenges.tabData}"
+         style="height: 129px;">
+        <div id="content-${itemList.index}" class="tabs--content" data-height="129">
+            <pre>${item.content @ context='html'}</pre>
+        </div>
+    </div>
+</sly>

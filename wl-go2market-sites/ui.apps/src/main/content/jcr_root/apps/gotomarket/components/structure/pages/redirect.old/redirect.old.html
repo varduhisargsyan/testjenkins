@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<sly data-sly-use.model="com.worldline.core.models.GoogleDataModel">
+    ${model.codeAnalytics ? model.codeAnalytics : '' @ context='unsafe'}
+</sly>
+<head>
+    <sly data-sly-resource="head" data-sly-unwrap/>
+</head>
+<body>
+<p> This page redirects to : <a
+        href="${pageProperties.redirectTarget}.html">${pageProperties.redirectTarget ? pageProperties.redirectTarget : 'Redirect url is not set'} </a>
+</p>
+</body>
+</html>

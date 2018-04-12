@@ -1,0 +1,10 @@
+<sly>
+    <img class="block--featured-img" src="${properties.imagePath ? properties.imagePath : '/content/dam/gotomarket/uploads/img-case-study-socgen.jpg'}" alt="media img">
+    <div class="block--featured-quote">
+        <blockquote>
+            <span data-sly-test="${!properties.isInvisibleTitle}">${properties.title ? properties.title : ''}</span>
+            <br>${properties.text ? properties.text : 'Lorem ipsum dolor sit amet, consectetur adipi ing elit, sed do eiusmod tempor incididunt ut laboreet dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation'}
+            <span class="blockquote--author">${properties.subtitle ? properties.subtitle : 'Société Générale'}</span>
+        </blockquote>
+    </div>
+</sly>

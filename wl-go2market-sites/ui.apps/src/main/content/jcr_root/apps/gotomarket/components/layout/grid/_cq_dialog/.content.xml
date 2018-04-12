@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Grid Component properties"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/container">
+        <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <list
+                            class="foundation-layout-util-maximized-alt long-label"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/form/multifield"
+                            fieldLabel="Columns">
+                        <field
+                                jcr:primaryType="nt:unstructured"
+                                eaem-nested=""
+                                name="./list"
+                                sling:resourceType="granite/ui/components/foundation/form/fieldset"
+                                acs-commons-nested="">
+                            <layout
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                                    method="absolute"/>
+                            <items jcr:primaryType="nt:unstructured">
+                                <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/container">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <columnSize
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/foundation/form/select"
+                                                fieldLabel="Column size"
+                                                emptyOption="{Boolean}true"
+                                                name="./columnSize">
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <option1 jcr:primaryType="nt:unstructured"  value="grid-col-1" text="grid-col-1"/>
+                                                <option2 jcr:primaryType="nt:unstructured"  value="grid-col-2" text="grid-col-2"/>
+                                                <option3 jcr:primaryType="nt:unstructured"  value="grid-col-3" text="grid-col-3"/>
+                                                <option4 jcr:primaryType="nt:unstructured"  value="grid-col-4" text="grid-col-4"/>
+                                                <option5 jcr:primaryType="nt:unstructured"  value="grid-col-5" text="grid-col-5"/>
+                                                <option6 jcr:primaryType="nt:unstructured"  value="grid-col-6" text="grid-col-6"/>
+                                                <option7 jcr:primaryType="nt:unstructured"  value="grid-col-7" text="grid-col-7"/>
+                                                <option8 jcr:primaryType="nt:unstructured"  value="grid-col-8" text="grid-col-8"/>
+                                                <option9 jcr:primaryType="nt:unstructured"  value="grid-col-9" text="grid-col-9"/>
+                                                <option10 jcr:primaryType="nt:unstructured" value="grid-col-10" text="grid-col-10"/>
+                                                <option11 jcr:primaryType="nt:unstructured" value="grid-col-11" text="grid-col-11"/>
+                                                <option12 jcr:primaryType="nt:unstructured" value="grid-col-12" text="grid-col-12"/>
+                                            </items>
+                                        </columnSize>
+
+
+                                    </items>
+                                </column>
+                            </items>
+                        </field>
+                    </list>
+
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

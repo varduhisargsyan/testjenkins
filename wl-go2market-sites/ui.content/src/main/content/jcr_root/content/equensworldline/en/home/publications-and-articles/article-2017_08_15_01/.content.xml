@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-08-31T15:23:41.270+02:00"
+        cq:lastModifiedBy="a480019"
+        cq:lastReplicated="{Date}2017-10-26T17:46:12.779+02:00"
+        cq:lastReplicatedBy="a631192"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/redirect"
+        jcr:description="Online article German | Der Treasurer | Interview Michael Steinbach "
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-08-31T15:23:41.266+02:00"
+        jcr:lastModifiedBy="a480019"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="equensWorldline CEO Steinbach über die Folgen für Banken und Zahlungsprovider"
+        jcr:uuid="a24d92d4-077a-46c5-bbb2-8519b4308096"
+        sling:resourceType="gotomarket/components/structure/pages/redirect"
+        creationDate="{Date}2017-08-15T14:41:00.000+02:00"
+        hideInNav="false"
+        isLang="false"
+        redirectTarget="http://www.dertreasurer.de/index.php?eID=dumpFile&amp;t=f&amp;f=4858&amp;token=dbdbc22d05a13f3b3cc4cf9dd4808dff6f9ad98a"
+        showbrand="false">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+    </jcr:content>
+</jcr:root>

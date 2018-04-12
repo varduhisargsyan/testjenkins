@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-10-09T15:05:01.501+02:00"
+        cq:lastModifiedBy="a598986"
+        cq:lastReplicated="{Date}2017-10-30T17:57:35.930+01:00"
+        cq:lastReplicatedBy="a631192"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[blog:digital-transformation]"
+        cq:template="/apps/gotomarket/templates/blogarticle"
+        jcr:description="Digital Transformation changes companies on multiple levels. One of these levels is the digitization of their processes. Digitization brings simplification to these processes while maintaining high levels of security. We sat down with Etienne Plouvier to discuss digitization and its importance in companies’ Digital Transformation."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-09-10T11:40:14.682+02:00"
+        jcr:lastModifiedBy="a646217"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Digitization, a key tool for the digital transformation of companies"
+        jcr:uuid="cb89ac32-13f5-45c5-8e7d-b33ddac0d53a"
+        sling:resourceType="gotomarket/components/structure/pages/blogarticle"
+        authorImage="/content/dam/worldline/images/blog/author/Etienne Plouvier-80.png"
+        authorName="Etienne Plouvier"
+        authorText="in charge of Product and Business Development"
+        categories="[category:solutions,category:business-insights]"
+        categories_x0040_TypeHint="String[]"
+        hideInNav="false"
+        imagePath="/content/dam/gotomarket/uploads/bg-header-industries.jpg"
+        isExternalContactUsUrl="false"
+        isExternalJoinUsUrl="false"
+        isStickyContactHidden="false"
+        noExtentionContactUs="false"
+        noExtentionJoinUs="false"
+        showbrand="false"
+        showinfostrip="false"
+        title="Digitization, &#xd;&#xa;a key tool for the digital transformation of companies">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+        <headlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headlibs"/>
+        <header
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/header">
+            <leftnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/leftnavigation"
+                iconClass="iconClass2"/>
+            <rightnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/rightnavigation"
+                iconClass="iconClass2">
+                <countrylistdropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/countrylistdropdown"/>
+                <languagedropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/languagedropdown"/>
+            </rightnavigation>
+            <mainnav
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/mainnav"/>
+            <infostrip
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/infostrip"/>
+            <breadcrumbblog
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/breadcrumbblog"/>
+        </header>
+        <headerblog
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headerblog"/>
+        <singleauthor
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/singleauthor"/>
+        <prshare
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/prshare"/>
+        <stayintouch
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/stayintouch"/>
+        <footer
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footer">
+            <sitemap
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/sitemap"/>
+            <followus
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/followus"/>
+            <newsletterform
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/newsletterform"/>
+        </footer>
+        <footlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footlibs"/>
+        <copyright
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/copyright"/>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/parsys">
+            <richtext
+                jcr:created="{Date}2017-09-10T11:41:08.109+02:00"
+                jcr:createdBy="a646217"
+                jcr:lastModified="{Date}2017-09-10T11:47:44.634+02:00"
+                jcr:lastModifiedBy="a646217"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>&lt;img src=&quot;/content/dam/worldline/images/blog/graphics/demat-header.png&quot;>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h3>How has digital transformed formalities and administrative processes?&lt;/h3>&#xa;&lt;p>One of the major changes that digital has brought to companies, whether they are from the public or the private sectors, is the digitization of their processes. By this, they have been simplified and secured. In fact, , the main goal of digitization is to replace paper-based forms by electronic versions, while still maintaining their evidential aspects, such as the document’s authenticity and user-related identities for example.&lt;/p>&#xa;&lt;h3>What are the benefits of digitization for companies?&lt;/h3>&#xa;&lt;p>For companies, digitization brings the following benefits:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Costs reduction by eliminating paper, and its archiving, as well as all paper-related costs, such as consumables;&lt;/li>&#xa;&lt;li>Improvement of customer relationships, by simplifying processes;&lt;/li>&#xa;&lt;li>Increase in conversion rates and thus revenues, thanks to services and systems being available online at all time;&lt;/li>&#xa;&lt;li>Higher level of security than paper;&lt;/li>&#xa;&lt;li>Brand image firmly rooted in modernity, especially for the new generation of customers, being “100% mobile&amp;quot;.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h3>What are the benefits of digitization for consumers?&lt;/h3>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;img src=&quot;/content/dam/worldline/images/blog/graphics/benefits-digi.png&quot; style=&quot;float: left; margin-right: 10px;&quot;>They reside in simplified access and availability of services, anytime and anywhere, in a secured manner. Digitization also brings the offering of additional services that enhance the user experience, via a digital document that becomes smart and offers different actions such as secured sharing, configurable alerts or simplified payment.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h3>What digitization solutions do we offer?&lt;/h3>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>We position ourselves as a trusted third party that helps companies in their digital transformation. In this context,&lt;br>&#xa;we offer a range of solutions that cover various digitization aspects, such as:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Stakeholder identification with our WL Trusted Authentication solution, for example;&lt;/li>&#xa;&lt;li>Document authenticity and integrity through our electronic signature workflow service, WL e-contract, which includes the management of the associated digital evidence;&lt;/li>&#xa;&lt;li>And time archiving of these digital documents with our probationary electronic archiving service for business,&lt;br>&#xa;WL e-archiving, or our end user digital safe, WL e-safe.&lt;/li>&#xa;&lt;li>&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>There is a real solid interest in these solutions, due to the fact that the European Community is supporting&lt;br>&#xa;the development of the digital economy between the different member countries. Besides, a new regulation, called eIDAS*, has been written on this matter and will be applicable, without any transposition, on 1 July 2016, which will enable&lt;br>&#xa;the interoperability between each member country’s qualified solutions.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h3>How do you think digitization will evolve in the years to come?&lt;/h3>&#xa;&lt;p>We keep hearing about a paperless society but this societal phenomenon has not truly come into fruition yet. There are still many barriers related to behavioral and regulatory changes. That said, I am picturing a real development, in the near future, of the digital economy linked to digital transformation and digitization thanks to the democratization of the use of the Internet, to the extended connectivity of objects from our daily lives and to this new regulation eIDAS.&lt;/p>&#xa;&lt;p>Indeed, generations that will start working tomorrow will have been born during the smartphone era, a tablet and a mobile always in hand and will not have the paper culture of today’s generations. It will then be necessary to offer them cloud-based services able to guarantee the authentication, the integrity and the preservation of transactions in accordance with regulations in place while offering users full transparency and simplicity. eIDAS is there to accomplish that.&lt;/p>&#xa;&lt;p>From a security point of view, in parallel to encryption and traceability solutions, and the organization in place at each trusted provider, distributed technologies, such as blockchain which was put in place to establish confidence in Bitcoin, will have certainly a role increasingly important in the future.&lt;/p>&#xa;&lt;p>Finding the right trusted partner that will be able to support you on all these aspects will really be the key to a successful digital transformation.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h3>Thank you for your time today, Etienne. I will leave you with one final question: if you could invent a new innovative solution to help with one of your daily tasks, in your professional and/or private life, what would it be and why?&lt;/h3>&#xa;&lt;p>To be able to multiply myself through robots that will be able to learn and communicate in several languages so that&lt;br>&#xa;I can be present in several places at the same time, in order to advance on various topics in parallel.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;i>* eIDAS – electronic IDentification and Authentication Services&lt;/i>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </content>
+    </jcr:content>
+</jcr:root>

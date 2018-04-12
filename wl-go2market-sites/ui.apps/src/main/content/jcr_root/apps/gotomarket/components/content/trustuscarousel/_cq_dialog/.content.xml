@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Trustus Carousel Properties"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/container">
+        <layout
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/container">
+
+                <items jcr:primaryType="nt:unstructured">
+                    <carousel
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/section"
+                            jcr:title="Carousel">
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/container">
+
+                                <items jcr:primaryType="nt:unstructured">
+                                    <list
+                                            class="foundation-layout-util-maximized-alt long-label"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/foundation/form/multifield"
+                                            fieldLabel="Carousel">
+                                        <field
+                                                jcr:primaryType="nt:unstructured"
+                                                eaem-nested=""
+                                                name="./trustUsItems"
+                                                sling:resourceType="granite/ui/components/foundation/form/fieldset"
+                                                jcr:title="Slide"
+                                                acs-commons-nested="">
+                                            <layout
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                                                    method="absolute"/>
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <column
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/foundation/container">
+                                                    <items jcr:primaryType="nt:unstructured">
+
+                                                        <imagePath1
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                                                fieldLabel="First Image Path"
+                                                                rootPath="/content/dam"
+                                                                name="./imagePath1"/>
+                                                        <url1
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                                                fieldLabel="Rirst image url"
+                                                                rootPath="/content"
+                                                                name="./url1"/>
+                                                        <imagePath2
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                                                fieldLabel="Second Image Path"
+                                                                rootPath="/content/dam"
+                                                                name="./imagePath2"/>
+                                                        <url2
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                                                fieldLabel="Second image url"
+                                                                rootPath="/content"
+                                                                name="./url2"/>
+                                                        <imagePath3
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                                                fieldLabel="Third Image Path"
+                                                                rootPath="/content/dam"
+                                                                name="./imagePath3"/>
+                                                        <url3
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                                                fieldLabel="Third image url"
+                                                                rootPath="/content"
+                                                                name="./url3"/>
+                                                        <imagePath4
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                                                fieldLabel="Forth Image Path"
+                                                                rootPath="/content/dam"
+                                                                name="./imagePath4"/>
+                                                        <url4
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                                                fieldLabel="Forth image url"
+                                                                rootPath="/content"
+                                                                name="./url4"/>
+                                                    </items>
+                                                </column>
+                                            </items>
+                                        </field>
+                                    </list>
+                                </items>
+                            </column>
+                        </items>
+                    </carousel>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

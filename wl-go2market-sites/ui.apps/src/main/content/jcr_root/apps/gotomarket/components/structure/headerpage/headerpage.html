@@ -1,0 +1,48 @@
+<div data-sly-use.header="com.worldline.core.models.HeaderPageModel" data-sly-unwrap>
+    <sly data-sly-test="${header.carouselItems && header.carouselItems.size > 1}">
+        <sly>
+            <div class="page--slider-container">
+                <div class="page--slider-wrapper" data-sly-test="${header.carouselItems}"
+                     data-sly-list="${header.carouselItems}">
+                    <div class="page--slider-slide" data-href=${item.link}>
+                        <img class="page--slider-image" src="${item.imagePath}" alt="">
+                        <div class="grid-row">
+                            <div class="grid-col-8 grid-offset-1 page--slider-content">
+                                <span class="page--slider-title">
+                                    <strong><pre>${item.title @ context='html'}</pre></strong>
+                                    <pre>${item.subtitle @ context='html'}</pre>
+                                </span>
+                                <pre class="page--slider-excerpt">${item.description @ context='html'}</pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page--slider-nav">
+                <button class="slider-nav previous">Previous</button>
+                <button class="slider-nav next">Next</button>
+            </div>
+            <div class="page--slider-pagination">
+                <button class="slider-pagination-bullet active"></button>
+                <button class="slider-pagination-bullet"></button>
+            </div>
+            <span class="decoration--next-section offwhite"></span>
+        </sly>
+    </sly>
+    <sly data-sly-test="${header.carouselItems && header.carouselItems.size == 1}" data-sly-list.child="${header.carouselItems}">
+        <header class="page--header" style="background-image:url('${child.imagePath  @ context='styleString'}');" >
+            <div class="grid-row">
+                <div class="grid-col-8 grid-offset-1">
+                    <span class="page--title"><strong><pre>${child.title @ context='html'}</pre></strong>
+                        <pre>${child.subtitle @ context='html'}</pre>
+                    </span>
+                    <pre class="page--intro">${child.description @ context='html'}</pre>
+                </div>
+            </div>
+            <span class="decoration--next-section offwhite"></span>
+        </header>
+    </sly>
+    <sly data-sly-test="${header.smallHeaderImg}" >
+        <header class="page--header small " style="background-image:url('${header.smallHeaderImg  @ context='styleString'}');"></header>
+    </sly>
+</div>

@@ -1,0 +1,20 @@
+<sly>
+    <div class="grid-row row-equalizer" data-sly-use.model="com.worldline.core.models.ArticleBriefModel">
+        <sly data-sly-resource="${ 'title' @ resourceType='gotomarket/components/parsys'}"/>
+        <sly data-sly-list="${model.articleBriefItems}">
+            <div class="grid-col-4">
+                <div class="block--article v">
+                    <div class="block--article-thumb">
+                        <img class="block--article-img" src="${item.imagePath}" alt="articleImage">
+                    </div>
+                    <div class="block--article-content">
+                        <h3 class="block--article-title">${item.title ? item.title : 'Consectetur adipisicing elit'}</h3>
+                        <p class="block--article-excerpt" style="width: 200px; max-height: ${properties.height @ context='styleString'}px; overflow: hidden; text-overflow: ellipsis">
+                            ${item.text ? item.text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna'}</p>
+                        <a class="block--article-link" href="${item.link}.html">${model.label ? model.label : 'Read more'}</a>
+                    </div>
+                </div>
+            </div>
+        </sly>
+    </div>
+</sly>

@@ -1,0 +1,207 @@
+
+div.parsys_column {
+    height: 100%;
+    width: 100%;
+    float: left;
+    border: 0;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+div.section {
+    /* Property added to avoid IE hasLayout issue on paragraphs
+       see #20817 - IE6: div around Drag Components image not big enough
+    */
+    zoom: 1;
+}
+
+div.parsys_column .section {
+    overflow: hidden;
+    width: 100%;
+}
+
+/* layout 1 : 33% 33% 33%( grid4 + grid4 + grid4 ) */
+/* column control layouts */
+div.cq-colctrl-cols {
+    width: 100%;
+    float: left;
+}
+
+div.cq-colctrl-default {
+    width: 100%;
+}
+
+div.cq-colctrl-lt0 {
+}
+
+div.cq-colctrl-lt0-c0 {
+    width: 49%;
+margin-right: 1%
+}
+
+div.cq-colctrl-lt0-c1 {
+    width: 49%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt1 {
+}
+
+div.cq-colctrl-lt1-c0 {
+    width: 59%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt1-c1 {
+    width: 39%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt2 {
+}
+
+div.cq-colctrl-lt2-c0 {
+    width: 39%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt2-c1 {
+    width: 59%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt3 {
+}
+
+div.cq-colctrl-lt3-c0 {
+    width: 24%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt3-c1 {
+    width: 74%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt4 {
+}
+
+div.cq-colctrl-lt4-c0 {
+    width: 74%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt4-c1 {
+    width: 24%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt5 {
+}
+
+div.cq-colctrl-lt5-c0 {
+    width: 19%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt5-c1 {
+    width: 79%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt6 {
+}
+
+div.cq-colctrl-lt6-c0 {
+    width: 79%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt6-c1 {
+    width: 19%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt7 {
+}
+
+div.cq-colctrl-lt7-c0 {
+    width: 65%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt7-c1 {
+    width: 32%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt8 {
+}
+
+div.cq-colctrl-lt8-c0 {
+    width: 32%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt8-c1 {
+    width: 65%;
+    margin-right: 1%
+}
+
+/* layout 1 : 33% 33% 33%( grid4 + grid4 + grid4 ) */
+div.cq-colctrl-lt9 {
+}
+
+div.cq-colctrl-lt9-c0 {
+    width: 32%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt9-c1 {
+    width: 32%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt9-c2 {
+    width: 32%;
+    margin-right: 1%
+}
+
+/* layout 2: 20% 60% 20%( grid4 + grid4 + grid4 ) */
+div.cq-colctrl-lt10 {
+}
+
+div.cq-colctrl-lt10-c0 {
+    width: 19%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt10-c1 {
+    width: 59%;
+    margin-right: 1%
+}
+
+div.cq-colctrl-lt10-c2 {
+    width: 19%;
+    margin-right: 1%
+}
+
+@media only screen and (min-width: 150px) and (max-width: 767px) {
+
+    div.cq-colctrl-lt0-c0, div.cq-colctrl-lt0-c1,
+    div.cq-colctrl-lt1-c0, div.cq-colctrl-lt1-c1,
+    div.cq-colctrl-lt2-c0, div.cq-colctrl-lt2-c1,
+    div.cq-colctrl-lt3-c0, div.cq-colctrl-lt3-c1,
+    div.cq-colctrl-lt4-c0, div.cq-colctrl-lt4-c1,
+    div.cq-colctrl-lt5-c0, div.cq-colctrl-lt5-c1,
+    div.cq-colctrl-lt6-c0, div.cq-colctrl-lt6-c1,
+    div.cq-colctrl-lt7-c0, div.cq-colctrl-lt7-c1,
+    div.cq-colctrl-lt8-c0, div.cq-colctrl-lt8-c1,
+    div.cq-colctrl-lt9-c0, div.cq-colctrl-lt9-c1,
+    div.cq-colctrl-lt10-c0, div.cq-colctrl-lt10-c1
+    {
+        width: 100%;
+    }
+
+}

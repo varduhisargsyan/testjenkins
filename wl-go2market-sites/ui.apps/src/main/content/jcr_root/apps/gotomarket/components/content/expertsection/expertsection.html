@@ -1,0 +1,31 @@
+<div class="grid-row" data-parent-section-style="background-image:url('${properties.backgroundImg ? properties.backgroundImg : '/content/dam/gotomarket/expert-img/bg-featured-expert-industries.jpg' @ context='styleString' }' );">
+    <div class="grid-col-10 grid-offset-1">
+        <div class="block--featured ${properties.alignment ? properties.alignment : ''}">
+            <div class="block--featured-media">
+                <img class="block--featured-img"
+                     src="${properties.imagePath ? properties.imagePath : '/content/dam/gotomarket/expert-img/img-featured-expert-industries.jpg'}"
+                     alt="">
+            </div>
+            <div class="block--featured-content">
+                <h3 class="featured-expert--title">${properties.title ? properties.title : 'Our expert'}</h3>
+                <span class="featured-expert--name">${properties.name ? properties.name : 'Peter Goettler'}</span>
+                <span class="featured-expert--function" data-sly-test="${!properties.isExpertFunctionHidden}">${properties.position ? properties.position : 'Global Director'}</span>
+                <pre>${properties.text ? properties.text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis ' @ context='html'}</pre>
+                <a class="button-blue featured-expert--button" data-sly-test="${properties.noExtention}"
+                   href="${properties.contactMeLink}" target="${properties.isExternalUrl ? '_blank' : ''}">${properties.buttontext ? properties.buttontext : 'Contact me'}</a>
+                <a class="button-blue featured-expert--button" data-sly-test="${!properties.noExtention}"
+                   href="${properties.contactMeLink}.html" target="${properties.isExternalUrl ? '_blank' : ''}">${properties.buttontext ? properties.buttontext : 'Contact me'}</a>
+            </div>
+        </div>
+        <a data-sly-test="${!properties.isStickyExpertHidden}" href="${properties.contactMeLink}">
+            <div class="cta--contact-expert">
+                <div class="cta--contact-expert-thumb">
+                    <img src="${properties.imagePath ? properties.imagePath : ''}"
+                         alt="expert">
+                </div>
+                <p class="cta--contact-expert-name">${properties.name ? properties.name : 'Expert name'}</p>
+                <p class="cta--contact-expert-function">${properties.position ? properties.position : 'Expert position'}</p>
+            </div>
+        </a>
+    </div>
+</div>

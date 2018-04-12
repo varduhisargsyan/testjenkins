@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    cq:lastReplicated="{Date}2017-09-26T15:46:29.613+02:00"
+    cq:lastReplicatedBy="a631192"
+    cq:lastReplicationAction="Activate"
+    jcr:description="Tags for Blog Article Pages"
+    jcr:lastModified="{Date}2017-08-23T10:08:21.172+02:00"
+    jcr:lastModifiedBy="fr20437"
+    jcr:mixinTypes="[cq:ReplicationStatus,rep:AccessControllable]"
+    jcr:primaryType="cq:Tag"
+    jcr:title="Blog Tags"
+    sling:resourceType="cq/tagging/components/tag">
+    <blockchain/>
+    <epayment/>
+    <mobility/>
+    <psd2/>
+    <events/>
+    <iot/>
+    <retail/>
+    <corporate/>
+    <authentication-fraud/>
+    <csr/>
+    <banking/>
+    <innovation/>
+    <data-security/>
+    <awards-ranking/>
+    <customer-experience/>
+    <customer-cases/>
+    <annual-report/>
+    <digital-transformation/>
+    <rep:policy/>
+</jcr:root>

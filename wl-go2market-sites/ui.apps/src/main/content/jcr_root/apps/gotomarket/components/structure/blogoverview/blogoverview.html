@@ -1,0 +1,88 @@
+<div class="grid-row" data-sly-use.model="com.worldline.core.models.BlogOverviewModel">
+    <!--/*  Filter block*/-->
+    <div class="grid-col-4">
+        <div class="blog--search-block" data-sly-use.searchModel="com.worldline.core.models.SearchBlogModel">
+            <div class="input-field">
+                <form action="${searchModel.resultPagePath}.html">
+                    <label class="blog--search-label sr-only" for="search">Search</label>
+                    <input type="text" id="search" placeholder="Search" name="q"/>
+                </form>
+            </div>
+        </div>
+        <div class="blog--filters-block">
+            <span class="blog--filters-label">${properties.categoryFilter ? properties.categoryFilter : "FILTER BY CATEGORY:"}</span>
+            <sly data-sly-list.key="${model.categoryNames}">
+
+                <a data-sly-test="${currentPage.getName == key}" class="blog--filters-link not-active"  href="${model.parentPath}/${key}.html"
+                   id="${key}">${model.categoryNames[key]}</a>
+                <a data-sly-test="${currentPage.getName != key}" class="blog--filters-link"  href="${model.parentPath}/${key}.html"
+                   id="${key}">${model.categoryNames[key]}</a>
+            </sly>
+        </div>
+        <div class="blog--filters-block">
+
+            <span class="blog--filters-label">${properties.tagFilter ? properties.tagFilter : "VIEW TRENDING TOPICS:"}</span>
+
+            <sly data-sly-list.key="${model.tags}">
+                <div class="input-field checkbox">
+                    <label for="${key}">
+                        <input type="checkbox" name="${key}" id="${key}">
+                        ${model.tags[key]}
+                    </label>
+                </div>
+            </sly>
+        </div>
+    </div>
+    <!--/* //Ovetview component */-->
+    <div class="grid-col-8">
+        <div class="blog--grid">
+            <sly data-sly-list="${model.blogItems}">
+                <a href="${item.link}.html">
+                    <article class="block--article ${item.alignment != null ? item.alignment : 'v' }">
+                        <div class="block--article-thumb">
+                            <img class="block--article-img"
+                                 src="${item.imagePath != null ? item.imagePath : ''}"
+                                 alt="">
+                        </div>
+                        <div class="block--article-content">
+                            <span class="block--article-category">${item.category}</span>
+                            <span class="block--article-date">${item.date}</span>
+                            <h2 class="block--article-title">${item.title}</h2>
+                            <p class="block--article-excerpt">${item.text}</p>
+                            <div class="block--article-author">
+                                <div class="block--article-author-thumb">
+                                    <img src="${item.authorImagePath != null ? item.authorImagePath : 'images/uploads/authors/michelle.jpg'} "
+                                         alt="">
+                                </div>
+                                <p class="block--article-author-name">${item.authorName}</p>
+                            </div>
+                            <div class="sharer">
+                                <svg class="icon--share" xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" height="18px">
+                                    <path d="M12,12a3,3,0,0,0-1.79.61L5.9,9.73a2.72,2.72,0,0,0,0-1.46l4.31-2.87A3,3,0,1,0,9,3a3,3,0,0,0,.1.73L4.79,6.61a3,3,0,1,0,0,4.79L9.1,14.27A3,3,0,1,0,12,12Z"/>
+                                </svg>
+                                <ul class="sharer--list">
+                                    <sly data-sly-list="${item.socials}">
+                                        <li class="networks-list--icon ${item.iconClass}">
+                                            <a href="${[item.url, item.pageUrl] @ join=''}">Share on ${item.iconClass}"</a>
+                                        </li>
+                                    </sly>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </sly>
+        </div>
+        <div class="blog--grid-more">
+            <input type="hidden" id="resourcePath" value="${currentPage.getPath}"/>
+            <input type="hidden" id="pageName" value="${currentPage.getName}"/>
+            <input type="hidden" id="totalMatches" value="${model.totalMatches}"/>
+            <sly data-sly-test="${model.isActiveSeeMore}">
+                <a class="button-blue alt">${properties.seeMore ? properties.seeMore : "SEE MORE"}</a>
+            </sly>
+
+        </div>
+    </div>
+</div>
+

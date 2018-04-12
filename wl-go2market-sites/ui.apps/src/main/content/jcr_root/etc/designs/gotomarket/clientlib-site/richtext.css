@@ -1,0 +1,56 @@
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.section--title {
+    position: relative;
+    color: #0066a1;
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 30px;
+    line-height: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.block--featured--title {
+    color: #4f5d68;
+    font-family: "Stag Book", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 20px;
+    line-height: 2rem;
+}
+
+span.styled {
+    padding: 5px 0 5px 10px;
+    position:relative;
+    display : block;
+}
+
+span.styled:before{
+    color: #0066a1;
+    content: '•';
+    left: 0;
+    float: left;
+    position: absolute;
+}
+.img-left{
+    float:left;
+    margin: 0 20px 0 0;
+    display: block;
+}
+
+.img-right{
+    float :right ;
+    margin: 0 0 0 20px;
+    display: block;
+}

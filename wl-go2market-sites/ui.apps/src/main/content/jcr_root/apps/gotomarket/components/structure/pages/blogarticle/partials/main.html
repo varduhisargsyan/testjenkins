@@ -1,0 +1,36 @@
+<main id="blog-single">
+    <article class="blog--single">
+        <sly data-sly-resource="headerblog"></sly>
+        <sly data-sly-resource="singleauthor"></sly>
+        <div class="grid-row">
+            <div class="grid-col-12 grid-offset-0">
+                <div class="single--content">
+                    <div data-sly-resource="content" data-sly-unwrap></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-row" data-sly-use.model="com.worldline.core.models.BlogSingleModel">
+            <div class="grid-col-12 grid-offset-0">
+                <ul class="single--categories" data-sly-test="${model.categoryTags}">
+                    <li>${properties.categoryLabel ? properties.categoryLabel : "Category:"}</li>
+                    <sly data-sly-list.key="${model.categoryTags}">
+                        <li><a href="${model.parentPath}/${key}.html">${model.categoryTags[key]}</a></li>
+                    </sly>
+                </ul>
+                <ul class="single--categories" data-sly-test="${model.trendTags}">
+                    <li>${properties.tagsLabel ? properties.tagsLabel : "Tags:"}</li>
+                    <sly  data-sly-list.key="${model.trendTags}">
+                        <li><a href="${model.parentPath}/${key}.html">${model.trendTags[key]}</a></li>
+                    </sly>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="grid-row">
+            <div class="grid-col-12 grid-offset-0">
+                <sly data-sly-resource="prshare"></sly>
+            </div>
+        </div>
+    </article>
+</main>

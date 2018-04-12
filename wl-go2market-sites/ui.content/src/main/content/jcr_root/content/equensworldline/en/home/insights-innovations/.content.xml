@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-01T15:12:44.824+01:00"
+        cq:lastModifiedBy="a480019"
+        cq:lastReplicated="{Date}2017-11-01T15:13:21.438+01:00"
+        cq:lastReplicatedBy="a480019"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/solutions"
+        jcr:description="Share our vision and insights on topics that currently dominate the evolving European payments market."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-11-01T15:12:44.816+01:00"
+        jcr:lastModifiedBy="a480019"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Insights &amp; Innovations"
+        jcr:uuid="b457fadc-cd5d-4ba7-a52d-dcbf36abd623"
+        sling:resourceType="gotomarket/components/structure/pages/solutions"
+        browserTabTitle="Insights &amp; Innovations | equensWorldline"
+        creationDate="{Date}2017-11-04T15:11:00.000+01:00"
+        hideInNav="false"
+        imagePath="/content/dam/equensworldline/images/headers/ew_insights-and-innovation.jpg"
+        isExternalContactUsUrl="false"
+        isExternalJoinUsUrl="false"
+        isStickyContactHidden="false"
+        noExtentionContactUs="false"
+        noExtentionJoinUs="false"
+        showbrand="false"
+        showin="main"
+        showinfostrip="false"
+        subtitle="Industry changing&#xd;&#xa;topics and innovations"
+        title="Sharing insights">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+        <headlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headlibs"/>
+        <header
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/header">
+            <leftnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/leftnavigation"
+                iconClass="iconClass2"/>
+            <rightnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/rightnavigation"
+                iconClass="iconClass2">
+                <countrylistdropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/countrylistdropdown"/>
+                <languagedropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/languagedropdown"/>
+            </rightnavigation>
+            <mainnav
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/mainnav"/>
+            <infostrip
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/infostrip"/>
+            <breadcrumb
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/breadcrumb"/>
+        </header>
+        <headersingle
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headersingle"/>
+        <subnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/subnav"/>
+        <stayintouch
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/stayintouch"/>
+        <contactus
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/contactus"/>
+        <footer
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footer">
+            <sitemap
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/sitemap"/>
+            <followus
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/followus"/>
+            <newsletterform
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/newsletterform"/>
+        </footer>
+        <footlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footlibs"/>
+        <copyright
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/copyright"/>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/parsys">
+            <grid
+                jcr:created="{Date}2017-09-21T20:41:31.415+02:00"
+                jcr:createdBy="a480019"
+                jcr:lastModified="{Date}2017-09-21T20:41:31.415+02:00"
+                jcr:lastModifiedBy="a480019"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid">
+                <column1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <titleh2
+                        jcr:created="{Date}2017-09-21T20:43:23.662+02:00"
+                        jcr:createdBy="a480019"
+                        jcr:lastModified="{Date}2017-09-21T20:43:43.246+02:00"
+                        jcr:lastModifiedBy="a480019"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/titleH2"
+                        showDots="false"
+                        title="Insights and Innovations"
+                        titleAlignment="left"/>
+                    <richtext
+                        jcr:created="{Date}2017-09-25T22:42:19.015+02:00"
+                        jcr:createdBy="a480381"
+                        jcr:lastModified="{Date}2017-09-25T22:42:53.803+02:00"
+                        jcr:lastModifiedBy="a480381"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/richtext"
+                        text="&lt;p>Building on proven expertise and over 50 years of experience in the payments industry, we would like to share our vision and insights on four topics that currently dominate the evolving European payments market: PSD2, instant payments, digital (or open) banking and Blockchain. &lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </column1>
+            </grid>
+            <section
+                jcr:created="{Date}2017-09-21T20:44:08.429+02:00"
+                jcr:createdBy="a480019"
+                jcr:lastModified="{Date}2017-09-21T20:44:08.429+02:00"
+                jcr:lastModifiedBy="a480019"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/section">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys"/>
+            </section>
+            <sectionoffwhite
+                jcr:created="{Date}2017-09-21T20:56:21.103+02:00"
+                jcr:createdBy="a480019"
+                jcr:lastModified="{Date}2017-09-21T20:56:21.103+02:00"
+                jcr:lastModifiedBy="a480019"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/sectionoffwhite">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-09-21T20:56:40.874+02:00"
+                        jcr:createdBy="a480019"
+                        jcr:lastModified="{Date}2017-09-21T20:57:20.120+02:00"
+                        jcr:lastModifiedBy="a480019"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-6&quot;},{&quot;columnSize&quot;:&quot;grid-col-6&quot;}]">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <articlebriefitem
+                                jcr:created="{Date}2017-09-21T20:57:31.608+02:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-10-02T16:39:51.434+02:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                isDateHidden="true"
+                                isExternalUrl="false"
+                                isLinkHidden="false"
+                                isSubtitleHidden="false"
+                                isTitleHidden="false"
+                                linkText="Read more"
+                                noExtention="false"
+                                subtitle="Investigating how to apply new technology in existing processes"
+                                text="With its key assets of unquestionable authentication and accountability, blockchain will bring many benefits, such as infrastructure reduction costs and quick settlement of transactions. Nevertheless, this technology is still young and users lack experience to identify and prevent potential risks. We continuously investigate how new technology can be applied to already existing processes and new use cases. "
+                                title="Blockchain"
+                                url="/content/equensworldline/en/home/insights-innovations/blockchain"/>
+                            <articlebriefitem_cop
+                                jcr:created="{Date}2017-09-21T20:57:31.608+02:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-10-02T16:40:57.072+02:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                isDateHidden="true"
+                                isExternalUrl="false"
+                                isLinkHidden="false"
+                                isSubtitleHidden="false"
+                                isTitleHidden="false"
+                                linkText="Read more"
+                                noExtention="false"
+                                subtitle="Understanding the value and challenges of Instant Payments"
+                                text="Instant Payments is a fundamental development in the payments industry and – together with PSD2 and Access to Accounts – will have a significant impact on every player involved. The potential of Instant Payments is definitely there, but this does come with technical challenges. To enhance a full understanding, we would like give a deeper insight into some of the more challenging and interesting aspects of Instant Payments. "
+                                title="Instant Payments"
+                                url="/content/equensworldline/en/home/insights-innovations/instant-payments"/>
+                        </column1>
+                        <column2
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <articlebriefitem
+                                jcr:created="{Date}2017-09-21T20:57:39.070+02:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-10-02T16:40:28.370+02:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                isDateHidden="true"
+                                isExternalUrl="false"
+                                isLinkHidden="false"
+                                isSubtitleHidden="false"
+                                isTitleHidden="false"
+                                linkText="Read more"
+                                noExtention="false"
+                                subtitle="Driving digital transformation in the banking sector"
+                                text="A lot has been said and written about the digital transformation challenge. But what exactly does it mean? Banking is clearly evolving in a fast-paced and changing ecosystem. Numerous developments require banks and to reinvent themselves. Mastering the digital transformation, while taking into account all these challenges and leveraging the trust customers have in banks, is the key to remain successful in the future."
+                                title="Digital Banking"
+                                url="/content/equensworldline/en/home/insights-innovations/digital-banking"/>
+                            <articlebriefitem_cop
+                                jcr:created="{Date}2017-09-21T20:57:31.608+02:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-10-02T16:41:28.540+02:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                isDateHidden="true"
+                                isExternalUrl="false"
+                                isLinkHidden="false"
+                                isSubtitleHidden="false"
+                                isTitleHidden="false"
+                                linkText="Read more"
+                                noExtention="false"
+                                subtitle="Fundamentally changing the ecosystem and bringing new opportunities"
+                                text="The access to account requirement is disruptive in several ways. Becoming compliant will impose substantial costs on banks, while revenues may be lost to TPPs. However, despite obvious reasons for concern banks may have, PSD2 primarily represents a unique strategic opportunity for the banks. Provided they have the courage and the innovative power to seize and unfold it."
+                                title="PSD2"
+                                url="/content/equensworldline/en/home/insights-innovations/psd2"/>
+                        </column2>
+                    </grid>
+                </items>
+            </sectionoffwhite>
+        </content>
+    </jcr:content>
+    <instant-payments/>
+    <psd2/>
+    <digital-banking/>
+    <blockchain/>
+</jcr:root>

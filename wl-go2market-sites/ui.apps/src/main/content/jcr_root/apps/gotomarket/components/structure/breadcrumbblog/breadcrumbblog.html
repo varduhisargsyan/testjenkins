@@ -1,0 +1,10 @@
+<div class="block--seo" data-sly-use.model="com.worldline.core.models.BreadcrumpBlogModel">
+    <sly data-sly-test="${model.pages}" data-sly-list="${model.pages}">
+             <span data-sly-test="${!itemList.last}">
+            <a href="${item.path}.html">${item.title || item.name}</a> /
+        </span>
+        <h1 class="block--seo-title"
+            data-sly-test="${itemList.last}">${pageProperties.sling:alias ? pageProperties.sling:alias :
+            item.title}</h1>
+    </sly>
+</div>

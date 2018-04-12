@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Expert Section Properties"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+
+    <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/container">
+                <layout
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/layouts/tabs"
+                        type="nav"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <datacontent
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Content"
+                            sling:resourceType="granite/ui/components/foundation/section">
+                        <layout
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                                margin="{Boolean}false"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <title
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                    fieldLabel="Title"
+                                                    name="./title"/>
+                                            <name
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                    fieldLabel="Name"
+                                                    name="./name"/>
+                                            <position
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                    fieldLabel="Position"
+                                                    name="./position"/>
+                                            <text
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/textarea"
+                                                    fieldLabel="Text"
+                                                    name="./text"/>
+                                            <buttontext jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                        fieldLabel="Contact me"
+                                                        name="./buttontext"/>
+                                            <contactMeLink jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                                        rootPath="/content"
+                                                        fieldLabel="Contact me Link"
+                                                        name="./contactMeLink"/>
+                                            <is_external_url
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                                    name="./isExternalUrl"
+                                                    uncheckedValue="false"
+                                                    text="Is External"
+                                                    value="true"/>
+                                            <noExtention
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                                    name="./noExtention"
+                                                    uncheckedValue="false"
+                                                    text="No Extention"
+                                                    value="true"/>
+                                            <isStickyExpertHidden
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                                    name="./isStickyExpertHidden"
+                                                    uncheckedValue="false"
+                                                    text="Sticky Expert Hidden"
+                                                    value="true"/>
+                                            <isExpertFunctionHidden
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                                    name="./isExpertFunctionHidden"
+                                                    uncheckedValue="false"
+                                                    text="Is Expert Function Hidden"
+                                                    value="true"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </column>
+                        </items>
+                    </datacontent>
+                    <size
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Design"
+                            sling:resourceType="granite/ui/components/foundation/section">
+                        <layout
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                                margin="{Boolean}false"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <backgroundImg
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                                    fieldLabel="Background Image"
+                                                    rootPath="/content/dam"
+                                                    name="./backgroundImg"/>
+                                            <imagePath
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                                    fieldLabel="Image"
+                                                    rootPath="/content/dam"
+                                                    name="./imagePath"/>
+                                            <alignment
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/select"
+                                                    fieldLabel="Image Layout"
+                                                    emptyOption="{Boolean}true"
+                                                    name="./alignment">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <option1 jcr:primaryType="nt:unstructured"  value="" text="Left"/>
+                                                    <option2 jcr:primaryType="nt:unstructured"  value="alt" text="Right"/>
+                                                </items>
+                                            </alignment>
+                                        </items>
+                                    </column>
+                                </items>
+                            </column>
+                        </items>
+                    </size>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

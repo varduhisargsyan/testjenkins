@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    cq:lastReplicated="{Date}2017-09-28T11:14:25.358+02:00"
+    cq:lastReplicatedBy="fr20437"
+    cq:lastReplicationAction="Activate"
+    jcr:description="Tags for Press Release Article Pages"
+    jcr:lastModified="{Date}2017-08-23T09:56:16.712+02:00"
+    jcr:lastModifiedBy="fr20437"
+    jcr:mixinTypes="[cq:ReplicationStatus,rep:AccessControllable]"
+    jcr:primaryType="cq:Tag"
+    jcr:title="Press Release Article"
+    sling:resourceType="cq/tagging/components/tag">
+    <innovation/>
+    <business/>
+    <general/>
+    <investors/>
+    <rep:policy/>
+</jcr:root>

@@ -1,0 +1,7 @@
+[Notification]: WL Newsletter Subscription
+
+ ------------------------------------------------------
+    Date: ${date}
+    Subscriber Email : ${email}
+
+ ------------------------------------------------------

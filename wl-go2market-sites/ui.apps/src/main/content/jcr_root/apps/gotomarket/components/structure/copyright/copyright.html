@@ -1,0 +1,23 @@
+<div class="footer--sub" data-sly-use.model="com.worldline.core.models.CopyrightModel">
+    <ul class="footer--menu">
+        <li>© ${model.brand} ${model.copyright}</li>
+        <li data-sly-test="${model.privacy && model.privacyUrl}">
+            <a href="${model.privacyUrl}" target="${model.isExternalPrivacyUrl ? '_blank' : ''}">${model.privacy}</a>
+        </li>
+        <li data-sly-test="${model.terms && model.termsUrl}">
+            <a href="${model.termsUrl}" target="${model.isExternalTermsUrl ? '_blank' : ''}">${model.terms}</a>
+        </li>
+        <li data-sly-test="${model.rss && model.rssUrl}">
+            <a href="${model.rssUrl}" target="${model.isExternalRssUrl ? '_blank' : ''}">${model.rss}</a>
+        </li>
+        <li data-sly-test="${model.accessibility && model.accessibilityUrl}">
+            <a href="${model.accessibilityUrl}" target="${model.isExternalAccessUrl ? '_blank' : ''}">${model.accessibility}</a>
+        </li>
+        <li data-sly-test="${model.statement1st && model.statement1stUrl}">
+            <a href="${model.statement1stUrl}" target="${model.isExternalStatement1stUrl ? '_blank' : ''}">${model.statement1st}</a>
+        </li>
+        <li data-sly-test="${model.statement2nd &&  model.statement2ndUrl}">
+            <a href="${model.statement2ndUrl}" target="${model.isExternalStatement2ndUrl ? '_blank' : ''}">${model.statement2nd}</a>
+        </li>
+    </ul>
+</div>

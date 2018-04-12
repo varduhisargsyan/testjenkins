@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/content/worldline"/>
+    <filter root="/content/equensworldline"/>
+    <filter root="/content/worldline-fairs"/>
+    <filter root="/content/fr-worldline"/>
+    <filter root="/content/paysquare"/>
+    <filter root="/content/dam"/>
+    <filter root="/content/sling"/>
+</workspaceFilter>

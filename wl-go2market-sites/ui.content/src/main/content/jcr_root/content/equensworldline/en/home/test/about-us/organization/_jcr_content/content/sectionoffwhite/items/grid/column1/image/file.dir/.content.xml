@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:file">
+    <jcr:content
+        cq:lastRolledout="{Date}2017-10-25T18:05:24.106+02:00"
+        cq:lastRolledoutBy="fr20437"
+        jcr:lastModifiedBy="a480019"
+        jcr:mimeType="image/png"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="nt:resource"/>
+</jcr:root>

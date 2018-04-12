@@ -1,0 +1,20 @@
+<sly data-sly-use.model="com.worldline.core.models.CountryDDModel">
+    <li class="parentmenu" data-sly-test="${model.isCountryListDD}">
+        <a href="#">${'cldd_global' @ i18n}</a>
+        <ul class="submenu countries--list" >
+            <li class="countries--list-col">
+                <ul data-sly-list.item="${model.countryListLeft}">
+                    <li id="${item.key}"><a href="${item.url}" title="${item.key @ i18n}"><img class="site__flag" src="${item.iconPath}"> ${item.key @ i18n}</a></li>
+                </ul>
+            </li>
+            <li class="countries--list-col"  >
+                <ul data-sly-list.item="${model.countryListRight}">
+                    <li  id="${item.key}">
+                        <a href="${item.url}" title="${item.key @ i18n}">
+                            <img class="site__flag" src="${item.iconPath}"> ${item.key @ i18n }</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</sly>
+

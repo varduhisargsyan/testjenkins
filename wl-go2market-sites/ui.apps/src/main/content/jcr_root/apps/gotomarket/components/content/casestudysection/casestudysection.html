@@ -1,0 +1,18 @@
+<sly>
+    <div class="grid-row">
+        <div class="grid-col-12">
+            <div class="block--featured alt">
+                <div class="block--featured-content">
+                    <sly data-sly-resource="${'titleH2' @ resourceType='gotomarket/components/parsys'}"/>
+                    <h3>${properties.subtitle ? properties.subtitle : 'Discover how we help McDonald’s implement online payments'}</h3>
+                    <p>${properties.text ? properties.text : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etdolore magnaUt enim ad minim veniam, quis nostrud exercitation ullamco laborist aliquip ex ea commodoconsequat. Duis aute irure dolor reprehenderit'}</p>
+                    <a class="block--article-link" data-sly-test="${properties.noExtention}" href="${properties.url}"
+                       target="${properties.isExternalUrl ? '_blank' : ''}">${properties.linkText ? properties.linkText : 'Read more'} </a>
+                    <a class="block--article-link" data-sly-test="${!properties.noExtention}" href="${properties.url}.html"
+                       target="${properties.isExternalUrl ? '_blank' : ''}">${properties.linkText ? properties.linkText : 'Read more'} </a>
+                </div>
+                <sly data-sly-resource="${'component' @ resourceType='gotomarket/components/parsys'}"/>
+            </div>
+        </div>
+    </div>
+</sly>

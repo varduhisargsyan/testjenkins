@@ -1,0 +1,12 @@
+<div class="blog--single-share" data-sly-use.model="com.worldline.core.models.PrShareModel">
+    <span class="title--share">${model.prShareText ? model.prShareText : 'Share'}</span>
+    <ul class="share--networks-list">
+        <sly data-sly-list="${model.socials}">
+            <li class="networks-list--icon ${item.iconClass}">
+                <a href="${[item.url, model.articleUrl] @ join=''}"></a>
+            </li>
+        </sly>
+    </ul>
+</div>
+
+

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-23T10:09:06.326+01:00"
+        cq:lastModifiedBy="a598986"
+        cq:lastReplicated="{Date}2017-11-23T10:09:42.890+01:00"
+        cq:lastReplicatedBy="a598986"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[blog:corporate]"
+        cq:template="/apps/gotomarket/templates/blogarticle"
+        jcr:description="Our people are what make Worldline a successful company. This human capital is essential to everything we do which is why we have developed, and will continue to develop, ambitious HR programs to help them reach their professional targets. This special attention to our people does not just start once you have joined our company; it also permeates through our recruiting. We sat down with Patrice Gry, our HR Director, to discuss our hiring strategy, the profiles we are looking for, our values and the career paths at Worldline."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-11-23T10:09:06.315+01:00"
+        jcr:lastModifiedBy="a598986"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="The human capital, the key to our success"
+        jcr:uuid="5632930a-236d-4477-8dd6-67d0eee7d732"
+        sling:resourceType="gotomarket/components/structure/pages/blogarticle"
+        authorImage="/content/dam/worldline/images/blog/author/gry3-80.png"
+        authorName="Patrice Gry"
+        authorText="Human Resources Director"
+        categories="[category:talents]"
+        categories_x0040_TypeHint="String[]"
+        color="#ffffff"
+        creationDate="{Date}2016-09-25T10:00:00.000+02:00"
+        hideInNav="false"
+        imagePath="/content/dam/worldline/images/blog/header/build-your-career-header-v2.jpg"
+        isExternalContactUsUrl="false"
+        isExternalJoinUsUrl="false"
+        isStickyContactHidden="false"
+        noExtentionContactUs="false"
+        noExtentionJoinUs="false"
+        showbrand="false"
+        showinfostrip="false"
+        title="The human capital&#xd;&#xa;the key to our success">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+        <headlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headlibs"/>
+        <header
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/header">
+            <leftnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/leftnavigation"
+                iconClass="iconClass2"/>
+            <rightnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/rightnavigation"
+                iconClass="iconClass2">
+                <countrylistdropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/countrylistdropdown"/>
+                <languagedropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/languagedropdown"/>
+            </rightnavigation>
+            <mainnav
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/mainnav"/>
+            <infostrip
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/infostrip"/>
+            <breadcrumbblog
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/breadcrumbblog"/>
+        </header>
+        <headerblog
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headerblog"/>
+        <singleauthor
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/singleauthor"/>
+        <prshare
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/prshare"/>
+        <stayintouch
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/stayintouch"/>
+        <footer
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footer">
+            <sitemap
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/sitemap"/>
+            <followus
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/followus"/>
+            <newsletterform
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/newsletterform"/>
+        </footer>
+        <footlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footlibs"/>
+        <copyright
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/copyright"/>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/parsys">
+            <richtext
+                jcr:created="{Date}2017-09-07T17:49:07.226+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-07T17:49:59.671+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>&lt;i>Patrice Gry is the HR Director of the Worldline Group. He joined us when Atos acquired Bull, where he was also HR Director. Before joining Bull, Patrice held various HR positions, notably for the Darty Group.&lt;/i>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_1456330193
+                jcr:created="{Date}2017-09-07T17:50:06.895+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-07T17:51:00.184+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;img src=&quot;/content/dam/worldline/images/blog/graphics/hc-axis-en-v2.png&quot;>&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <richtext_2039450628
+                jcr:created="{Date}2017-09-07T17:51:12.186+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-07T17:51:55.087+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>Our corporate HR strategy includes the development of mobility, promotion and career paths within our company.&lt;/p>&#xa;&lt;p>As Worldline is expanding rapidly, recruiting and projected future hires are important: we hired 600 new collaborators in 2015 and are looking to hire more for 2016. Furthermore, Worldline also hires young talents for internships or apprenticeships: more than 400 in France in 2016. These young talents can then be hired on a permanent contract; about 60% of them receive a permanent contract offer following their internship or apprenticeship.&lt;/p>&#xa;&lt;p>The job opportunities are various (Data Scientist, Data Miner, Project Manager, Commercial Engineer, NICT or Security Expert, System Engineer, Study and Development Engineer, Software Architect, DBA Specialist) and joining Worldline is a great opportunity, to evolve in a multicultural environment. Worldline is located in 17 countries and also benefits from the Atos Group's network, established in more than 70 countries.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_990245763
+                jcr:created="{Date}2017-09-07T17:52:03.881+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-07T17:52:58.247+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;h2>Can you tell them more about their career development prospects within our company?&lt;/h2>&#xa;&lt;p>We have two distinct career paths in our company. Of course, we offer the traditional management path, through which one can evolve thanks to training and internal mobility, but we have also developed a path specific to experts in which they evolve from Junior Expert to Chief Expert. Our goal is for our experts to grow, within our company, via a path, which can be similar to the management path, but still takes into account specificities linked to their career.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_779534923
+                jcr:created="{Date}2017-09-07T17:53:04.493+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-07T17:53:45.327+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;h2>Can you tell them more about their career development prospects within our company?&lt;/h2>&#xa;&lt;p>We have two distinct career paths in our company. Of course, we offer the traditional management path, through which one can evolve thanks to training and internal mobility, but we have also developed a path specific to experts in which they evolve from Junior Expert to Chief Expert. Our goal is for our experts to grow, within our company, via a path, which can be similar to the management path, but still takes into account specificities linked to their career.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_1401057993
+                jcr:created="{Date}2017-09-07T17:54:37.530+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-07T18:02:54.339+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>&lt;img src=&quot;/content/dam/worldline/images/blog/graphics/innovation.png&quot; class=&quot;img-left&quot;>&amp;nbsp; Increase our competitiveness: The development of innovations is essential to strengthen our competitiveness in the current context (globalization, digitalization). Worldline stimulates innovation in order to offer innovative and competitive solutions to its clients.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_2047660506
+                jcr:created="{Date}2017-09-07T17:56:28.673+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-07T18:04:26.589+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>&lt;img src=&quot;/content/dam/worldline/images/blog/graphics/satisfaction.png&quot; class=&quot;img-left&quot;>Customer satisfaction: Our clients are our number one priority and our goal is to grow their trust and loyalty in our company. In order to do that, Worldline commits to the quality of its products and services&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_1437234602
+                jcr:created="{Date}2017-09-07T17:57:01.449+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-07T18:05:36.090+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>&lt;img src=&quot;/content/dam/worldline/images/blog/graphics/qualité.png&quot; class=&quot;img-left&quot;> Quality commitment: This commitment means impeccable production, fulfillment and delivery quality of our solutions for our clients.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_743883165
+                jcr:created="{Date}2017-09-07T17:57:34.298+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-07T18:07:09.392+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>&lt;img src=&quot;/content/dam/worldline/images/blog/graphics/talents.png&quot; class=&quot;img-left&quot;>Talent development: In order to innovate, to create qualitative solutions and to satisfy our clients, we need our people and their career development within Worldline is a major axis in our strategy.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_174281647
+                jcr:created="{Date}2017-09-07T17:58:24.458+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-07T18:07:58.529+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>&lt;img src=&quot;/content/dam/worldline/images/blog/graphics/environnement.png&quot; class=&quot;img-left&quot;>Environmental awareness: When we work on everything we have discussed before, we need to do so while respecting a set of environmental criteria. It is also in this context that we have established our Corporate Social Responsibility strategy.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_1319629077
+                jcr:created="{Date}2017-09-07T18:08:09.601+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-07T18:08:54.833+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;h2>What makes Worldline stand out, as an employer, in comparison to other companies?&lt;/h2>&#xa;&lt;p>First of all, what differentiates us is our history. A history made of mergers and acquisitions that formed Worldline from different backgrounds, such as banking and multimedia. It is through our history that we were able to develop a very strong culture of technology expertise related to payments, transactions and mobility. Nowadays, Worldline is the European leader in e-payment and transactional services, and still offers strong growth perspectives.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_1717386522
+                jcr:created="{Date}2017-09-07T18:09:06.263+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-07T18:10:33.504+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>&lt;img src=&quot;/content/dam/worldline/images/blog/graphics/wellbeing.png&quot; class=&quot;img-right&quot;>&lt;/p>&#xa;&lt;p>Another major differentiating factor is the support to our collaborators. Worldline's growth being based on its human capital, we develop ambitious HR programs such as mentorship, training and certification, reverse mentoring and more. Moreover, our wellbeing@worldline program allows the advancement of our collaborators through the development of their skills, in order to help them reach their professional target. We have been developing all these wellbeing factors within our company for many years and this is, of course, reflected in our HR policy.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <richtext_2001452545
+                jcr:created="{Date}2017-09-07T18:11:00.556+02:00"
+                jcr:createdBy="a101309"
+                jcr:lastModified="{Date}2017-09-07T18:12:02.158+02:00"
+                jcr:lastModifiedBy="a101309"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/richtext"
+                text="&lt;p>Finally, innovation is also a major differentiating factor. Worldline has a high investment capacity, which enables us to continuously innovate in several fields. Worldline is a big company with a start-up spirit where innovation is at the core of our activities.&lt;/p>&#xa;&lt;h2>Thank you for your time today, Patrice. I will leave you with one final question: if you could invent a new innovative solution to help with one of your daily tasks, in your professional and/or private life, what would it be and why?&lt;/h2>&#xa;&lt;p>In my opinion, it would be a simple and inexpensive videoconference system with the benefits of an in-person meeting.&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </content>
+    </jcr:content>
+</jcr:root>

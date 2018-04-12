@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="nt:unstructured"
+        xtype="tabpanel">
+        <items
+            jcr:primaryType="nt:unstructured"
+            helpPath="en/cq/current/wcm/default_components.html#iFrame"
+            title="iFrame"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title"
+                    name="./title"
+                    xtype="field"/>
+                <sourceurl
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Source Url"
+                    name="./sourceurl"
+                    xtype="pathfield"/>
+                <height
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Height"
+                    name="./height"
+                    xtype="numberfield"/>
+                <width
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Width"
+                    name="./width"
+                    xtype="numberfield"/>
+                <frameborder
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Frame Border"
+                    name="./frameborder"
+                    type="select"
+                    xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <no
+                            jcr:primaryType="nt:unstructured"
+                            text="No"
+                            value="0"/>
+                        <yes
+                            jcr:primaryType="nt:unstructured"
+                            text="Yes"
+                            value="1"/>
+                    </options>
+                </frameborder>
+                <name
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Name"
+                    name="./name"
+                    xtype="field"/>
+                <scrolling
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Scrolling"
+                    name="./scrolling"
+                    type="select"
+                    xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <yes
+                            jcr:primaryType="nt:unstructured"
+                            text="Yes"
+                            value="yes"/>
+                        <no
+                            jcr:primaryType="nt:unstructured"
+                            text="No"
+                            value="no"/>
+                        <auto
+                            jcr:primaryType="nt:unstructured"
+                            text="Auto"
+                            value="auto"/>
+                    </options>
+                </scrolling>
+            </items>
+        </items>
+    </items>
+</jcr:root>

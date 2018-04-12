@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-28T15:42:01.895+01:00"
+        cq:lastModifiedBy="a598986"
+        cq:lastReplicated="{Date}2017-11-28T15:42:14.164+01:00"
+        cq:lastReplicatedBy="a598986"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/solutions"
+        jcr:description="Develop your e-Business simply, efficiently, securely"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-11-28T15:13:33.204+01:00"
+        jcr:lastModifiedBy="a598986"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="WL Sips"
+        jcr:uuid="a3c048df-a6ee-4ea6-8b18-8af5bcc0fcc7"
+        sling:resourceType="gotomarket/components/structure/pages/solutions"
+        creationDate="{Date}2017-10-04T11:38:00.000+02:00"
+        description=" "
+        hideInNav="false"
+        isExternalContactUsUrl="false"
+        isExternalJoinUsUrl="false"
+        isStickyContactHidden="false"
+        noExtentionContactUs="false"
+        noExtentionJoinUs="false"
+        showbrand="false"
+        showinfostrip="false"
+        subtitle="Develop your e-Business simply, efficiently, securely"
+        title="WL Sips">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+        <headlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headlibs"/>
+        <header
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/header">
+            <leftnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/leftnavigation"
+                iconClass="iconClass2"/>
+            <rightnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/rightnavigation"
+                iconClass="iconClass2">
+                <countrylistdropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/countrylistdropdown"/>
+                <languagedropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/languagedropdown"/>
+            </rightnavigation>
+            <mainnav
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/mainnav"/>
+            <infostrip
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/infostrip"/>
+            <breadcrumb
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/breadcrumb"/>
+        </header>
+        <headersingle
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headersingle"/>
+        <subnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/subnav"/>
+        <stayintouch
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/stayintouch"/>
+        <contactus
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/contactus"/>
+        <footer
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footer">
+            <sitemap
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/sitemap"/>
+            <followus
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/followus"/>
+            <newsletterform
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/newsletterform"/>
+        </footer>
+        <footlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footlibs"/>
+        <copyright
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/copyright"/>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/parsys">
+            <section
+                jcr:created="{Date}2017-09-14T12:48:43.007+02:00"
+                jcr:createdBy="fr20437"
+                jcr:lastModified="{Date}2017-09-14T12:48:43.007+02:00"
+                jcr:lastModifiedBy="fr20437"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/section">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-09-14T12:48:49.474+02:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-09-14T12:48:49.474+02:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <titleh2
+                                jcr:created="{Date}2017-09-14T12:49:02.182+02:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-09-14T12:49:15.268+02:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/titleH2"
+                                showDots="false"
+                                title="Develop your customers’ purchasing experience"
+                                titleAlignment="left"/>
+                            <challengestab
+                                jcr:created="{Date}2017-09-14T12:49:38.039+02:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-28T15:16:28.081+01:00"
+                                jcr:lastModifiedBy="a598986"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/challengestab"
+                                list="[{&quot;imagePath&quot;:&quot;/content/dam/worldline/images/icones-white/shopping-line-white.png&quot;\,&quot;title&quot;:&quot;Meet your customers' expectations&quot;\,&quot;content&quot;:&quot;Adapt to a range of payment demands and reassure them with a highly secured and reliable payment platform.&quot;},{&quot;imagePath&quot;:&quot;/content/dam/worldline/images/icones-white/loyalty-line-white.png&quot;\,&quot;title&quot;:&quot;Develop your customers’ loyalty&quot;\,&quot;content&quot;:&quot;Increase repeat sales on your online store while creating synergies with your brick-and-mortar store.&quot;},{&quot;imagePath&quot;:&quot;/content/dam/worldline/images/icones-white/target-line-white.png&quot;\,&quot;title&quot;:&quot;Focus on your business&quot;\,&quot;content&quot;:&quot;WL Sips makes your life easier thanks to its highly reliable platform and our international teams supporting you all over the world.&quot;}]"/>
+                        </column1>
+                    </grid>
+                </items>
+            </section>
+            <sectionoffwhite
+                jcr:created="{Date}2017-09-14T12:52:14.886+02:00"
+                jcr:createdBy="fr20437"
+                jcr:lastModified="{Date}2017-09-14T12:52:14.886+02:00"
+                jcr:lastModifiedBy="fr20437"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/sectionoffwhite">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-09-14T12:52:24.077+02:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-09-14T12:52:24.077+02:00"
+                        jcr:lastModifiedBy="fr20437"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <titleh2
+                                jcr:created="{Date}2017-09-14T12:52:37.162+02:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-09-14T12:52:47.039+02:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/titleH2"
+                                showDots="false"
+                                title="Our key features"
+                                titleAlignment="left"/>
+                            <richtext
+                                jcr:created="{Date}2017-09-14T12:53:02.930+02:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-28T15:38:16.951+01:00"
+                                jcr:lastModifiedBy="a598986"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/richtext"
+                                text="&lt;p>Discover WL Sips' key features, and for more information, &lt;a title=&quot;Sips web site&quot; target=&quot;_blank&quot;>visit our dedicated website&lt;/a>.&lt;/p>&#xd;&#xa;&#xd;&#xa;"
+                                textIsRich="true"/>
+                        </column1>
+                    </grid>
+                    <grid_757450900
+                        jcr:created="{Date}2017-09-14T12:54:00.650+02:00"
+                        jcr:createdBy="fr20437"
+                        jcr:lastModified="{Date}2017-11-28T15:30:59.438+01:00"
+                        jcr:lastModifiedBy="a598986"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-6&quot;},{&quot;columnSize&quot;:&quot;grid-col-6&quot;}]">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <multisectoritem
+                                jcr:created="{Date}2017-09-14T12:55:32.541+02:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-28T15:40:08.653+01:00"
+                                jcr:lastModifiedBy="a598986"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="Enhance your customers’ purchasing experience"
+                                imagePath="/content/dam/worldline/images/icones/cross-channel-line.png"
+                                isExternalURL="false"
+                                noExtention="false"
+                                title="Multi &amp; cross-channel"/>
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-14T12:55:32.541+02:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-28T15:41:01.250+01:00"
+                                jcr:lastModifiedBy="a598986"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="Adapt your offer to your customers’ contexts and expectations"
+                                imagePath="/content/dam/worldline/images/icones/credit-cards-line.png"
+                                isExternalURL="false"
+                                noExtention="false"
+                                title="Payment types &amp; acquiring connections"/>
+                            <multisectoritem_copy_823480869
+                                jcr:created="{Date}2017-09-14T12:55:32.541+02:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-09-14T13:16:49.474+02:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="Increase repeat sales and customers’ loyalty"
+                                imagePath="/content/dam/worldline/images/icones/wallet-line.png"
+                                isExternalURL="false"
+                                title="Merchant wallet"/>
+                            <multisectoritem_copy_3104936
+                                jcr:created="{Date}2017-09-14T12:55:32.541+02:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-09-14T13:25:50.187+02:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="Benefit from a high quality support service"
+                                imagePath="/content/dam/worldline/images/icones/phone-line.png"
+                                isExternalURL="false"
+                                title="Support service"/>
+                        </column1>
+                        <column2 jcr:primaryType="nt:unstructured">
+                            <multisectoritem_copy
+                                jcr:created="{Date}2017-09-14T12:55:32.541+02:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-28T15:21:37.852+01:00"
+                                jcr:lastModifiedBy="a598986"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="Benefit from an easy transaction management"
+                                imagePath="/content/dam/worldline/images/icones/processing-line.png"
+                                isExternalURL="false"
+                                noExtention="false"
+                                title="Transaction management tool"/>
+                            <multisectoritem_copy_397856173
+                                jcr:created="{Date}2017-09-14T12:55:32.541+02:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-09-14T13:22:28.248+02:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="Offer a smooth online purchasing experience"
+                                imagePath="/content/dam/worldline/images/icones/ecommerce-line.png"
+                                isExternalURL="false"
+                                title="Responsive &amp; customizable payment pages"/>
+                            <multisectoritem_copy_830971267
+                                jcr:created="{Date}2017-09-14T12:55:32.541+02:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-09-14T13:22:59.149+02:00"
+                                jcr:lastModifiedBy="fr20437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="Offer added value services to your customers"
+                                imagePath="/content/dam/worldline/images/icones/agenda-line.png"
+                                isExternalURL="false"
+                                title="Payment collection methods"/>
+                            <multisectoritem_copy_394318079
+                                jcr:created="{Date}2017-09-14T12:55:32.541+02:00"
+                                jcr:createdBy="fr20437"
+                                jcr:lastModified="{Date}2017-11-28T15:42:01.888+01:00"
+                                jcr:lastModifiedBy="a598986"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/multisectoritem"
+                                description="Follow and control your daily activity"
+                                imagePath="/content/dam/worldline/images/icones/growth-line.png"
+                                isExternalURL="false"
+                                noExtention="false"
+                                title="Reporting tool"/>
+                        </column2>
+                        <column3 jcr:primaryType="nt:unstructured"/>
+                    </grid_757450900>
+                </items>
+            </sectionoffwhite>
+            <expertsection
+                jcr:created="{Date}2017-09-14T13:39:46.024+02:00"
+                jcr:createdBy="fr20437"
+                jcr:lastModified="{Date}2017-10-24T13:46:54.821+02:00"
+                jcr:lastModifiedBy="a599132"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/content/expertsection"
+                backgroundImg="/content/dam/worldline/images/experts/experts.jpg"
+                buttontext="Contact us"
+                contactMeLink="mailto:WL-marketing@worldline.com"
+                imagePath="/content/dam/worldline/images/experts/expert-man.jpg"
+                isStickyExpertHidden="false"
+                name="Support Team"
+                position=" Worldline"
+                text="&amp;nbsp;"
+                title="WL Sips"/>
+        </content>
+    </jcr:content>
+</jcr:root>

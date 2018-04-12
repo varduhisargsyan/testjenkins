@@ -1,0 +1,10 @@
+<main id="blog-list" role="main"
+      data-sly-use.model="com.worldline.core.models.BlogOverviewTemplateModel">
+    <div class="blog--list">
+        <sly data-sly-resource="headersingle"></sly>
+        <div data-sly-resource="blogoverview" data-sly-unwrap></div>
+    </div>
+    <div data-sly-test="${model.expertQuote}" data-sly-resource="expertsectionquote" data-sly-unwrap/>
+    <div data-sly-test="${model.twitterNews}" data-sly-resource="twittercarousel" data-sly-unwrap/>
+</main>
+

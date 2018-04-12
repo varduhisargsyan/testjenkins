@@ -1,0 +1,77 @@
+<sly data-sly-use.model="com.worldline.core.models.ArticleOverviewModel">
+    <h1 class="overview--title" data-sly-test="${!properties.isTitleHidden}">${properties.title ? properties.title : 'Press releases'}<br></h1>
+    <table class="overview-content-table">
+        <thead>
+        <tr>
+            <td>
+                <b data-sly-test="${!properties.isHeadingHidden}">${properties.heading ? properties.heading : 'Worldline Press releases'}</b>
+                <a href="${currentPage.path @ addSelectors=[model.selectorPage, model.orderByTitle, model.sortDesc]}.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24">
+                        <path d="M12 21l-12-18h24z"/>
+                    </svg>
+                     </a>
+                <a href="${currentPage.path @ addSelectors=[model.selectorPage,model.orderByTitle, model.sortAsc]}.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24"><path d="M12 3l12 18h-24z"/></svg>
+                </a>
+            </td>
+            <td class="number--of--results">
+                <b data-sly-test="${!properties.isResultsHidden}">${properties.results ? properties.results : 'Number of results:'}${model.message}</b>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="overview--content-td">
+                <div class="overview--date">
+                    <b data-sly-test="${!properties.isDateTextHidden}">${properties.dateText ? properties.dateText : 'Date'}</b>
+                    <a href="${currentPage.path @ addSelectors=[model.selectorPage,model.orderByDate ,model.sortDesc]}.html">
+                        <svg xmlns="http://www.w3.org/2000/svg"    class="icon" viewBox="0 0 24 24">
+                            <path d="M12 21l-12-18h24z"/>
+                        </svg>
+                    </a>
+                    <a href="${currentPage.path @ addSelectors=[model.selectorPage,model.orderByDate , model.sortAsc]}.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24"><path d="M12 3l12 18h-24z"/></svg>
+                    </a>
+                </div>
+            </td>
+        </tr>
+        </thead>
+        <tbody data-sly-list.item="${model.pageList}">
+        <tr>
+            <td>
+                <div>
+                    <h3>
+                        <a data-sly-test="${!properties.isTitleHidden}" class="overview--article--title" target="_blank" href="${item.link ? item.link : '#'}">
+                            ${item.extension != null ? item.extension : ""} ${item.title}
+                        </a>
+                    </h3>
+                    <p data-sly-test="${!properties.isDescHidden}">
+                        ${item.text ? item.text : ''}
+                    </p>
+                </div>
+            </td>
+            <td>
+                <div class="item--date">${item.date ? item.date : '05 Jul 2017'}</div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div data-sly-use.data="${ 'overview.js' @ matches=model.message, itemPerPage=properties.itemsPerPage}">
+        <span class="overview--content-span" data-sly-test="${data.check}">
+            <a class="overview--content-next-prev" data-sly-test="${data.previous!='' || !properties.isPreviousHidden}"
+               href="${currentPage.path @ addSelectors=[data.previous, model.selectorOrder, model.selectorSort]}.html">
+                ${properties.previous ? properties.previous : 'Previous '}</a>
+            <span class="overview--content-pagination-span" data-sly-list.val="${data.pages}">
+                <a class="overview--content-pagination block--article-link"
+                   href="${ '{0}.{1}.{2}.{3}.html' @ format=[currentPage.path, val[0],  model.selectorOrder, model.selectorSort]}"> ${val[1]} </a>
+            </span>
+            <a class="overview--content-next-prev" data-sly-test="${data.next!='' || !properties.isNextHidden}"
+               href="${currentPage.path @ addSelectors=[data.next,  model.selectorOrder, model.selectorSort]}.html">
+                 ${properties.next ? properties.next : 'Next'} </a>
+        </span>
+        <span data-sly-test="${!data.check}">
+            <a class="overview--content-next-prev" data-sly-test="${data.previous!='' || !properties.isPreviousHidden}"
+               href="${currentPage.path @ addSelectors=[data.previous, model.selectorOrder, model.selectorSort]}.html">
+                ${properties.previous ? properties.previous : 'Previous '}
+            </a>
+        </span>
+    </div>
+</sly>

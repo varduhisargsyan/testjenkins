@@ -1,0 +1,12 @@
+<sly>
+    <li data-parent-section-class="offwhite" data-sly-use.model="com.worldline.core.models.ListToggleModel" data-sly-list="${model.listItems}">
+        <div data-sly-test="${itemList.first}" class="list--toggle-content active">
+            <span class="list--toggle-title">${item.acardion ? item.acardion : 'Sed do eiusmod tempor incididunt ut labore'}</span>
+            <p>${item.text ? item.text : 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim est labor ed ut perspiciatis unde omnis iste natus error vol tatem accusantium doloremque laudantium, totam rem.' @ context='html'}</p>
+        </div>
+        <div data-sly-test="${!itemList.first}" class="list--toggle-content">
+            <span class="list--toggle-title">${item.acardion ? item.acardion : 'Sed do eiusmod tempor incididunt ut labore'}</span>
+            <p>${item.text ? item.text : 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim est labor ed ut perspiciatis unde omnis iste natus error vol tatem accusantium doloremque laudantium, totam rem.' @ context='html'}</p>
+        </div>
+    </li>
+</sly>

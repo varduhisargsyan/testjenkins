@@ -1,0 +1,77 @@
+<form id="form-newsletter" method="POST" class="grid-row"
+      action="/bin/newsletterLandingFormHandler"
+      data-sly-use.model="com.worldline.core.models.form.NewsletterLandingForm">
+    <div class="grid-col-6">
+        <div class="grid-row form-grig-row">
+            <div class="grid-col-4">
+                <label for="newsletter-email">${properties.inputemail ? properties.inputemail : 'EMAIL ADDRESS'}</label>
+            </div>
+            <div class="grid-col-8">
+                <input type="email" id="newsletter-email" name="newsletter-email" placeholder="email" value="${model.email}">
+            </div>
+        </div>
+        <div class="grid-row form-grig-row">
+            <div class="grid-col-4">
+                <label for="newsletter-firstname">${properties.inputname ? properties.inputname : 'FIRST NAME'}</label>
+            </div>
+            <div class="grid-col-8">
+                <input type="text" id="newsletter-firstname" name="newsletter-firstname" placeholder="firstname">
+            </div>
+        </div>
+        <div class="grid-row form-grig-row">
+            <div class="grid-col-4">
+                <label for="newsletter-lastname">${properties.inputsurname ? properties.inputsurname : 'LAST NAME'}</label>
+            </div>
+            <div class="grid-col-8">
+                <input type="text" id="newsletter-lastname" name="newsletter-lastname" placeholder="lastname">
+            </div>
+        </div>
+        <div class="grid-row form-grig-row">
+            <div class="grid-col-4">
+                <label for="newsletter-gender">${properties.gender ? properties.gender : 'GENDER'}</label>
+            </div>
+            <div class="grid-col-8">
+                <input type="radio" name="newsletter-gender" value="male"> Male
+                <input type="radio" name="newsletter-gender" value="female"> Female
+            </div>
+        </div>
+    </div>
+    <div class="grid-col-6">
+        <div class="grid-row form-grig-row">
+            <div class="grid-col-4">
+                <label for="newsletter-company">${properties.inputcompany ? properties.inputcompany : 'COMPANY'}</label>
+            </div>
+            <div class="grid-col-8">
+                <input type="text" id="newsletter-company" name="newsletter-company" placeholder="company">
+            </div>
+        </div>
+        <div class="grid-row form-grig-row">
+            <div class="grid-col-4">
+                <label for="newsletter-job">${properties.jobtitle ? properties.jobtitle : 'FUNCTION/JOBTITLE'}</label>
+            </div>
+            <div class="grid-col-8">
+                <input type="text" id="newsletter-job" placeholder="job" name="newsletter-job">
+            </div>
+        </div>
+        <div class="grid-row form-grig-row">
+            <div class="grid-col-4">
+                <label for="newsletter-country">${properties.inputcountry ? properties.inputcountry : 'COUNTRY'}</label>
+            </div>
+            <div>
+                <select name="newsletter-country" class="grid-col-8" data-sly-list.item="${model.countryList}">
+                    <option data-sly-test="${itemList.index == 0 }"
+                            value="${item.name @ i18n}">${item.name @ i18n}</option>
+                    <option data-sly-test="${itemList.index > 0 }" value="${item.name}">${item.name}</option>
+                </select>
+            </div>
+        </div>
+        <div class="grid-row form-grig-row">
+            <div class="grid-col-4"></div>
+                <div class="grid-col-8">
+                    <button class="form--newsletter-button"
+                            type="submit">${properties.buttontext ? properties.buttontext : 'Subscribe'}
+                    </button>
+                </div>
+            </div>
+        </div>
+</form>

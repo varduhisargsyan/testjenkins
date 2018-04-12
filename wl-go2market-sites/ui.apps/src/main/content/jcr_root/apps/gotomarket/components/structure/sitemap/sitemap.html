@@ -1,0 +1,7 @@
+<div class="grid-col-4 cf" data-sly-use.siteMap="com.worldline.core.models.FooterModel">
+    <span class="footer--title">${siteMap.sitemapTitle}</span>
+    <ul class="footer--sitemap-list" data-sly-test="${siteMap.pageItems}" data-sly-list="${siteMap.pageItems}">
+        <li class="footer--sitemap-link">
+            <a href="${item.path}.html">${item.title}</a></li>
+    </ul>
+</div>

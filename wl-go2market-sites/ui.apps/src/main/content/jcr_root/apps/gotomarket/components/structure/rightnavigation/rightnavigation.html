@@ -1,0 +1,10 @@
+<sly data-sly-resource="countrylistdropdown"></sly>
+<sly data-sly-resource="languagedropdown"></sly>
+<sly data-sly-use.model="com.worldline.core.models.TopNavigationModel">
+    <sly data-sly-list.models="${model.socials}">
+        <li  class="networks-list--icon ${models.iconClass}">
+            <a href="${models.url}">
+            </a>
+        </li>
+    </sly>
+</sly>

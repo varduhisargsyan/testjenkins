@@ -1,0 +1,15 @@
+<sly>
+        <div class="block--article-thumb" data-parent-section-class="offwhite"  data-parent-class="${properties.elementSize ? properties.elementSize : 'small'}">
+            <img class="block--article-img"
+                 src="${properties.imagePath ? properties.imagePath : '/content/dam/gotomarket/uploads/articles/article-small-01.jpg'}"
+                 alt="">
+        </div>
+        <div class="block--article-content">
+            <h3 class="block--article-title">${properties.title ? properties.title : 'Title' @ context='html'}</h3>
+            <p class="block--article-excerpt">${properties.content ? properties.content : 'Content Lorem ipsum dolor sit amet' @ context='html'} </p>
+            <a class="block--article-link" data-sly-test="${properties.noExtention}" href="${properties.url}"
+               target="${properties.isExternalUrl ? '_blank' : ''}">${properties.linkToText ? properties.linkToText : 'Read more'} </a>
+            <a class="block--article-link" data-sly-test="${!properties.noExtention}" href="${properties.url}.html"
+               target="${properties.isExternalUrl ? '_blank' : ''}">${properties.linkToText ? properties.linkToText : 'Read more'} </a>
+        </div>
+</sly>

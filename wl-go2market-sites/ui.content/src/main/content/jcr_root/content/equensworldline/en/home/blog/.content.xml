@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-16T16:03:20.552+01:00"
+        cq:lastModifiedBy="a480019"
+        cq:lastReplicated="{Date}2017-11-16T16:06:30.338+01:00"
+        cq:lastReplicatedBy="a480019"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gotomarket/templates/content"
+        jcr:description="Changing market requirements make the world of payment services as exciting as it is challenging. Find out more on our blog."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2017-11-01T15:18:57.594+01:00"
+        jcr:lastModifiedBy="a480019"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Blog"
+        jcr:uuid="b04e85fa-5311-4e37-99f1-cb7fab050977"
+        sling:resourceType="gotomarket/components/structure/pages/content"
+        browserTabTitle="Blog | equensWorldline"
+        carouselItems="\{&quot;imagePath&quot;:&quot;/content/dam/gotomarket/bg-header-solutions.jpg&quot;,&quot;title&quot;:&quot;&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;}"
+        creationDate="{Date}2017-11-04T15:18:00.000+01:00"
+        hideInNav="false"
+        imagePath="/content/dam/equensworldline/images/headers/ew_aboutus.jpg"
+        showbrand="false"
+        showin="main"
+        showinfostrip="false">
+        <head
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/head"/>
+        <headlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headlibs"/>
+        <header
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/header">
+            <leftnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/leftnavigation"
+                iconClass="iconClass2"/>
+            <rightnavigation
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/rightnavigation"
+                iconClass="iconClass2">
+                <countrylistdropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/countrylistdropdown"/>
+                <languagedropdown
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/languagedropdown"/>
+            </rightnavigation>
+            <mainnav
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/mainnav"/>
+            <infostrip
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/infostrip"/>
+            <content
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/parsys">
+                <search
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/structure/search"/>
+            </content>
+            <breadcrumb
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/breadcrumb"/>
+        </header>
+        <headerpage
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/headerpage"/>
+        <contactus
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/contactus"/>
+        <footer
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footer">
+            <sitemap
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/sitemap"/>
+            <followus
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/followus"/>
+            <newsletterform
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/structure/newsletterform"/>
+        </footer>
+        <footlibs
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/footlibs"/>
+        <copyright
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/structure/copyright"/>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gotomarket/components/parsys">
+            <section
+                jcr:created="{Date}2017-09-25T00:35:52.600+02:00"
+                jcr:createdBy="a480019"
+                jcr:lastModified="{Date}2017-09-25T00:35:52.600+02:00"
+                jcr:lastModifiedBy="a480019"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/section">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-09-25T00:36:06.472+02:00"
+                        jcr:createdBy="a480019"
+                        jcr:lastModified="{Date}2017-09-25T00:36:06.472+02:00"
+                        jcr:lastModifiedBy="a480019"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <titleh2
+                                jcr:created="{Date}2017-09-25T00:36:27.873+02:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-09-25T00:36:44.992+02:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/titleH2"
+                                showDots="false"
+                                title="Blog: insights from industry leaders"
+                                titleAlignment="left"/>
+                            <richtext
+                                jcr:created="{Date}2017-09-25T00:37:12.052+02:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-09-25T13:15:25.261+02:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/richtext"
+                                text="&lt;p>Changing market requirements make the world of payment services as exciting as it is challenging. One of the major challenges is to focus on how the payment is integrated into the user experience. But this is not the only topic worth keeping an eye on. Innovation, technology, new services, and new legislation and regulations are also high on the list.&lt;/p>&#xa;&lt;p>We have clients and partnerships in numerous European countries and the United States, and have extensive contacts in the financial world. And we are eager to share our knowledge. Via the &lt;a title=&quot;equensWorldline blog&quot; href=&quot;https://blog.equensworldline.com/eu/&quot; target=&quot;_blank&quot;>equensWorldline blog&lt;/a>, industry experts and our own specialists will keep you informed of a wide variety of topics.&lt;/p>&#xa;&lt;p>Find below our latest blog articles.&lt;br>&#xa;&lt;/p>&#xa;"
+                                textIsRich="true"/>
+                        </column1>
+                    </grid>
+                    <section
+                        jcr:created="{Date}2017-11-06T15:42:17.542+01:00"
+                        jcr:createdBy="a480019"
+                        jcr:lastModified="{Date}2017-11-06T15:42:17.542+01:00"
+                        jcr:lastModifiedBy="a480019"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/section">
+                        <items
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <section
+                                jcr:created="{Date}2017-11-06T15:58:18.594+01:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-11-06T15:58:18.594+01:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/layout/section"/>
+                            <grid
+                                jcr:created="{Date}2017-11-06T15:58:50.127+01:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-11-16T16:03:20.548+01:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/layout/grid"
+                                list="[{&quot;columnSize&quot;:&quot;grid-col-8&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                                <column1
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="gotomarket/components/parsys">
+                                    <articlebriefitem_cop
+                                        jcr:created="{Date}2017-11-06T16:13:41.198+01:00"
+                                        jcr:createdBy="a480019"
+                                        jcr:lastModified="{Date}2017-11-16T16:02:21.526+01:00"
+                                        jcr:lastModifiedBy="a480019"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                        date="16 November 2017"
+                                        isDateHidden="false"
+                                        isExternalUrl="true"
+                                        isLinkHidden="false"
+                                        isSubtitleHidden="false"
+                                        isTitleHidden="false"
+                                        linkText="Read blog article"
+                                        noExtention="true"
+                                        subtitle="Why it is not wise to waste time with only a few months until PSD2 is the new reality for banks"
+                                        text="By Tom Wijnen&#xd;&#xa;&#xd;&#xa;With only a few months left before the implementation, it seems that the general opinion about PSD2 can be divided in two sides."
+                                        title="PSD2"
+                                        url="https://blog.equensworldline.com/eu/2017/11/not-wise-waste-time-four-months-psd2-new-reality-banks/"/>
+                                </column1>
+                                <column2
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="gotomarket/components/parsys"/>
+                                <column3
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="gotomarket/components/parsys"/>
+                            </grid>
+                        </items>
+                    </section>
+                    <grid_472848314
+                        jcr:created="{Date}2017-11-06T15:42:28.989+01:00"
+                        jcr:createdBy="a480019"
+                        jcr:lastModified="{Date}2017-11-06T15:42:58.357+01:00"
+                        jcr:lastModifiedBy="a480019"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                        <column3
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <articlebriefitem
+                                jcr:created="{Date}2017-11-06T16:09:54.076+01:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-11-06T16:11:59.206+01:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                date="18 October 2017"
+                                isDateHidden="false"
+                                isExternalUrl="true"
+                                isLinkHidden="false"
+                                isSubtitleHidden="false"
+                                isTitleHidden="false"
+                                linkText="Read blog article"
+                                noExtention="true"
+                                subtitle="SIBOS day 2 – A discussion about the role of payment infrastructures in the era of instant"
+                                text="By Tom Nijenhuis&#xd;&#xa;&#xd;&#xa;On the second day of SIBOS, equensWorldline’s CEO Michael Steinbach was present during the panel discussion. The topic of the discussion was ‘Complementary or competitive? The role of payments market infrastructure and correspondent banks in instant international payments’. This blog is a summary of the panel discussion."
+                                title="Sibos - Panel discussion"
+                                url="https://blog.equensworldline.com/eu/2017/10/sibos-discussion-role-payment-infrastructures-era-instant/"/>
+                        </column3>
+                        <column2
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <articlebriefitem_cop
+                                jcr:created="{Date}2017-11-06T15:43:35.294+01:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-11-06T15:56:38.193+01:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                date="18 October 2017"
+                                isDateHidden="false"
+                                isExternalUrl="true"
+                                isLinkHidden="false"
+                                isSubtitleHidden="false"
+                                isTitleHidden="false"
+                                linkText="Read blog article"
+                                noExtention="true"
+                                subtitle="Sibos day 2- Although Blockchain is interesting, it is far from mature"
+                                text="By Tom Nijenhuis&#xd;&#xa;&#xd;&#xa;Distributed Ledger Technology (DLT) should be a solution to address a particular problem and not a solution looking for a problem. That was one of the key messages during the session ‘Blockchain and payments: Lessons learnt and future prospects’ on the second day of SIBOS."
+                                title="blockchain"
+                                url="https://blog.equensworldline.com/eu/2017/10/sibos-although-blockchain-interesting-far-from-mature/"/>
+                        </column2>
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <articlebriefitem
+                                jcr:created="{Date}2017-11-06T16:13:41.198+01:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-11-06T16:15:37.436+01:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                date="19 October 2017"
+                                isDateHidden="false"
+                                isExternalUrl="true"
+                                isLinkHidden="false"
+                                isSubtitleHidden="false"
+                                isTitleHidden="false"
+                                linkText="Read blog article"
+                                noExtention="true"
+                                subtitle="SIBOS day 3 – How API’s can be the game changer for the financial industry"
+                                text="By Tom Nijenhuis&#xd;&#xa;&#xd;&#xa;The panel discussion on the third day of SIBOS revolved around open banking and API’s."
+                                title="Sibos - Panel discussion"
+                                url="https://blog.equensworldline.com/eu/2017/10/sibos-apis-can-game-changer-financial-industry/"/>
+                        </column1>
+                    </grid_472848314>
+                </items>
+            </section>
+            <section_270412416
+                jcr:created="{Date}2017-09-25T11:11:59.275+02:00"
+                jcr:createdBy="a480019"
+                jcr:lastModified="{Date}2017-09-25T11:11:59.275+02:00"
+                jcr:lastModifiedBy="a480019"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/section">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-09-25T11:22:17.749+02:00"
+                        jcr:createdBy="a480019"
+                        jcr:lastModified="{Date}2017-09-25T11:22:57.653+02:00"
+                        jcr:lastModifiedBy="a480019"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <articlebriefitem_cop
+                                jcr:created="{Date}2017-11-06T15:43:35.294+01:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-11-06T15:54:57.535+01:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                date="18 October 2017"
+                                isDateHidden="false"
+                                isExternalUrl="true"
+                                isLinkHidden="false"
+                                isSubtitleHidden="false"
+                                isTitleHidden="false"
+                                linkText="Read blog article"
+                                noExtention="true"
+                                subtitle="SIBOS day 2 – Banks should learn the lessons of telco operators to fully exploit the potential of PSD2"
+                                text="By Tom Nijenhuis&#xd;&#xa;&#xd;&#xa;Retail banks should position themselves as the every day digital bank with strong customer relations and provide services throughout the lives of their clients, support key events such as student loans, providing mortgages and pension plans. "
+                                title="PSD2"
+                                url="https://blog.equensworldline.com/eu/2017/10/sibos-day-2/"/>
+                        </column1>
+                        <column2
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <articlebriefitem
+                                jcr:created="{Date}2017-11-06T16:04:20.360+01:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-11-06T16:06:19.334+01:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                date="17 October 2017"
+                                isDateHidden="false"
+                                isExternalUrl="true"
+                                isLinkHidden="false"
+                                isSubtitleHidden="false"
+                                isTitleHidden="false"
+                                linkText="Read blog article"
+                                noExtention="true"
+                                subtitle="SIBOS day 1 – How an app challenge can improve the use of Instant Payments"
+                                text="By Tom Nijenhuis&#xd;&#xa;&#xd;&#xa;Banks, PSPs and tech providers can all compete to present the best app (or the prototypes) for Instant Payments on the 6th of February in 2018 in Frankfurt during the #TIPSapp Challenge."
+                                title="Instant Payments"
+                                url="https://blog.equensworldline.com/eu/2017/10/sibos-day-1-app-challenge-can-improve-use-instant-payments/"/>
+                        </column2>
+                        <column3
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <articlebriefitem
+                                jcr:created="{Date}2017-11-06T15:43:35.294+01:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-11-06T15:48:48.594+01:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                date="6 October 2017"
+                                isDateHidden="false"
+                                isExternalUrl="true"
+                                isLinkHidden="false"
+                                isSubtitleHidden="false"
+                                isTitleHidden="false"
+                                linkText="Read blog article"
+                                noExtention="true"
+                                subtitle="How IoT changes financial services and banks"
+                                text="By Elena Di Simone&#xd;&#xa;&#xd;&#xa;Internet of Things is going to change the business models of banks and financial services offering, generating great opportunities, but also new challenges."
+                                title="Internet of Things"
+                                url="https://blog.equensworldline.com/eu/2017/10/iot-changes-financial-services-banks/"/>
+                        </column3>
+                    </grid>
+                </items>
+            </section_270412416>
+            <section_329885842
+                jcr:created="{Date}2017-09-25T11:43:27.778+02:00"
+                jcr:createdBy="a480019"
+                jcr:lastModified="{Date}2017-09-25T11:43:27.778+02:00"
+                jcr:lastModifiedBy="a480019"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/section">
+                <items
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <grid
+                        jcr:created="{Date}2017-09-25T11:43:37.304+02:00"
+                        jcr:createdBy="a480019"
+                        jcr:lastModified="{Date}2017-09-25T11:48:59.695+02:00"
+                        jcr:lastModifiedBy="a480019"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/layout/grid"
+                        list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-4&quot;}]">
+                        <column1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <articlebriefitem
+                                jcr:created="{Date}2017-09-25T11:23:05.312+02:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-09-25T11:38:27.548+02:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                date="05 Sep 2017"
+                                isDateHidden="false"
+                                isExternalUrl="true"
+                                isLinkHidden="false"
+                                isSubtitleHidden="false"
+                                isTitleHidden="false"
+                                linkText="view infographic"
+                                noExtention="true"
+                                subtitle="Infographic: The way forward to making Instant Payments a success"
+                                text="By Paul Jennekens&#xd;&#xa;&#xd;&#xa;The way forward to making Instant Payments a success. Have a look at our infographic:&#xd;&#xa;"
+                                title="Instant Payments"
+                                url="https://blog.equensworldline.com/eu/2017/09/infographic-way-forward-making-instant-payments-success"/>
+                        </column1>
+                        <column2
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <articlebriefitem
+                                jcr:created="{Date}2017-09-25T11:23:14.243+02:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-09-25T11:40:30.486+02:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                date="01 Sept 2017"
+                                isDateHidden="false"
+                                isExternalUrl="true"
+                                isLinkHidden="false"
+                                isSubtitleHidden="false"
+                                isTitleHidden="false"
+                                linkText="Read blog article"
+                                noExtention="true"
+                                subtitle="Investments for Instant Payments will make payments as convenient and easy as possible"
+                                text="By Michael Steinbach&#xd;&#xa;&#xd;&#xa;The introduction of instant payments, real-time payments, will lead to a huge upheaval. That is what I predicted in a recent article in the German newspaper Börsen-Zeitung. "
+                                title="Instant Payments"
+                                url="https://blog.equensworldline.com/eu/2017/09/investments-instant-payments-will-make-payments-convenient-easy-possible"/>
+                        </column2>
+                        <column3
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gotomarket/components/parsys">
+                            <articlebriefitem
+                                jcr:created="{Date}2017-09-25T11:23:20.506+02:00"
+                                jcr:createdBy="a480019"
+                                jcr:lastModified="{Date}2017-09-25T11:41:57.954+02:00"
+                                jcr:lastModifiedBy="a480019"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gotomarket/components/content/articlebriefitem"
+                                date="31 Aug 2017"
+                                isDateHidden="false"
+                                isExternalUrl="true"
+                                isLinkHidden="false"
+                                isSubtitleHidden="false"
+                                isTitleHidden="false"
+                                linkText="Read blog article"
+                                noExtention="true"
+                                subtitle="The challenges of (and the potential solutions for) processing Instant Payments"
+                                text="By Mark Munne&#xd;&#xa;&#xd;&#xa;ow latency, 24/7 availability, connectivity and scalability. When it comes to processing Instant Payments, these are the four main challenges for banks and processors. This new and faster way to make payments has a lot of market potential, but the underlying infrastructures and processes need to be upgraded to facilitate the Instant Payments."
+                                title="Instant Payments"
+                                url="https://blog.equensworldline.com/eu/2017/08/challenges-potential-solutions-processing-instant-payments/"/>
+                        </column3>
+                    </grid>
+                </items>
+            </section_329885842>
+            <grid
+                jcr:created="{Date}2017-09-25T12:02:00.838+02:00"
+                jcr:createdBy="a480019"
+                jcr:lastModified="{Date}2017-11-16T15:57:44.543+01:00"
+                jcr:lastModifiedBy="a480019"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gotomarket/components/layout/grid"
+                list="[{&quot;columnSize&quot;:&quot;grid-col-4&quot;},{&quot;columnSize&quot;:&quot;grid-col-12&quot;}]">
+                <column2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gotomarket/components/parsys">
+                    <articlebriefitem_584809380
+                        jcr:created="{Date}2017-09-25T12:02:16.688+02:00"
+                        jcr:createdBy="a480019"
+                        jcr:lastModified="{Date}2017-11-16T15:58:05.703+01:00"
+                        jcr:lastModifiedBy="a480019"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gotomarket/components/content/articlebriefitem"
+                        alignment="h"
+                        imagePath="/content/dam/equensworldline/images/headers/ew_articles.jpg"
+                        isDateHidden="true"
+                        isExternalUrl="true"
+                        isLinkHidden="false"
+                        isSubtitleHidden="true"
+                        isTitleHidden="false"
+                        linkText="More blog articles"
+                        noExtention="true"
+                        text="equensWorldline has been processing payments and card transactions for decades. We have clients and partnerships in numerous European countries and the United States, and have extensive contacts in the financial world. And we are eager to share our knowledge. Via this blog, industry experts and our own specialists will keep you informed of a wide variety of topics."
+                        title="equensWorldline blog"
+                        url="https://blog.equensworldline.com/eu/"/>
+                </column2>
+            </grid>
+        </content>
+    </jcr:content>
+</jcr:root>

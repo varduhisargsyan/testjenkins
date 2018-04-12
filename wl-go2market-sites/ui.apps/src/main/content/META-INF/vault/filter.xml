@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/gotomarket"/>
+    <filter root="/apps/sling" />
+    <!--<filter root="/apps/gotomarket/config" />-->
+    <!--<filter root="/apps/gotomarket/config.author" />-->
+    <filter root="/etc/designs/gotomarket" />
+    <filter root="/etc/notification"/>
+    <!--<filter root="/etc/tags"/>-->
+    <filter root="/etc/map.dev"/>
+    <filter root="/etc/map.stg"/>
+    <filter root="/etc/map.prd"/>
+</workspaceFilter>
